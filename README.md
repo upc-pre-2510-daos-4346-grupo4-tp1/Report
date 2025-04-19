@@ -19,6 +19,8 @@
       - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+  - [Segmento objetivo #1: Estudiantes universitarios que desean aprender](#segmento-objetivo-1-estudiantes-universitarios-que-desean-aprender)
+  - [Segmento objetivo #2: Creadores de cursos](#segmento-objetivo-2-creadores-de-cursos)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
@@ -119,7 +121,42 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 #### 1.2.2.2. Lean UX Assumptions.
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 #### 1.2.2.4. Lean UX Canvas.
+
+El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrado en el usuario y la metodología Lean. Su objetivo es ayudar a equipos multidisciplinarios a colaborar de forma más ágil y organizada durante el desarrollo de productos. Este lienzo proporciona una estructura clara para alinear ideas, hipótesis y objetivos, permitiendo tomar decisiones más rápidas y enfocadas en el usuario. A continuación, se muestra el Lean UX Canvas trabajado por el equipo a través de la plataforma Canva.
+
+<div align="center">
+  <img src="../Report/assets/Lean UX Canvas.png" alt="LeanUxCanvas" width="1000"/>
+</div>
+
 ## 1.3. Segmentos objetivo.
+
+## Segmento objetivo #1: Estudiantes universitarios que desean aprender
+**Descripción:**
+Este grupo está compuesto por hombres y mujeres de entre 18 y 25 años, estudiantes universitarios motivados por mejorar sus conocimientos, habilidades y desempeño académico o profesional. Buscan aprender más allá del aula: profundizar en los temas, entender mejor los contenidos y prepararse para el entorno laboral. Por ello, valoran plataformas accesibles, confiables y adaptadas a sus necesidades educativas.
+
+**Características clave de este segmento:**
+
+- Motivación principal: aprender más allá del aula (profundizar, entender mejor, prepararse para el futuro laboral).
+
+- Valoran la accesibilidad (precio, formato) y la calidad del contenido.
+
+- Suelen tener dificultades para encontrar cursos universitarios de calidad sin riesgo de ser engañados.
+
+- Residen en zonas urbanas, son nativos digitales y utilizan redes sociales, YouTube, Google, foros académicos y apps educativas.
+
+## Segmento objetivo #2: Creadores de cursos
+**Descripción:**
+Este grupo está formado por personas con conocimientos universitarios que desean compartir lo que saben y generar ingresos a través de cursos. Incluye profesores, egresados y estudiantes avanzados que dominan temas académicos o técnicos. Buscan plataformas que les permitan crear, publicar y monetizar contenido de forma sencilla, profesional y sin necesidad de conocimientos técnicos avanzados.
+
+**Características clave de este segmento:**
+
+- Motivación principal: compartir conocimientos, generar ingresos extra y/o construir una reputación profesional.
+
+- Valoran herramientas fáciles de usar para crear y publicar contenido (videos, lecturas, evaluaciones, etc.).
+
+- Buscan plataformas confiables donde puedan llegar a una audiencia interesada y mantener control sobre su contenido y ganancias.
+
+- Tienen experiencia en su área de conocimiento, manejo digital intermedio a avanzado, y algunos ya han utilizado plataformas como YouTube, Moodle, Notion o Canva para enseñar o compartir contenido.
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
