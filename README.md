@@ -105,6 +105,41 @@
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+**Preguntas generales**
+<ul>
+  <li>¿Cómo te llamas?</li>
+  <li>¿Cuántos años tienes?</li>
+  <li>¿Cuál es tu ocupación?</li>
+</ul>
+
+**Estudiantes**
+<ol>
+  <li>¿Qué medios utilizas actualmente para aprender o reforzar conocimientos universitarios fuera de clase?</li>
+  <li>¿Has tomado algún curso online de contenido universitario? ¿Qué te gustó o qué mejorarías?</li>
+  <li>¿Qué características consideras importantes en un curso online universitario?</li>
+  <li>¿Qué dificultades has tenido al buscar o tomar cursos online universitarios?</li>
+  <li>¿Desde qué dispositivos sueles estudiar? ¿Qué plataformas educativas has usado?</li>
+  <li>¿Qué te motivaría a pagar por un curso universitario online?</li>
+  <li>¿Qué valoras más de un curso online: el contenido, la interacción con el docente, el certificado, u otro?</li>
+  <li>¿Prefieres cursos con clases en vivo, grabadas, o materiales descargables? ¿Por qué?</li>
+  <li>¿Cómo sueles enterarte de cursos online? ¿Qué formato o promoción te llama más la atención?</li>
+</ol>
+
+**Instructores**
+<ol>
+  <li>¿En qué géneros te especializas como escritor? ¿Qué te atrae de esos géneros?</li>
+  <li>¿Has creado o dictado cursos online anteriormente? ¿En qué plataformas?</li>
+  <li>¿Qué te motivaría a crear un curso online de contenido universitario?</li>
+  <li>¿Qué funcionalidades considerarías necesarias en una plataforma para publicar y vender tus cursos?</li>
+  <li>¿Qué dificultades has tenido al publicar cursos online en otras plataformas?</li>
+  <li>¿Cómo prefieres organizar tus cursos: por módulos, por temas, por nivel?</li>
+  <li>¿Qué herramientas sueles usar para dictar clases?</li>
+  <li>¿Qué modelo de pago prefieres para tus cursos: pago único, suscripción, descuentos?</li>
+  <li>¿Qué medios prefieres para comunicarte con tus estudiantes?</li>
+  <li>¿Qué tipo de reportes o estadísticas te gustaría recibir sobre tus cursos y estudiantes?</li>
+  <li>¿Te gustaría que la plataforma permita ofrecer certificados de finalización?</li>
+</ol>
+
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3. Needfinding.
