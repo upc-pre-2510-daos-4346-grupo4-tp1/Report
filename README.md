@@ -90,6 +90,33 @@
 ## 1.1. Startup Profile.
 ### 1.1.1. Descripción de la Startup.
 ### 1.1.2. Perfiles de integrantes del equipo.
+<TABLE BORDER>
+	<TR>
+		<TH><h2>Intregantes</h2></TH> 
+		<TH><h2>Descripción</h2></TH>
+	</TR>
+  <TR>
+		<td style="text-align: center"><p>Cristian Luis Iparraguirre Rueda - U202113111<br><img src="images/fotoCristian.jpeg" alt="Foto Cristian" width="1202"> </p></td> 
+		<td style="text-align: center">Soy una persona con habilidades de aprendizaje rápido, lo que me permite optimizar tanto mi trabajo individual como en equipo para alcanzar los objetivos establecidos. Tengo experiencia trabajando en equipo, contribuyendo con ideas creativas y soluciones prácticas. Me apasiona aprender sobre nuevas tecnologías y mantengo una actitud perseverante en el desarrollo de cualquier proyecto. Tengo conocimientos sólidos en C#, Java, Python, C++, SQL y NoSQL, así como en el desarrollo web con HTML, CSS y JavaScript. Mi enfoque está en la resolución de problemas a través de la programación y en el manejo de bases de datos. Disfruto aprendiendo y explorando nuevas tecnologías, lo que me permite optimizar mis proyectos para que se completen de manera innovadora y efectiva.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center"><p>XXXXXXXX - XXXXXXXX<br><img src="images/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center">XXXXXXXX</td>
+	</TR>
+  <TR>
+		<td style="text-align: center"><p>XXXXXXXX - XXXXXXXX<br><img src="images/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center">XXXXXXXX</td>
+	</TR>
+  <TR>
+		<td style="text-align: center"><p>XXXXXXXX - XXXXXXXX<br><img src="images/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center">XXXXXXXX</td>
+	</TR>
+  <TR>
+		<td style="text-align: center"><p>XXXXXXXX - XXXXXXXX<br><img src="images/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center">XXXXXXXX</td>
+	</TR>
+</TABLE>
+
 ## 1.2. Solution Profile.
 ### 1.2.1 Antecedentes y problemática.
 ### 1.2.2 Lean UX Process.
