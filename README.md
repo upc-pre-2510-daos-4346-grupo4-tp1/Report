@@ -1,5 +1,36 @@
 # Carátula
+<h2>Universidad Peruana de Ciencias Aplicadas</h2>
+
+<img src="images/UPClogo.png" alt="UPC Logo" width="15%" height="15%">
+
+<h2>Informe del Trabajo Final</h2>
+
+<h3>Curso: Desarrollo de Aplicaciones Open Source</h3>
+<h3>Carrera: Ingeniería de Software </h3>
+<h3>Sección: 4346</h3>
+<h3>Profesor: Rafael Oswaldo Castro Veramendi</h3>
+
+<strong>Startup:</strong> Edunova<br>
+<strong>Producto:</strong> Edunova
+
+<h3>Integrantes:</h3>
+
+<ul>
+  <li>Iparraguirre Rueda, Cristian Luis (u202113111)</li>
+  <li>Acuña Tomas, Diego Rolin (XXXXXXXXXX)</li>
+  <li>Guerrero Vasquez, Jhon Danny (XXXXXXXXXX)</li>
+  <li>Alvarez Falen, Esteban Valentino (XXXXXXXXXX)</li>
+  <li>Torres Cortez, Tony Do Santos (XXXXXXXXXX)</li>
+</ul>
+
+**<h3>Abril, 2025</h3>**
+
 # Registro de Versiones del Informe
+
+| Versión | Fecha      | Autor                               | Descripción de modificación        |
+|---------|------------|-------------------------------------|------------------------------------|
+| TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Guerrero Vasquez, Jhon Danny<br>- Alvarez Falen, Esteban Valentino<br>- Torres Cortez, Tony Do Santos | Implementación del capítulo 1 al 5 y el landing page |
+
 # Project Report Collaboration Insights
 # Contenido
 - [Carátula](#carátula)
