@@ -125,7 +125,7 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrado en el usuario y la metodología Lean. Su objetivo es ayudar a equipos multidisciplinarios a colaborar de forma más ágil y organizada durante el desarrollo de productos. Este lienzo proporciona una estructura clara para alinear ideas, hipótesis y objetivos, permitiendo tomar decisiones más rápidas y enfocadas en el usuario. A continuación, se muestra el Lean UX Canvas trabajado por el equipo a través de la plataforma Canva.
 
 <div align="center">
-  <img src="../Report/assets/Lean UX Canvas.png" alt="LeanUxCanvas" width="1000"/>
+  <img src="./assets/Lean UX Canvas.png" alt="LeanUxCanvas" width="1000"/>
 </div>
 
 ## 1.3. Segmentos objetivo.
@@ -175,12 +175,12 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <div align="center">
-  <img src="../Report/assets/as-isOP1.jpg" alt="asis1" width="1000"/>
+  <img src="./assets/as-isOP1.jpg" alt="asis1" width="1000"/>
 </div>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
-  <img src="../Report/assets/as-isOP2.jpg" alt="asis2" width="1000"/>
+  <img src="./assets/as-isOP2.jpg" alt="asis2" width="1000"/>
 </div>
 
 ## 2.4. Ubiquitous Language.
@@ -190,12 +190,12 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <div align="center">
-  <img src="../Report/assets/to-beOP1.jpg" alt="tobe1" width="1000"/>
+  <img src="./assets/to-beOP1.jpg" alt="tobe1" width="1000"/>
 </div>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
-  <img src="../Report/assets/to-beOP2.jpg" alt="tobe2" width="1000"/>
+  <img src="./assets/to-beOP2.jpg" alt="tobe2" width="1000"/>
 </div>
 
 ## 3.2. User Stories.
