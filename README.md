@@ -172,10 +172,32 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 ### 2.3.5. As-is Scenario Mapping.
+
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
+<div align="center">
+  <img src="../Report/assets/as-isOP1.jpg" alt="asis1" width="1000"/>
+</div>
+
+**Segmento Objetivo: Creadores de cursos**
+<div align="center">
+  <img src="../Report/assets/as-isOP2.jpg" alt="asis2" width="1000"/>
+</div>
+
 ## 2.4. Ubiquitous Language.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
+
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
+<div align="center">
+  <img src="../Report/assets/to-beOP1.jpg" alt="tobe1" width="1000"/>
+</div>
+
+**Segmento Objetivo: Creadores de cursos**
+<div align="center">
+  <img src="../Report/assets/to-beOP2.jpg" alt="tobe2" width="1000"/>
+</div>
+
 ## 3.2. User Stories.
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
