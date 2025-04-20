@@ -119,7 +119,52 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 #### 1.2.2.2. Lean UX Assumptions.
+
+Asumimos que existe una demanda significativa de estudiantes universitarios que buscan contenido académico especializado más allá de lo que ofrecen las plataformas masivas.
+
+Creemos que los docentes y profesionales con experiencia académica están dispuestos a crear y vender cursos en una plataforma enfocada en el ámbito universitario.
+
+Asumimos que los estudiantes valoran la calidad pedagógica y la estructuración de los contenidos al estilo universitario.
+
+Suponemos que los usuarios (estudiantes) están dispuestos a pagar un precio premium por cursos que les ayuden a preparar exámenes y reforzar asignaturas específicas.
+
+Creemos que una interfaz intuitiva con filtros por asignatura, nivel y profesor reducirá drásticamente el tiempo de búsqueda de cursos.
+
+Asumimos que el principal freno para los docentes es la complejidad de las herramientas de creación; si las simplificamos, aumentará el número de cursos publicados.
+
+Creemos que ofrecer herramientas de comunicación directa (foros, chats, mentorías) incrementará la confianza y el engagement de los estudiantes.
+
+Suponemos que el mercado universitario de Latinoamérica es suficientemente grande como para validar el producto antes de expandirse a otras regiones.
+
+Suponemos que la falta de espacios especializados para formación universitaria es un problema más relevante que el de idiomas, programación o habilidades blandas.
+
+Creemos que el proceso de pago y venta debe ser ágil y transparente para no ahuyentar ni a estudiantes ni a docentes
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+Hypothesis Statement 1
+ Creemos que al implementar en nuestra plataforma la funcionalidad de filtros avanzados por asignatura, nivel y docente, ayudaremos a los estudiantes a localizar el curso que necesitan en menos de 2 minutos.
+ Sabremos que hemos tenido éxito.
+ Cuando el 80 % de los estudiantes encuentran un curso relevante en menos de 2 minutos.
+
+
+Hypothesis Statement 2
+ Creemos que si ofrecemos plantillas pedagógicas prediseñadas en el panel de creación, facilitaremos a los docentes estructurar y publicar sus cursos de forma ágil.
+ Sabremos que hemos tenido éxito.
+ Cuando el 70 % de los nuevos cursos se publique en menos de 1 día desde el inicio de la creación.
+
+
+Hypothesis Statement 3
+ Creemos que al habilitar un sistema de valoraciones y reseñas por parte de los estudiantes, incrementaremos la confianza y el engagement en los cursos ofertados.
+ Sabremos que hemos tenido éxito.
+ Cuando el 60 % de los cursos reciba al menos 10 reseñas con puntuación de más de 4 en el primer mes.
+
+
+Hypothesis Statement 4
+ Creemos que si implementamos sesiones de mentoría en vivo y foros de discusión, mejoraremos la satisfacción y retención de los estudiantes.
+ Sabremos que hemos tenido éxito.
+ Cuando la tasa de estudiantes activos sea mayor al 75 % tras 30 días de uso.
+
 #### 1.2.2.4. Lean UX Canvas.
 
 El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrado en el usuario y la metodología Lean. Su objetivo es ayudar a equipos multidisciplinarios a colaborar de forma más ágil y organizada durante el desarrollo de productos. Este lienzo proporciona una estructura clara para alinear ideas, hipótesis y objetivos, permitiendo tomar decisiones más rápidas y enfocadas en el usuario. A continuación, se muestra el Lean UX Canvas trabajado por el equipo a través de la plataforma Canva.
