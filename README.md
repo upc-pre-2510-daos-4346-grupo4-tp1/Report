@@ -164,7 +164,261 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+**Preguntas generales**
+<ul>
+  <li>¿Cómo te llamas?</li>
+  <li>¿Cuántos años tienes?</li>
+  <li>¿Cuál es tu ocupación?</li>
+</ul>
+
+**Estudiantes**
+<ol>
+  <li>¿Qué medios utilizas actualmente para aprender o reforzar conocimientos universitarios fuera de clase?</li>
+  <li>¿Has tomado algún curso online de contenido universitario? ¿Qué te gustó o qué mejorarías?</li>
+  <li>¿Qué características consideras importantes en un curso online universitario?</li>
+  <li>¿Qué dificultades has tenido al buscar o tomar cursos online universitarios?</li>
+  <li>¿Desde qué dispositivos sueles estudiar? ¿Qué plataformas educativas has usado?</li>
+  <li>¿Qué te motivaría a pagar por un curso universitario online?</li>
+  <li>¿Qué valoras más de un curso online: el contenido, la interacción con el docente, el certificado, u otro?</li>
+  <li>¿Prefieres cursos con clases en vivo, grabadas, o materiales descargables? ¿Por qué?</li>
+  <li>¿Cómo sueles enterarte de cursos online? ¿Qué formato o promoción te llama más la atención?</li>
+</ol>
+
+**Instructores**
+<ol>
+  <li>¿En qué géneros te especializas como escritor? ¿Qué te atrae de esos géneros?</li>
+  <li>¿Has creado o dictado cursos online anteriormente? ¿En qué plataformas?</li>
+  <li>¿Qué te motivaría a crear un curso online de contenido universitario?</li>
+  <li>¿Qué funcionalidades considerarías necesarias en una plataforma para publicar y vender tus cursos?</li>
+  <li>¿Qué dificultades has tenido al publicar cursos online en otras plataformas?</li>
+  <li>¿Cómo prefieres organizar tus cursos: por módulos, por temas, por nivel?</li>
+  <li>¿Qué herramientas sueles usar para dictar clases?</li>
+  <li>¿Qué modelo de pago prefieres para tus cursos: pago único, suscripción, descuentos?</li>
+  <li>¿Qué medios prefieres para comunicarte con tus estudiantes?</li>
+  <li>¿Qué tipo de reportes o estadísticas te gustaría recibir sobre tus cursos y estudiantes?</li>
+  <li>¿Te gustaría que la plataforma permita ofrecer certificados de finalización?</li>
+</ol>
+
 ### 2.2.2. Registro de entrevistas.
+
+<h4>Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=SRS70s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Click para ver las entrevistas</a></h4>
+
+**Estudiantes:**<br><br>
+Entrevista #1: Jeremy Eredia
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=cV7HdC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MC40N319">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 5:57
+    </li>
+    <li>
+        Inicio: 0:00
+    </li>
+    <li>
+        Entrevistador: Tony Torres
+    </li>
+</ul>
+<img src="images/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
+
+Resumen:
+<p>
+    Jeremy Eredia, estudiante universitario de 24 años, utiliza principalmente las diapositivas proporcionadas por sus profesores y videos de YouTube para reforzar sus conocimientos académicos. Aunque no ha tomado cursos online previamente, se muestra interesado en inscribirse en uno de Excel avanzado, valorando especialmente la interacción con docentes y alumnos, y la correcta gestión de la tecnología. Considera que los cursos online deberían tener precios más accesibles que los presenciales debido a los menores costos. Ha enfrentado dificultades para encontrar cursos universitarios de calidad, debido a la escasa oferta disponible a lo largo del año. Prefiere estudiar desde una computadora de escritorio y usa plataformas como Sumadi y Blackboard. Se siente motivado a pagar por cursos que complementen su formación profesional, especialmente aquellos con demanda laboral inmediata. Valora propuestas que combinen clases en vivo, grabadas y materiales descargables, aunque considera que las actuales estrategias de promoción de cursos no logran captar su atención.
+</p>
+
+---
+
+Entrevista #2: Aldo Vasquez Sotomayor
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=0sP4dx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzU3Ljk0fX0%3D">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 4:06
+    </li>
+    <li>
+        Inicio: 5:57
+    </li>
+    <li>
+        Entrevistador: Cristian Iparraguirre 
+    </li>
+</ul>
+<img src="images/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
+
+Resumen:
+<p>
+    Estudiante universitario de 21 años, el entrevistado utiliza principalmente videos de YouTube, documentos PDF, presentaciones de profesores y aplicaciones como Quizlet para reforzar sus estudios universitarios. Ha tomado cursos online de investigación académica, valorando la flexibilidad de horarios y el acceso permanente a los contenidos, aunque señala como punto débil la escasa interacción docente. Considera esenciales para un curso online universitario las clases grabadas, materiales descargables, foros de consulta, precios accesibles y certificación válida. Ha enfrentado dificultades para encontrar cursos especializados de nivel universitario y plataformas con horarios flexibles. Estudia principalmente desde su laptop y, en menor medida, desde el celular, utilizando plataformas como Blackboard, Moodle, Google Classroom y Zoom. Se siente motivado a pagar por cursos que complementen sus estudios o sean útiles laboralmente, siempre que tengan contenido de calidad y buenos docentes. Prioriza el contenido por encima de otros aspectos y prefiere cursos con clases grabadas combinadas con materiales descargables, considerando las sesiones en vivo solo para resolver dudas. Se informa sobre cursos principalmente a través de redes sociales, WhatsApp y páginas universitarias, siendo más atractivo para él cuando existen promociones o descuentos dirigidos a estudiantes.
+</p>
+
+---
+
+Entrevista #3: Daniel Monago
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=3fAqCP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjA0Ljd9fQ%3D%3D">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 5:43
+    </li>
+    <li>
+        Inicio: 10:04
+    </li>
+    <li>
+        Entrevistador: Valentino Alvarez
+    </li>
+</ul>
+<img src="images/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
+
+Resumen:
+<p>
+    Daniel Monago, estudiante universitario de 19 años, utiliza principalmente las presentaciones compartidas por sus profesores y plataformas como Google Classroom, Google Meet y Microsoft Teams para complementar sus estudios. Prefiere estudiar desde su celular, aunque también usa su laptop cuando asiste a la universidad. Ha tomado cursos online, como uno de quechua, y considera esencial que estos fomenten la participación sin temor a equivocarse, valorando ambientes dinámicos y profesores interactivos. Prefiere las clases en vivo, ya que le permiten resolver dudas en tiempo real, aunque enfrenta dificultades para compatibilizar los horarios de los cursos virtuales con sus clases presenciales. Daniel prioriza cursos que ofrezcan certificación válida, contenidos de calidad y flexibilidad horaria. Está dispuesto a pagar por cursos que garanticen estos beneficios, destacando la importancia del aprendizaje activo y práctico como base para una educación significativa y alineada a sus intereses profesionales.
+</p>
+
+---
+
+Entrevista #4: Sayry Ayvar
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=AQyZyu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6OTQ3LjYyfX0%3D">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 6:05
+    </li>
+    <li>
+        Inicio: 15:47
+    </li>
+    <li>
+        Entrevistador: Valentino Alvarez
+    </li>
+</ul>
+<img src="images/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
+
+Resumen:
+<p>
+    Sayry, estudiante de 19 años de Comunicación y Fotografía en la UPC, combina su formación presencial con contenidos virtuales, valorando principalmente la calidad del material proporcionado en las aulas virtuales. Utiliza una PC, laptop y ocasionalmente su celular, recurriendo a plataformas como YouTube para complementar su aprendizaje. Ha participado en talleres online, destacando la importancia de la personalización y los grupos reducidos, ya que favorecen la interacción directa con los docentes. Prefiere cursos en vivo por la posibilidad de resolver dudas en el momento y considera esencial una buena conectividad y una supervisión adecuada. La flexibilidad horaria es su principal motivación para pagar por un curso universitario online. Sayry se informa sobre cursos mediante redes sociales como Facebook e Instagram, valorando las promociones que destacan la interactividad y facilitan el contacto directo con los instructores. En general, busca experiencias de aprendizaje personalizadas, accesibles y con comunicación fluida, reflejando la necesidad de que la educación digital se adapte a los estilos de vida y preferencias de los estudiantes actuales.
+</p>
+
+---
+
+Entrevista #5: Sebastián Silva
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=d7fd7F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTMxMi44MX19">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 5:52
+    </li>
+    <li>
+        Inicio: 21:52
+    </li>
+    <li>
+        Entrevistador: Diego Acuña
+    </li>
+</ul>
+<img src="images/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
+
+Resumen:
+<p>
+    Sebastián Silva, estudiante universitario de 21 años, busca complementar su formación académica a través de cursos online, mostrando una actitud proactiva y curiosa por aprender. Utiliza principalmente su computadora para estudiar, aunque también emplea tablet y móvil. Ha explorado plataformas como UDEMY, Cursa y Demio, prefiriendo clases grabadas por la flexibilidad que ofrecen para gestionar su tiempo. Valora la calidad del docente, la estructura del contenido y los recursos disponibles, considerando la certificación como un valor adicional pero secundario. Ha enfrentado dificultades para encontrar cursos específicos que se ajusten a sus intereses, especialmente en Coursera. Descubre la mayoría de los cursos a través de redes sociales, siendo receptivo a anuncios de áreas como programación y hacking ético. Sebastián representa a un estudiante digital enfocado en el aprendizaje autónomo, con expectativas claras sobre calidad, accesibilidad y valor práctico en la educación online.
+</p>
+
+---
+
+**Instructores:**<br><br>
+Entrevista #1: Alexia Acuña
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=RAClx9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTY2NS41OH19">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 7:10
+    </li>
+    <li>
+        Inicio: 27:45
+    </li>
+    <li>
+        Entrevistador: Diego Acuña
+    </li>
+</ul>
+<img src="images/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
+
+Resumen:
+<p>
+    Alexia Acuña, joven profesional de 25 años, ha tenido experiencias enseñando de manera voluntaria a niños de bajos recursos, lo que la motiva a considerar la enseñanza universitaria online en el futuro. Tiene una marcada orientación hacia el aprendizaje colaborativo, valorando la interacción y dinamismo en las plataformas educativas. Prefiere herramientas como Microsoft Teams, PowerPoint y Canva por su enfoque visual, aunque también ha usado Zoom y Google Meet. Organizaría sus cursos por temas, alineándolos con distintas áreas de estudio universitario, con módulos específicos por materia. Para comunicarse con sus estudiantes, propone foros, correos y grupos de WhatsApp, buscando mantener una interacción activa. Considera indispensable ofrecer certificados de finalización, y espera acceder a estadísticas sobre perfiles, tiempos de cursado y feedback de los alumnos. En cuanto al modelo de pago, prefiere el pago único, priorizando la simplicidad en las transacciones. Alexia destaca por su visión de educación online accesible, interactiva y con valor profesional para los estudiantes.
+</p>
+
+---
+
+Entrevista #2: Alonso Robles
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=E2nEDe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjA5NS4xNX19">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 6:41
+    </li>
+    <li>
+        Inicio: 34:54
+    </li>
+    <li>
+        Entrevistador: Cristian Iparraguirre 
+    </li>
+</ul>
+<img src="images/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
+
+Resumen:
+<p>
+    El entrevistado es un estudiante universitario de ciclos avanzados que dicta cursos básicos en su universidad. Ha impartido talleres online utilizando principalmente Google Meet y Moodle, complementando con videos compartidos por YouTube y Google Drive. Su motivación para crear cursos online es compartir conocimientos con estudiantes de ciclos iniciales, obtener ingresos adicionales y dejar contenidos accesibles para reforzar aprendizajes. Considera esenciales funcionalidades como organización modular, carga de videos, documentos, clases en vivo, control de precios, estadísticas, foros y certificados. Ha enfrentado dificultades con la personalización y seguimiento del progreso en otras plataformas. Prefiere organizar sus cursos por módulos, usar Google Meet y Google Classroom, y establecer un modelo de pago único con posibilidad de descuentos. Para comunicarse con los estudiantes, prefiere chats o foros integrados en la plataforma. Valora recibir reportes sobre inscripciones, progreso, notas, y valoraciones de los cursos. Finalmente, considera importante ofrecer certificados de finalización como incentivo y valor agregado.
+</p>
+
+---
+
+Entrevista #3: Violeta Cortés
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=W9Pjuy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQ5Ni45NX19">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 9:14
+    </li>
+    <li>
+        Inicio: 41:36
+    </li>
+    <li>
+        Entrevistador: Tony Torres 
+    </li>
+</ul>
+<img src="images/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
+
+Resumen:
+<p>
+    Violeta Cortés, profesora universitaria de 49 años, ha creado cursos online utilizando plataformas como Zoom y Google Meet, combinando estas herramientas con recursos interactivos y presentaciones visuales. Está motivada por mejorar la educación universitaria, integrando contenido, evaluaciones y espacios para recibir sugerencias de los estudiantes. Prefiere plataformas que permitan videoconferencias, grabaciones accesibles y foros, valorando la interacción constante. En sus inicios enfrentó problemas técnicos relacionados con la duración de sesiones y limitaciones de conectividad, pero ha superado estas dificultades con mejor equipamiento. Organiza sus cursos por módulos, estructurando niveles básico, intermedio y avanzado según el tema. En cuanto al modelo de pago, considera viable tanto suscripción como pago único, aunque sugiere proteger los materiales para evitar mal uso. Está a favor de emitir certificados de finalización y desea recibir reportes estadísticos sobre el rendimiento y participación de sus estudiantes, lo que le permitiría mejorar sus cursos. Violeta destaca por su enfoque práctico, flexible y centrado en la interacción como pilar de la educación online.
+</p>
+
+---
+
+Entrevista #4: Luis Iparraguirre
+<ul>
+    <li>
+        Link: <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=fVFTgG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzA1MS41NX19">Click para ver entrevista</a>
+    </li>
+    <li>
+        Duración: 11:00
+    </li>
+    <li>
+        Inicio: 50:51
+    </li>
+    <li>
+        Entrevistador: Cristian Iparraguirre 
+    </li>
+</ul>
+<img src="images/InstructoresEntrevistado4.png" alt="Entrevista Instructor 4">
+
+Resumen:
+<p>
+    Luis, profesor universitario y periodista de 49 años, dicta cursos online en la Universidad Peruana de Ciencias Aplicadas, utilizando plataformas como Google Meet, Microsoft Teams y Blackboard. Muestra un fuerte interés por innovar en la educación y enriquecer la experiencia de aprendizaje mediante recursos digitales como podcasts, quizzes y materiales visuales. Sin embargo, enfrenta desafíos como la falta de tiempo y dificultades técnicas, especialmente con la interfaz de plataformas y la conexión a internet. Prefiere organizar sus cursos por temas, adaptándolos a la coyuntura actual, lo que le permite ofrecer contenido relevante. En cuanto a la interacción, valora el uso de pizarras electrónicas y espacios que fomenten la comunicación activa entre docentes y estudiantes. Se comunica principalmente a través de las plataformas durante clase, y fuera de ellas mediante WhatsApp con el delegado. Está a favor de ofrecer certificados de finalización y prefiere un modelo de pago único o suscripción anual para mayor comodidad. Luis destaca como un educador comprometido con la mejora continua, que busca incorporar tecnología y flexibilidad en su enseñanza online.
+</p>
+
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
