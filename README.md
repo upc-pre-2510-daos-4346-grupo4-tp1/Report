@@ -412,7 +412,7 @@ Entrevista #4: Luis Iparraguirre
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado4.png" alt="Entrevista Instructor 4">
+<img src="images/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
 
 Resumen:
 <p>
