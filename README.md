@@ -188,6 +188,17 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 Una plataforma que brinda la capacidad a creadores de vender y personalizar sus cursos como desee el propietario. A diferencia de las demás paginas de su rubro, esta ofrece todas las herramientas para que los instructores puedan crear y personalizar su propia academia digital.
 
 ### 2.1.1. Análisis competitivo.
+
+# Competitive Analysis Landscape
+
+| **Nuestro Producto / Competidores** | **EDUnova** | **Coursera** | **Udemy** | **Teachable** |
+|-------------------------------------|-------------|--------------|-----------|---------------|
+| Overview                            | Se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. | Coursera fue creada con la finalidad de democratizar el acceso a la educación de nivel superior a través de alianzas con universidades y empresas líderes a nivel mundial. | Udemy fue creada con la finalidad de proporcionar una plataforma abierta donde cualquier persona pueda aprender y enseñar en línea. | Teachable se desarrolló con la finalidad de empoderar a creadores, educadores y profesionales para que puedan construir y vender sus propios cursos en línea. |
+| Ventaja competitiva ¿Qué valor ofrece a los clientes? | Ofrece un ambiente de aprendizaje tanto autonomo como mediante aulas con docentes en tiempo real. | Ofrece a sus consumidores poder adquirir educación superior con una evidencia como es el certificado por culminar los diferentes cursos que tienen. | Ofrece una plataforma abierta donde cualquier persona pueda aprender y enseñar en línea. | Ofrece una plataforma de monetización para creadores, educadores y profesionales. Otorga libertad creativa. |
+| **Mercado objetivo** | Dirigida para un publico universitario tanto alumnos como docentes universitarios que buscna reforzar o adquirir nuevos conocimientos| Apunta a estudiantes y profesionales que buscan una formación académica que certifiquen a los que completan sus cursos con éxito. | Dirigida a un publico amplio que busca aprende habilidades de manera flexible  | Orientada a expertos y emprendedores que crean y venden cursos bajo su marca personal |
+| Perfil de producto                  |Brinda acceso a contenido universitario asi como aulas en tiempo real para una mayor interaccion entre docente - alumnado|Brinda acceso a cursos con certificaciones y alianzas con universidades y empresas globales|Ofrece cursos en línea sobre habilidades en áreas tecnológicas, empresarial y desarrollo personal.|Proporciona a los creadores, que diseñen gestionen y vendan su propios cursos .|
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
  - Nos enfocaremos en una pagina intuitiva y flexible que permita al usuario navegar con comodidad y facilidad entre las diferentes funciones y tópicos que ofrecemos.
