@@ -101,7 +101,7 @@ Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad 
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
 
-Foto...
+Foto.
 
 Descripción de carrera: 
 Soy estudiante de Ingeniería de Software, y mi objetivo es profundizar mis conocimientos en el desarrollo de aplicaciones y soluciones tecnológicas. Me interesa aprender a crear software eficiente y de calidad, aplicando las bases teóricas de la programación en proyectos reales que puedan resolver problemas actuales. A lo largo de mi carrera, busco perfeccionar mis habilidades y estar preparado para enfrentar los desafíos de un campo que está en constante evolución.      
