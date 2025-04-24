@@ -91,8 +91,21 @@
 # Capítulo I: Introducción
 ## 1.1. Startup Profile.
 ### 1.1.1. Descripción de la Startup.
+SofTeam creada como un startup por un grupo de estudiantes universitarios de la carrera de ingeniería de Software. Nuestro propósito es desarrollar un producto de software que brinde soporte a un modelo de negocio independiente y sostenible. 
+Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. 
 ### 1.1.2. Perfiles de integrantes del equipo.
 ## 1.2. Solution Profile.
+Nombre: Tony Do Santos Torres Cortez
+Código: U201917662
+
+Foto.
+
+Descripción de carrera: 
+Soy estudiante de Ingeniería de Software, y mi objetivo es profundizar mis conocimientos en el desarrollo de aplicaciones y soluciones tecnológicas. Me interesa aprender a crear software eficiente y de calidad, aplicando las bases teóricas de la programación en proyectos reales que puedan resolver problemas actuales. A lo largo de mi carrera, busco perfeccionar mis habilidades y estar preparado para enfrentar los desafíos de un campo que está en constante evolución.      
+
+Conocimiento y habilidades: 
+Tengo conocimientos en lenguajes de programación como C++, Python y Java, lo que me permite adaptarme a diferentes entornos de desarrollo. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades, ya que quiero crecer profesionalmente y estar a la vanguardia en el ámbito del software.
+
 ### 1.2.1 Antecedentes y problemática.
 En los últimos años, el aprendizaje en línea ha experimentado un crecimiento exponencial, impulsado por la digitalización, la masificación del acceso a internet y las nuevas dinámicas de enseñanza. Sin embargo, la mayoría de las plataformas existentes se enfocan en cursos de interés general, programación, idiomas o habilidades blandas, dejando de lado contenidos estrictamente académicos y universitarios, especialmente de nivel superior.
 
@@ -160,8 +173,31 @@ Este grupo está formado por personas con conocimientos universitarios que desea
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
+
+ - Coursera : [web](https://www.coursera.org/courseraplus/?utm_medium=sem&utm_source=gg&utm_campaign=b2c_latam_x_coursera_ftcof_courseraplus_cx_dr_tt_gg_sem_bd_s1-s2-v2_es_m_hyb_24-11_x&campaignid=21958942936&adgroupid=168059991541&device=c&keyword=coursera&matchtype=b&network=g&devicemodel=&creativeid=723177015316&assetgroupid=&targetid=kwd-36222484221&extensionid=&placement=&gad_source=1&gbraid=0AAAAADdKX6bzlFqdI2u7_EFgcNBNfUwHB&gclid=CjwKCAjwn6LABhBSEiwAsNJrjue6dIw-XFM_VPeEWd3dG5rOY33-F07maJ2uoKF5dSzAnd8M3GHP2RoCLBwQAvD_BwE)
+
+ Es una plataforma de aprendizaje en línea que ofrece cursos, especializaciones y títulos universitarios en colaboración con universidades y empresas con reconocimientos a nivel mundial.
+
+ - Udemy : [web](https://www.udemy.com/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Branded-Topic_la.ES_cc.LATAM&campaigntype=Search&portfolio=BrandTopic&language=ES&product=Course&test=&audience=Keyword&topic=&priority=&utm_content=deal4584&utm_term=_._ag_122876139243_._ad_604231009895_._kw_cursos%20udemi_._de_c_._dm__._pl__._ti_kwd-981101928127_._li_9186204_._pd__._&matchtype=b&gad_source=1&gbraid=0AAAAADROdO0l4-HiHJ6EbX52p3Jnc4JAM&gclid=CjwKCAjwn6LABhBSEiwAsNJrjsLqMVBSvUeMoIJ6bRJNU6raEe3Mc11SUutmBMYUFLagetnZTVlz9hoCCHwQAvD_BwE)
+
+ Es un Marketplace de cursos en línea donde cualquier persona puede creer y vender cursos sobre una gran variedad de cursos, desde programación hasta recetas de cocina. Posee una gran comunidad y es accesible para estudiantes que buscan un aprendizaje practico, flexible y asequible.
+
+ - Teachable : [web](https://teachable.com/)
+
+ 
+Una plataforma que brinda la capacidad a creadores de vender y personalizar sus cursos como desee el propietario. A diferencia de las demás paginas de su rubro, esta ofrece todas las herramientas para que los instructores puedan crear y personalizar su propia academia digital.
+
 ### 2.1.1. Análisis competitivo.
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+ - Nos enfocaremos en una pagina intuitiva y flexible que permita al usuario navegar con comodidad y facilidad entre las diferentes funciones y tópicos que ofrecemos.
+
+ - Realizaremos encuestas a nuestro usuarios para conocer qué características en específico debemos mejorar
+
+ - Siempre priorizaremos la comunicación para brindar mas confianza y seguridad para nuestros clientes.
+
+ - Recopilar información sobre nuestros competidores a través de foros para mejorar nuestro posición en el rubro
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 **Preguntas generales**
