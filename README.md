@@ -263,13 +263,81 @@ Una plataforma que brinda la capacidad a creadores de vender y personalizar sus 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
- - Nos enfocaremos en una pagina intuitiva y flexible que permita al usuario navegar con comodidad y facilidad entre las diferentes funciones y tópicos que ofrecemos.
+Basandonos en el analisis competitivo previo, hemos podido identificar con claridad las foda (fortelaza, oportunidad, debilidad, amenaza) de nuestros competidores. Esta informacion es de suma importancia para poder diseñar estrategias y tacticas eficientes que nos permitan superar los servicios que brinda nuestra competencia.
 
- - Realizaremos encuestas a nuestro usuarios para conocer qué características en específico debemos mejorar
+Afrontaremos las fortalezas de la competencia . . .
+ - Enfocandonos en una pagina flexible  e intuitiva que permita al usuario navegar entre las difentes funciones y cursos de los cuales disponemos comodamente.
+ - Priorizando la comunicación fluida entre docentes y estudiantes generando experiencia educativa de calidad
 
- - Siempre priorizaremos la comunicación para brindar mas confianza y seguridad para nuestros clientes.
+Comprendemos que nuestras fortalezas son. . .
+ - Priorizar la comunicacion personalizada docente-estudiante.
+ - Aprovechar la agilidad de ser una aplicación emergente para una rapida adaptacion del mercado.
 
- - Recopilar información sobre nuestros competidores a través de foros para mejorar nuestro posición en el rubro
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Incorporar espacios de mensajería directa o foros entre estudiantes y docentes.
+
+Tácticas
+
+ - Realizar sesiones de prueba con usuarios para perfeccionar la navegación antes del lanzamiento.
+
+Afrontaremos las oportunidades de la competencia . . .
+ - Recopilando informacion mediantes encuestas periodicas  a nuestros usuarios
+ - Observando foros y tendencias del mercado .
+
+Comprendemos que nuestras oportunidades son. . .
+ - Uso efectivo de la retroalimentación para optimizar la aplicación.
+ - Capacidad de adaptarnos velozmente en un mercado de educación remota en crecimiento.
+
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Mantener un programa continuo de recopilación de feedback y análisis competitivo.
+
+ - Mejorar funciones basándonos en sugerencias reales y prácticas de los usuarios.
+
+Tácticas
+
+ - Lanzar encuestas breves tras la finalización de cada curso.
+
+Afrontaremos nuestras debilidades . . .
+ - Siendo conscientes de que actualmente tenemos promoción y alcance limitados.
+
+Comprendemos que nuestras debilidades son . . .
+ - Bajo reconocimiento de marca.
+ - Recursos más limitados frente a competidores consolidados.
+
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Desarrollar campañas de marketing digital enfocadas en testimonios reales de estudiantes y docentes.
+
+Tácticas
+
+ - Ofrecer certificados gratuitos de participación para quienes compartan nuestra plataforma en redes sociales.
+
+ - Implementar un sistema de recomendación entre usuarios con beneficios exclusivos.
+
+ Afrontando nuestras amenazas . . .
+ - Reconociendo que puede existir congestión de plataformas educativas afectando la calidad del servicio.
+
+Comprendemos que nuestras amenazas son . . .
+
+ - La saturación del mercado.
+ - Riesgo de ineficiencia por alta demanda.
+
+Estrategias
+
+ - Mantener tiempos de respuesta ágiles tanto en navegación como en atención al cliente.
+
+Tácticas
+
+ - Automatizar procesos de soporte para consultas frecuentes, reduciendo tiempos de espera.
+
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
