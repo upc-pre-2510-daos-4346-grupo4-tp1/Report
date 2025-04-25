@@ -92,9 +92,14 @@
 ## 1.1. Startup Profile.
 ### 1.1.1. Descripción de la Startup.
 SofTeam creada como un startup por un grupo de estudiantes universitarios de la carrera de ingeniería de Software. Nuestro propósito es desarrollar un producto de software que brinde soporte a un modelo de negocio independiente y sostenible. 
-Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. 
+Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. Lo que nos diferencia de otras aplicaciones es que nuestra plataforma está enfocada en ser intuitiva, flexible y en constante evolución, es decir, incorporar tecnologias emergentes que permitan un mejor analisis de usuario resultando asi en una mejora significativa en la educación superior digital.
+
+Misión
+Desarrollar soluciones de software innovadoras y accesibles que fortalezcan la educación superior, facilitando el aprendizaje y la enseñanza a través de herramientas tecnológicas modernas, confiables y sostenibles.
+
+Visión
+Ser reconocidos como una startup líder en el desarrollo de plataformas educativas digitales en América Latina, impulsando el crecimiento profesional y académico mediante la tecnología y el compromiso con la calidad y la innovación.
 ### 1.1.2. Perfiles de integrantes del equipo.
-## 1.2. Solution Profile.
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
 
@@ -106,6 +111,7 @@ Soy estudiante de Ingeniería de Software, y mi objetivo es profundizar mis cono
 Conocimiento y habilidades: 
 Tengo conocimientos en lenguajes de programación como C++, Python y Java, lo que me permite adaptarme a diferentes entornos de desarrollo. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades, ya que quiero crecer profesionalmente y estar a la vanguardia en el ámbito del software.
 
+## 1.2. Solution Profile.
 ### 1.2.1 Antecedentes y problemática.
 En los últimos años, el aprendizaje en línea ha experimentado un crecimiento exponencial, impulsado por la digitalización, la masificación del acceso a internet y las nuevas dinámicas de enseñanza. Sin embargo, la mayoría de las plataformas existentes se enfocan en cursos de interés general, programación, idiomas o habilidades blandas, dejando de lado contenidos estrictamente académicos y universitarios, especialmente de nivel superior.
 
