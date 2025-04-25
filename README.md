@@ -30,7 +30,19 @@
 
 
 # Registro de Versiones del Informe
+
+| Versión | Fecha       | Autor | Descripción |
+|---------|-------------|-------|-------------|
+
 # Project Report Collaboration Insights
+
+- **URL de la organización del proyecto:**  
+  [https://github.com/upc-pre-2510-daos-4346-grupo4](https://github.com/upc-pre-2510-daos-4346-grupo4)
+- **URL del repositorio del informe:**  
+  [https://github.com/upc-pre-2510-daos-4346-grupo4/Report](https://github.com/upc-pre-2510-daos-4346-grupo4/Report)
+
+
+
 # Contenido
 - [SofTeam](#softeam)
 - [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
