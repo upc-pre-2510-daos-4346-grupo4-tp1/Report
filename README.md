@@ -675,6 +675,17 @@ Epic ID
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
 
+|# Orden | User Story ID | Título                                 | Descripción                                                                                           | Story Points |
+|---------|---------------|----------------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US09          | Buscar cursos por palabra clave        | Como estudiante quiero buscar cursos usando una palabra clave para encontrar lo que necesito más rápido. | 5            |
+| 2       | US11          | Comprar un curso                       | Como estudiante quiero comprar un curso fácilmente para poder comenzar a estudiarlo.                   | 8            |
+| 3       | US13          | Ver videos pregrabados                 | Como estudiante quiero ver videos pregrabados en el curso para aprender a mi ritmo.                    | 5            |
+| 4       | US17          | Crear un curso                         | Como instructor quiero poder crear un curso y subir sus contenidos fácilmente.                         | 8            |
+| 5       | US19          | Ver estadísticas del curso             | Como instructor quiero ver estadísticas del curso para saber cómo va su rendimiento.                   | 5            |
+| 6       | US25          | Obtener certificado de finalización    | Como estudiante quiero recibir un certificado al terminar un curso.                                    | 3            |
+| 7       | US32          | Iniciar sesión y ver panel personalizado| Como usuario quiero iniciar sesión y ver una interfaz personalizada con mis cursos e historial.        | 5            |
+
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
