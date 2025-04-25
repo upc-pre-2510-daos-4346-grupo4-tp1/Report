@@ -24,7 +24,7 @@
 -   
 
 **Abril, 2025**  
-**URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4](https://github.com/upc-pre-2510-daos-4346-grupo4)
+**URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
 
 ---
 
@@ -37,9 +37,9 @@
 # Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:**  
-  [https://github.com/upc-pre-2510-daos-4346-grupo4](https://github.com/upc-pre-2510-daos-4346-grupo4)
+  [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
 - **URL del repositorio del informe:**  
-  [https://github.com/upc-pre-2510-daos-4346-grupo4/Report](https://github.com/upc-pre-2510-daos-4346-grupo4/Report)
+  [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Report](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Report)
 
 
 
