@@ -1,8 +1,58 @@
-# Carátula
+# SofTeam  
+**Producto: EDUnova**  
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
+<p align="center">
+  <img src="./assets/upc-logo.png" alt="UPC Logo" width="200"/>
+</p>
+
+
+### Carrera: Ingeniería de Software  
+### Ciclo: 5° ciclo  
+### Curso: Desarrollo de Aplicaciones Open Source
+### Sección: 1ASI0729
+### Profesor: Rafael Oswaldo Castro Veramendi
+
+## Informe de Trabajo Final  
+**"SofTeam"**  
+**Producto: "EDUnova"**
+
+### Integrantes:
+- Diego Rolin Acuña Tomas – U202221436  
+- 
+-  
+-   
+
+**Abril, 2025**  
+**URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
+
+---
+
+
 # Registro de Versiones del Informe
+
+| Versión | Fecha       | Autor | Descripción |
+|---------|-------------|-------|-------------|
+
 # Project Report Collaboration Insights
+
+- **URL de la organización del proyecto:**  
+  [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
+- **URL del repositorio del informe:**  
+  [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Report](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Report)
+
+
+
 # Contenido
-- [Carátula](#carátula)
+- [SofTeam](#softeam)
+- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
+    - [Carrera: Ingeniería de Software](#carrera-ingeniería-de-software)
+    - [Ciclo: 5° ciclo](#ciclo-5-ciclo)
+    - [Curso: Desarrollo de Aplicaciones Open Source](#curso-desarrollo-de-aplicaciones-open-source)
+    - [Sección: 1ASI0729](#sección-1asi0729)
+    - [Profesor: Rafael Oswaldo Castro Veramendi](#profesor-rafael-oswaldo-castro-veramendi)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Integrantes:](#integrantes)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -24,6 +74,7 @@
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+- [Competitive Analysis Landscape](#competitive-analysis-landscape)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
@@ -272,7 +323,7 @@ Entrevista #1: Jeremy Eredia
         Entrevistador: Tony Torres
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
+<img src="assets/interviews/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
 
 Resumen:
 <p>
@@ -296,7 +347,7 @@ Entrevista #2: Aldo Vasquez Sotomayor
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
+<img src="assets/interviews/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
 
 Resumen:
 <p>
@@ -320,7 +371,7 @@ Entrevista #3: Daniel Monago
         Entrevistador: Valentino Alvarez
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
+<img src="assets/interviews/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
 
 Resumen:
 <p>
@@ -344,7 +395,7 @@ Entrevista #4: Sayry Ayvar
         Entrevistador: Valentino Alvarez
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
+<img src="assets/interviews/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
 
 Resumen:
 <p>
@@ -368,7 +419,7 @@ Entrevista #5: Sebastián Silva
         Entrevistador: Diego Acuña
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
+<img src="assets/interviews/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
 
 Resumen:
 <p>
@@ -393,7 +444,7 @@ Entrevista #1: Alexia Acuña
         Entrevistador: Diego Acuña
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
+<img src="assets/interviews/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
 
 Resumen:
 <p>
@@ -417,7 +468,7 @@ Entrevista #2: Alonso Robles
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
+<img src="assets/interviews/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
 
 Resumen:
 <p>
@@ -441,7 +492,7 @@ Entrevista #3: Violeta Cortés
         Entrevistador: Tony Torres 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
+<img src="assets/interviews/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
 
 Resumen:
 <p>
@@ -465,7 +516,7 @@ Entrevista #4: Luis Iparraguirre
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
+<img src="assets/interviews/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
 
 Resumen:
 <p>
