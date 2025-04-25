@@ -1,8 +1,46 @@
-# Carátula
+# SofTeam  
+**Producto: EDUnova**  
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
+<p align="center">
+  <img src="./assets/upc-logo.png" alt="UPC Logo" width="200"/>
+</p>
+
+
+### Carrera: Ingeniería de Software  
+### Ciclo: 5° ciclo  
+### Curso: Desarrollo de Aplicaciones Open Source
+### Sección: 1ASI0729
+### Profesor: Rafael Oswaldo Castro Veramendi
+
+## Informe de Trabajo Final  
+**"SofTeam"**  
+**Producto: "EDUnova"**
+
+### Integrantes:
+- Diego Rolin Acuña Tomas – U202221436  
+- 
+-  
+-   
+
+**Abril, 2025**  
+**URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4](https://github.com/upc-pre-2510-daos-4346-grupo4)
+
+---
+
+
 # Registro de Versiones del Informe
 # Project Report Collaboration Insights
 # Contenido
-- [Carátula](#carátula)
+- [SofTeam](#softeam)
+- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
+    - [Carrera: Ingeniería de Software](#carrera-ingeniería-de-software)
+    - [Ciclo: 5° ciclo](#ciclo-5-ciclo)
+    - [Curso: Desarrollo de Aplicaciones Open Source](#curso-desarrollo-de-aplicaciones-open-source)
+    - [Sección: 1ASI0729](#sección-1asi0729)
+    - [Profesor: Rafael Oswaldo Castro Veramendi](#profesor-rafael-oswaldo-castro-veramendi)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Integrantes:](#integrantes)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -24,6 +62,7 @@
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+- [Competitive Analysis Landscape](#competitive-analysis-landscape)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
