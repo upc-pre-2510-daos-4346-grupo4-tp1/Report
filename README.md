@@ -219,7 +219,7 @@ Entrevista #1: Jeremy Eredia
         Entrevistador: Tony Torres
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
+<img src="assets/interviews/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
 
 Resumen:
 <p>
@@ -243,7 +243,7 @@ Entrevista #2: Aldo Vasquez Sotomayor
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
+<img src="assets/interviews/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
 
 Resumen:
 <p>
@@ -267,7 +267,7 @@ Entrevista #3: Daniel Monago
         Entrevistador: Valentino Alvarez
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
+<img src="assets/interviews/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
 
 Resumen:
 <p>
@@ -291,7 +291,7 @@ Entrevista #4: Sayry Ayvar
         Entrevistador: Valentino Alvarez
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
+<img src="assets/interviews/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
 
 Resumen:
 <p>
@@ -315,7 +315,7 @@ Entrevista #5: Sebastián Silva
         Entrevistador: Diego Acuña
     </li>
 </ul>
-<img src="images/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
+<img src="assets/interviews/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
 
 Resumen:
 <p>
@@ -340,7 +340,7 @@ Entrevista #1: Alexia Acuña
         Entrevistador: Diego Acuña
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
+<img src="assets/interviews/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
 
 Resumen:
 <p>
@@ -364,7 +364,7 @@ Entrevista #2: Alonso Robles
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
+<img src="assets/interviews/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
 
 Resumen:
 <p>
@@ -388,7 +388,7 @@ Entrevista #3: Violeta Cortés
         Entrevistador: Tony Torres 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
+<img src="assets/interviews/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
 
 Resumen:
 <p>
@@ -412,7 +412,7 @@ Entrevista #4: Luis Iparraguirre
         Entrevistador: Cristian Iparraguirre 
     </li>
 </ul>
-<img src="images/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
+<img src="assets/interviews/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
 
 Resumen:
 <p>
