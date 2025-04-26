@@ -19,7 +19,7 @@
 
 ### Integrantes:
 - Diego Rolin Acuña Tomas – U202221436  
-- 
+- Tony Do Santos Torres Cortez - U201917662
 -  
 -   
 
