@@ -123,6 +123,13 @@
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirement Management](#requirement-management)
+  - [| **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | miro.com |](#-miro--plataforma-colaborativa-en-línea-utilizada-para-la-creación-de-pizarras-visuales-facilitando-la-lluvia-de-ideas-la-planificación-de-flujos-de-trabajo-y-la-representación-de-conceptos-clave-del-proyecto--mirocom-)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Documentation](#software-documentation)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
@@ -780,6 +787,69 @@ Gestión de clases en vivo (integración con videoconferencias).
 Este apartado describe las directrices y procesos seguidos durante la creación y despliegue del sitio web de EDUnova, con el objetivo de garantizar la consistencia y solidez del software desde su fase inicial hasta su puesta en marcha y mantenimiento continuo.
 
 ### 5.1.1. Software Development Environment Configuration.
+
+
+#### Project Management
+Con el fin de gestionar el proyecto de manera eficiente, se optó por implementar diversas herramientas que permitieran asignar tareas, coordinar reuniones y fomentar la colaboración entre los miembros del equipo. Además, se utilizó un repositorio centralizado para integrar los avances de forma organizada. A continuación, se detallan las plataformas elegidas y su función dentro del desarrollo del proyecto.
+
+- **Centro de organización de trabajo:** Github  
+- **Planificación de tareas:** Trello  
+- **Reuniones de equipo:** Google Meet  
+- **Coordinación grupal:** WhatsApp 
+
+#### Requirement Management
+A lo largo del desarrollo del proyecto, se utilizaron distintas herramientas que apoyaron la identificación, análisis y visualización de los requisitos tanto técnicos como funcionales. Estas plataformas contribuyeron a una planificación más ordenada y a una mejor comprensión del diseño conceptual del sistema.
+
+
+| Herramienta   | Descripción                                                                                                     | Enlace                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Trello**        | Herramienta de gestión de proyectos que utiliza tableros y tarjetas, utilizada para asignar responsabilidades a los integrantes del equipo y monitorear el avance de cada etapa del desarrollo. | [trello.com](https://trello.com/)           |
+| **Uxpressia**     | Herramienta digital empleada para crear mapas estratégicos, como el *Impact Mapping*, facilitando la conexión visual y comprensible entre los objetivos del negocio y las funciones del producto. | [uxpressia.com](https://uxpressia.com/)     |
+| **Structurizr**   | Plataforma de modelado arquitectónico que permite elaborar diagramas C4, ofreciendo una representación estandarizada de la estructura lógica del sistema y la interacción entre sus componentes. | [structurizr.com](https://www.structurizr.com/) |
+| **Lucidchart**    | Entorno de diagramación colaborativo utilizado para crear modelos técnicos, como diagramas de clases y esquemas de bases de datos, esenciales para definir la arquitectura del sistema. | [lucidchart.com](https://www.lucidchart.com/) |
+| **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | [miro.com](https://miro.com/es/) |
+---
+
+#### Product UX/UI Design
+
+El diseño de la experiencia de usuario y la interfaz visual se llevó a cabo utilizando herramientas especializadas, que facilitaron la creación de prototipos gráficos y mapas de navegación. Esto permitió validar la estructura de la aplicación antes de su desarrollo:
+
+| Herramienta | Descripción                                                                                          | Enlace                              |
+|-------------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Figma**   | Plataforma de diseño colaborativo en línea que facilitó a los miembros del equipo la creación y edición en tiempo real de wireframes y mockups, garantizando la consistencia visual y funcional de la landing page. | [figma.com](https://www.figma.com/) |
+
+---
+
+#### Software Development
+Para la creación de la página web, se utilizaron lenguajes de programación y marcado fundamentales para definir la estructura, el diseño y las funcionalidades del sistema. A continuación, se detallan las herramientas empleadas:
+
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **HTML**       | Lenguaje de marcado clave para organizar el contenido y la disposición de los elementos en la página web. | [HTML](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de diseño que se utiliza para aplicar estilos visuales a los elementos definidos en HTML, optimizando su apariencia. | [CSS](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos empleado para incorporar interactividad y funcionalidades dinámicas en la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+
+---
+#### Software Documentation
+La gestión y documentación del proyecto se realizó mediante herramientas que optimizaron la organización y el acceso a la información técnica, garantizando la transparencia y la trazabilidad del proceso de desarrollo:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub**     | Plataforma de desarrollo colaborativo que se utilizó también para gestionar y almacenar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Formato de texto sencillo utilizado para redactar y organizar la documentación técnica del proyecto de manera clara y fácil de leer. | [markdown.es](https://markdown.es/)                          |
+
+---
+#### Software Deployment
+Para publicar la landing page, se utilizó una plataforma de hosting que permite desplegar el sitio directamente desde un repositorio de GitHub, lo que aseguró una gestión eficaz del ciclo de vida de la aplicación:
+
+| Herramienta     | Descripción                                                                                              | Enlace                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub Pages** | Servicio de GitHub que permite publicar la aplicación directamente desde el repositorio, facilitando su acceso público en línea. | [GitHub Pages](https://pages.github.com/)                   |
+
+---
+
+
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
