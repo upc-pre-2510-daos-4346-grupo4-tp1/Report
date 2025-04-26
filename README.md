@@ -1063,6 +1063,9 @@ En la sección de **GitHub Pages**, seleccionamos la rama principal (`main`) en 
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+
+En Scrum, un Sprint es un período breve y específico en el que el equipo se enfoca en realizar las tareas necesarias para cumplir con el objetivo del producto, también llamado "Product Goal" (Scrum Alliance, 2024).
+
 #### 5.2.1.1. Sprint Planning 1.
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog 1.
