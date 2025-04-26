@@ -1140,6 +1140,15 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 
 
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Navbar (Barra de navegación) | Hero Section | Footer | About Us Section | Information Section | Benefits Section | Contact Us Section | Responsive Design (Multi-device) | Documentación del Sprint |
+|-------------------------------------|-----------------|------------------------------|--------------|--------|------------------|---------------------|------------------|-------------------|-------------------------------|---------------------------|
+| Acuña Tomas, Diego Rolin | ComidaRapida007 | L | L | L | L | L| L| L| L| L |
+| Alvarez Falen, Esteban Valentino | EstebanAlvarez1402 | C | C | C | C | C | C | C | C | C |
+| Guerrero Vasquez, Jhon Danny | EstebanAlvarez1402 | C | C | C | C | C | C | C | C | C |
+| Iparraguirre Rueda, Cristian Luis | cristianipa7 | C | C | C | C | C | C | C | C | C |
+| MTorres Cortez, Tony Do Santos | TonyTorresC | C | C | C | C | C | C | C | C | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
