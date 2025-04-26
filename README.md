@@ -777,6 +777,8 @@ Gestión de clases en vivo (integración con videoconferencias).
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
+Este apartado describe las directrices y procesos seguidos durante la creación y despliegue del sitio web de EDUnova, con el objetivo de garantizar la consistencia y solidez del software desde su fase inicial hasta su puesta en marcha y mantenimiento continuo.
+
 ### 5.1.1. Software Development Environment Configuration.
 ### 5.1.2. Source Code Management.
 ### 5.1.3. Source Code Style Guide & Conventions.
