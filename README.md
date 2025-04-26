@@ -113,7 +113,7 @@
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.2. Software Architecture Container Diagram.](#462-software-architecture-container-diagram)
     - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams.](#471-class-diagrams)
@@ -715,9 +715,60 @@ Epic ID
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
+
 ### 4.6.1. Software Architecture Context Diagram.
-### 4.6.2. Software Architecture Container Diagrams.
+<p align="center">
+  <img src="./assets/SAContextDiagram.png" alt="Context Diagram"/>
+</p>
+
+### 4.6.2. Software Architecture Container Diagram.
+<p align="center">
+  <img src="./assets/SAContainerDiagram.png" alt="Container Diagram"/>
+</p>
+
 ### 4.6.3. Software Architecture Components Diagrams.
+Los componentes del sistema siguen el patrón CQRS, organizados por bounded context: User Management, Course Management, Enrollment & Purchase Management, Notification Management y Live Session Management.
+
+**User Management**<br>
+Gestión de estudiantes, instructores, admins.
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsUserManagement.png" alt="User Management"/>
+</p>
+
+---
+
+**Course Management**<br>
+Gestión de cursos, materiales, módulos, sesiones en vivo.
+
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsCourseManagement.png" alt="Course Management"/>
+</p>
+
+---
+
+**Enrollment & Purchase Management**<br>
+Gestión de inscripciones, compras, pagos.
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
+</p>
+
+---
+
+**Notification Management**<br>
+Gestión de notificaciones internas (recordatorios, promociones).
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsNotificationManagement.png" alt="Notification Management"/>
+</p>
+
+---
+
+**Live Session Management**<br>
+Gestión de clases en vivo (integración con videoconferencias).
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsLiveSessionManagement.png" alt="Live Session Management"/>
+</p>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 ### 4.7.2. Class Dictionary.
