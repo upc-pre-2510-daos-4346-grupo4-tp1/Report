@@ -771,6 +771,47 @@ Gestión de clases en vivo (integración con videoconferencias).
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+Nuestro dominio se divide en 5 Bounded Contexts:
+<ol>
+  <li>
+    <b>User Management</b> se encarga de gestionar toda la información de los usuarios de Edunova, incluyendo estudiantes, instructores y administradores, así como su autenticación y perfil.
+    <p align="center">
+      <img src="./assets/CDUserManagement.png" alt="User Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Course Management</b> maneja todo lo relacionado con los cursos: creación, estructura modular (módulos y lecciones), materiales de aprendizaje (documentos, videos) y la gestión de su publicación.
+    <p align="center">
+      <img src="./assets/CDCourseManagement.png" alt="Course Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Enrollment & Purchase Management</b> gestiona la inscripción de estudiantes a los cursos (Enrollment) y el proceso de compra y validación de pagos (Purchase).
+    <p align="center">
+      <img src="./assets/CDEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Notification Management</b> gestiona el envío de notificaciones automáticas o manuales a los usuarios (estudiantes, instructores o administradores) a través de diferentes canales (email, SMS, etc.).
+    <p align="center">
+      <img src="./assets/CDNotificationManagement.png" alt="Notification Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Live Session Management</b> gestiona la programación, actualización y recordatorio de sesiones en vivo de los cursos en Edunova, incluyendo la integración con plataformas externas de videoconferencia.
+    <p align="center">
+      <img src="./assets/CDLiveSessionManagement.png" alt="Live Session Management"/>
+    </p>
+  </li>
+</ol>
+
+---
+
+<b>Diagrama de clases completo</b>
+<p align="center">
+  <img src="./assets/CDCompleto.png" alt="Class diagram complete"/>
+</p>
+
 ### 4.7.2. Class Dictionary.
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
