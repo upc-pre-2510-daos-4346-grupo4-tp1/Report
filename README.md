@@ -715,7 +715,13 @@ Epic ID
 ### 4.4.3. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
+
 ### 4.6.1. Software Architecture Context Diagram.
+<p align="center">
+  <img src="./assets/SAContextDiagram.png" alt="Context Diagram" width="200"/>
+</p>
+
 ### 4.6.2. Software Architecture Container Diagrams.
 ### 4.6.3. Software Architecture Components Diagrams.
 ## 4.7. Software Object-Oriented Design.
