@@ -19,7 +19,7 @@
 
 ### Integrantes:
 - Diego Rolin Acuña Tomas – U202221436  
-- 
+- Tony Do Santos Torres Cortez - U201917662
 -  
 -   
 
@@ -679,6 +679,9 @@ Epic ID
 
 
 ## 3.3. Impact Mapping.
+<div align="center">
+  <img src="./assets/impac open source.png" alt="ImpacMap" width="1000"/>
+</div>
 ## 3.4. Product Backlog.
 
 |# Orden | User Story ID | Título                                 | Descripción                                                                                           | Story Points |
