@@ -131,6 +131,11 @@
       - [Software Documentation](#software-documentation)
       - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
+      - [Producto y Repositorio](#producto-y-repositorio)
+      - [Estructura del Repositorio](#estructura-del-repositorio)
+      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
+      - [Mensajes de Commits](#mensajes-de-commits)
+      - [Documentación](#documentación)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
@@ -851,6 +856,64 @@ Para publicar la landing page, se utilizó una plataforma de hosting que permite
 
 
 ### 5.1.2. Source Code Management.
+
+
+#### Producto y Repositorio
+| Producto             | Repositorio        | URL                                                       |
+|----------------------|--------------------|------------------------------------------------------------|
+| Landing Page         | EDUnova-Landing Page| [LandingPage](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/LandingPage)     |
+| Web Services         | EDUnova-Web Services| [Backend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Backend-EDUnova) |
+| Front Web Application| EDUnova-Frontend    | [Frontend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Frontend-EDUnova) |
+
+#### Estructura del Repositorio
+El repositorio se ha organizado en ramas dedicadas a distintas fases del desarrollo, asegurando un flujo de trabajo estructurado y eficiente. La estructura de ramas es la siguiente:
+
+- **Main branch** (rama principal): Alberga la versión estable y lista para su implementación del software.
+  
+- **Develop branch** (rama de desarrollo): Contiene el código en progreso, que se integrará a la rama principal una vez haya sido probado y validado.
+
+Asimismo, para el desarrollo de nuevas funcionalidades, se generaron ramas específicas respetando las convenciones de nomenclatura establecidas:
+
+- **Feature branches**: Ramas destinadas al desarrollo de nuevas características, utilizando la nomenclatura `feature/nueva-funcionalidad`.
+  
+Adoptamos **GitFlow**, un modelo de gestión de ramas propuesto por Vincent Driessen, que contempla las siguientes ramas:
+
+- **Main branch**: Contiene el código estable y listo para ser implementado en producción.
+
+- **Develop branch**: Rama donde se incorporan nuevas funcionalidades y correcciones antes de su fusión con la rama principal.
+
+- **Feature branches**: Se crean a partir de develop para desarrollar nuevas características, siguiendo la estructura de nombre feature/nueva-funcionalidad.
+
+- **Release branches**: Se utilizan para preparar nuevas versiones, permitiendo realizar pruebas finales y ajustes antes de su despliegue en producción.
+
+ - **Hotfix branches**: Destinadas a solucionar errores críticos en producción, siguiendo la convención de nombre hotfix/correccion-critica.
+
+#### Flujo de trabajo GitFlow
+
+- Una rama de **producción** (`main`).
+- Una rama de **pruebas** (`develop`).
+- Rama de **hotfix** para corrección de errores críticos (`hotfix/*`).
+- Rama de **release** destinada a la estabilización y realización de pruebas finales antes del despliegue (`release/*`).
+- Ramas para **features** (`feature/*`).
+- Cada actualización en **producción** se trata como una nueva versión.
+- Cambios en `main` y `develop` requieren aprobación.
+
+#### Mensajes de Commits
+Implementamos el estándar **Conventional Commits** para estructurar los mensajes de nuestros commits, lo que permite una mejor interpretación del historial de cambios y favorece la automatización de versiones. A continuación, se presentan algunos ejemplos de mensajes:
+
+- `feat`: Añadir nueva funcionalidad, por ejemplo, `feat: agregar módulo de comentarios en publicaciones`.
+- `fix`: Corregir errores, por ejemplo, `fix: corregir error en el cálculo de precios`.
+- `docs`: Actualizar documentación, por ejemplo, `docs: mejorar documentación del proceso de despliegue`.
+- `style`: Aplicar formato, por ejemplo, `style: reformatear código siguiendo el estándar de estilo`.
+- `refactor`: Mejorar el código sin cambiar su funcionalidad, por ejemplo, `refactor: reorganizar componentes del formulario de registro`.
+- `test`: Añadir o modificar pruebas, por ejemplo, `test: crear pruebas unitarias para el servicio de pagos`.
+
+#### Documentación
+
+La documentación del proyecto está disponible en el archivo `README.md` ubicado en el repositorio. Este documento ofrece información sobre la configuración, el uso del software y las instrucciones para colaborar en el proyecto.
+
+---
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
