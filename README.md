@@ -141,6 +141,8 @@
       - [CSS](#css)
       - [JavaScript](#javascript)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+      - [Landing Page](#landing-page)
+      - [Control de Versiones](#control-de-versiones)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
@@ -1018,6 +1020,47 @@ function calculateTotal() {
 ---
 
 ### 5.1.4. Software Deployment Configuration.
+
+
+#### Landing Page
+
+**Recomendaciones antes del despliegue:**
+
+1. Archivos en formatos HTML, CSS y JS.
+2. Publicación en un repositorio de GitHub.
+3. Ejecución de pruebas de funcionamiento (tanto internas como externas).
+
+**Condiciones necesarias:**
+
+- Repositorio público en GitHub.
+- Código fuente completo de la landing page.
+
+**Instrucciones para llevar a cabo el despliegue:**
+
+A continuación, se describen los pasos necesarios para desplegar nuestro sitio web utilizando GitHub Pages.
+
+&nbsp;
+
+1. **Despliegue con GitHub Pages**: Primero, ingresamos al repositorio de GitHub donde está alojado el proyecto y luego accedemos a la sección de configuración del repositorio.
+
+   ![Imagen](./assets/SettingsWeb.png)
+
+   &nbsp;
+
+2. Dentro del menú de ajustes, seleccionamos la opción "Pages".
+
+   ![Imagen](./assets/PagesWeb.png)
+   
+---
+
+#### Control de Versiones
+
+**Uso de Git**: Es esencial mantener un registro completo de los cambios para administrar las distintas versiones del código de forma eficiente.
+
+En la sección de **GitHub Pages**, seleccionamos la rama principal (`main`) en el menú desplegable bajo la opción "Branch" y luego hacemos clic en "Save" para aplicar los cambios. Tras un breve tiempo de espera, se generará el enlace a nuestro sitio web, ahora disponible en GitHub Pages.
+
+---
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
