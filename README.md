@@ -174,6 +174,17 @@ Ser reconocidos como una startup líder en el desarrollo de plataformas educativ
 </p>
 
 ### 1.1.2. Perfiles de integrantes del equipo.
+
+---
+<h4> Diego Rolin Acuña Tomas – Ingeniería de Software – u202221436</h4>
+
+<img src="./assets/DiegoA.jpg" alt="DIEGOACUÑA" style="display: block; margin-left: auto; margin-right: auto;" height="300"/>
+
+Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegí esta carrera porque me apasionan las matemáticas y la programación. Mi objetivo es aplicar mis conocimientos para desarrollar aplicaciones enfocadas en el área de finanzas, ya que aspiro a trabajar en el sector bancario. En mi tiempo libre, disfruto ver películas con mi familia y caminar por lugares interesantes, como montañas o playas. Considero que mis principales fortalezas son la tenacidad y la curiosidad, cualidades que me ayudarán a superar con éxito el curso y alcanzar el mejor puntaje posible.
+
+---
+
+
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
 
