@@ -150,6 +150,12 @@ Desarrollar soluciones de software innovadoras y accesibles que fortalezcan la e
 
 Visión
 Ser reconocidos como una startup líder en el desarrollo de plataformas educativas digitales en América Latina, impulsando el crecimiento profesional y académico mediante la tecnología y el compromiso con la calidad y la innovación.
+
+
+<p align="center">
+  <img src="assets/Logo.png" alt="Logo Edunova"/>
+</p>
+
 ### 1.1.2. Perfiles de integrantes del equipo.
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
