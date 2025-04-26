@@ -137,6 +137,9 @@
       - [Mensajes de Commits](#mensajes-de-commits)
       - [Documentación](#documentación)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
@@ -915,6 +918,105 @@ La documentación del proyecto está disponible en el archivo `README.md` ubicad
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+
+#### HTML
+
+Durante el desarrollo de la estructura del sitio, se implementaron las siguientes buenas prácticas para garantizar una adecuada accesibilidad y organización:
+
+- Utilizar únicamente minúsculas en las etiquetas.
+  
+- Verificar el cierre adecuado de todos los elementos.
+
+- Escribir los atributos en minúsculas.
+
+- Añadir `alt`, `width` y `height` en las imágenes para mejorar la accesibilidad y el control de su presentación.
+
+- Eliminar espacios innecesarios dentro de las etiquetas.
+
+**Ejemplo de imagen:**
+```html
+<img src="html5.gif" alt="HTML5" style="width:64px;height:64px">
+```
+
+**Etiquetas HTML utilizadas:**
+
+```html
+<header>, <nav>, <div>, <img>, <ul>, <li>, <a>, <p>, <button>, <h1>, <h2>, <h3>, <h4>
+```
+
+---
+
+#### CSS
+
+Con el objetivo de asegurar la coherencia en el diseño y mejorar la legibilidad del código, se siguieron las siguientes pautas:
+- Asignar a las clases e IDs nombres descriptivos y con significado.
+- Utilizar nombres cortos pero claros.
+
+```css
+#gallery {}
+.video {}
+```
+
+- Emplear propiedades abreviadas siempre que sea viable para mantener el código más conciso.
+```css
+padding: 0 1em 2em;
+```
+
+- Omitir las unidades en los valores que sean cero.
+```css
+margin: 0;
+padding: 0;
+```
+
+- Organizar las propiedades en orden alfabético para mejorar la rapidez de lectura.
+
+```css
+align-items: center;
+background-color: #ffffff;
+border: 2px dashed #ccc;
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+```
+
+---
+
+#### JavaScript
+Para asegurar un código más limpio y fácil de mantener, se adoptaron las siguientes prácticas de codificación:
+
+- Emplear funciones con llaves correctamente organizadas.
+
+```js
+function myFunc() {
+  console.log('Hello World!');
+}
+```
+
+- Usar `lowerCamelCase` para declarar variables.
+
+```js
+let userAge = 25;
+```
+
+- Optar por el uso de `let` y `const` en lugar de `var`.
+
+```js
+const userName = 'Alex';
+let userScore = 10;
+userScore += 5;
+console.log(userScore);
+```
+
+- Nombrar las funciones utilizando la convención `lowerCamelCase`.
+
+```js
+function calculateTotal() {
+  return price * quantity;
+}
+```
+---
+
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
