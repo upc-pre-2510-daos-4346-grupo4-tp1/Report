@@ -184,17 +184,14 @@ Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegí esta c
 
 ---
 
+<h4> Tony Do Santos Torres Cortez – Ingeniería de Software – u201917662</h4>
 
-Nombre: Tony Do Santos Torres Cortez
-Código: U201917662
+<img src="./assets/cara.png" alt="TONY" style="display: block; margin-left: auto; margin-right: auto;" height="300"/>
 
-Foto.
+Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegi esta carreara porque desde pequeño me apasiona la tecnología y todo lo relacionado a ella. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades. En mi tiempo libre, me gusta pasar tiempo con mi familia, ver series y practicar programación. 
 
-Descripción de carrera: 
-Soy estudiante de Ingeniería de Software, y mi objetivo es profundizar mis conocimientos en el desarrollo de aplicaciones y soluciones tecnológicas. Me interesa aprender a crear software eficiente y de calidad, aplicando las bases teóricas de la programación en proyectos reales que puedan resolver problemas actuales. A lo largo de mi carrera, busco perfeccionar mis habilidades y estar preparado para enfrentar los desafíos de un campo que está en constante evolución.      
 
-Conocimiento y habilidades: 
-Tengo conocimientos en lenguajes de programación como C++, Python y Java, lo que me permite adaptarme a diferentes entornos de desarrollo. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades, ya que quiero crecer profesionalmente y estar a la vanguardia en el ámbito del software.
+
 
 ## 1.2. Solution Profile.
 ### 1.2.1 Antecedentes y problemática.
