@@ -36,8 +36,16 @@
 
 | Versión | Fecha      | Autor                               | Descripción de modificación        |
 |---------|------------|-------------------------------------|------------------------------------|
-| TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Torres Cortez, Tony Do Santos<br>- Alvarez Falen, Esteban Valentino<br>- | Implementación del capítulo 1 al 5 y el landing page |
+| TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Torres Cortez, Tony Do Santos<br>- Alvarez Falen, Esteban Valentino<br>- | Creacion del documento|
+|TB1      | 24/04/20205| - Diego Rolin | - Programé la landing page estática desde cero, asegurándome de que fuera responsive y que pudiera hacer deploy. También estuve modificándola para solucionar errores.|
+|TB1| 25/04/2025| - Tony Do Santos |Realice el capitulo 4 parcialmente|
+|TB1| 25/04/2025| - Acuña Tomas|Realice parcialmente el cap 1|
+|TB1| 25/04/2025| - Esteban Valentino|Realice parcialmente el cap 2|
+|TB1| 25/04/2025| - Diego Rolin|Realice el capitulo 5|
+|TB1| 25/04/2025| - Alvarez Falen|Realice el parcialmente capitulo 3|
+|TB1| 25/04/2025| - Cristian Iparraguirre|Realice el capitulo 4 parcialmente
 
+|
 # Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:**  
