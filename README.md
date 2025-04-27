@@ -62,6 +62,10 @@
       - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
+  - [Hypothesis Statement 1](#hypothesis-statement-1)
+  - [Hypothesis Statement 2](#hypothesis-statement-2)
+  - [Hypothesis Statement 3](#hypothesis-statement-3)
+  - [Hypothesis Statement 4](#hypothesis-statement-4)
       - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
   - [Segmento objetivo #1: Estudiantes universitarios que desean aprender](#segmento-objetivo-1-estudiantes-universitarios-que-desean-aprender)
@@ -254,28 +258,21 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-Hypothesis Statement 1
- Creemos que al implementar en nuestra plataforma la funcionalidad de filtros avanzados por asignatura, nivel y docente, ayudaremos a los estudiantes a localizar el curso que necesitan en menos de 2 minutos.
- Sabremos que hemos tenido éxito.
- Cuando el 80 % de los estudiantes encuentran un curso relevante en menos de 2 minutos.
+## Hypothesis Statement 1
+> Creemos que al implementar en nuestra plataforma la funcionalidad de filtros avanzados por asignatura, nivel y docente, ayudaremos a los estudiantes a localizar el curso que necesitan en menos de 2 minutos.  
+> **Sabremos que hemos tenido éxito:** Cuando el 80 % de los estudiantes encuentren un curso relevante en menos de 2 minutos.
 
+## Hypothesis Statement 2
+> Creemos que si ofrecemos plantillas pedagógicas prediseñadas en el panel de creación, facilitaremos a los docentes estructurar y publicar sus cursos de forma ágil.  
+> **Sabremos que hemos tenido éxito:** Cuando el 70 % de los nuevos cursos se publique en menos de 1 día desde el inicio de la creación.
 
-Hypothesis Statement 2
- Creemos que si ofrecemos plantillas pedagógicas prediseñadas en el panel de creación, facilitaremos a los docentes estructurar y publicar sus cursos de forma ágil.
- Sabremos que hemos tenido éxito.
- Cuando el 70 % de los nuevos cursos se publique en menos de 1 día desde el inicio de la creación.
+## Hypothesis Statement 3
+> Creemos que al habilitar un sistema de valoraciones y reseñas por parte de los estudiantes, incrementaremos la confianza y el engagement en los cursos ofertados.  
+> **Sabremos que hemos tenido éxito:** Cuando el 60 % de los cursos reciba al menos 10 reseñas con puntuación de más de 4 en el primer mes.
 
-
-Hypothesis Statement 3
- Creemos que al habilitar un sistema de valoraciones y reseñas por parte de los estudiantes, incrementaremos la confianza y el engagement en los cursos ofertados.
- Sabremos que hemos tenido éxito.
- Cuando el 60 % de los cursos reciba al menos 10 reseñas con puntuación de más de 4 en el primer mes.
-
-
-Hypothesis Statement 4
- Creemos que si implementamos sesiones de mentoría en vivo y foros de discusión, mejoraremos la satisfacción y retención de los estudiantes.
- Sabremos que hemos tenido éxito.
- Cuando la tasa de estudiantes activos sea mayor al 75 % tras 30 días de uso.
+## Hypothesis Statement 4
+> Creemos que si implementamos sesiones de mentoría en vivo y foros de discusión, mejoraremos la satisfacción y retención de los estudiantes.  
+> **Sabremos que hemos tenido éxito:** Cuando la tasa de estudiantes activos sea mayor al 75 % tras 30 días de uso.
 
 #### 1.2.2.4. Lean UX Canvas.
 
