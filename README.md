@@ -807,7 +807,7 @@ Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WK
 
 
 <div align="center">
-  <img src="./assets/Final1.jpg" alt="final2" width="1000"/>
+  <img src="./assets/Final2.jpg" alt="final2" width="1000"/>
 </div>
 
 
