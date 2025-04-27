@@ -154,6 +154,10 @@
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+    - [🚀 **Pasos para hacer deploy**](#-pasos-para-hacer-deploy)
+        - [1. Crear un nuevo repositorio en GitHub](#1-crear-un-nuevo-repositorio-en-github)
+        - [2. Subir tu proyecto al repositorio](#2-subir-tu-proyecto-al-repositorio)
+        - [3. Habilitar GitHub Pages](#3-habilitar-github-pages)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
@@ -1480,4 +1484,44 @@ Descripción: Imagen de la sección Contact Us<br><br>
 Este apartado aborda los Web Services y el uso de métodos HTTP, temas que no forman parte del alcance definido para este primer Sprint Review.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+
+En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Github.
+
+
+### 🚀 **Pasos para hacer deploy**
+##### 1. Crear un nuevo repositorio en GitHub
+- Poseer una cuenta en GitHub.  
+- Tener tu landing page finalizada (HTML, CSS, JS, etc.) guardada en una carpeta local.  
+- Contar con un archivo principal nombrado `index.html`.
+
+![image.png](./assets/Deploy1.png)
+Descripción: Imagen del proceso de creación de un repositorio.<br><br>
+
+##### 2. Subir tu proyecto al repositorio
+- Ingresar a tu repositorio  
+- Hacer clic en Add file → Upload files  
+- Elegir los archivos que deseas subir
+
+![image.png](./assets/Deploy2.png)
+Descripción: Visualización de un repositorio, en este ejemplo ya contiene la Landing Page desplegada, aunque normalmente estaría vacío si es un repositorio nuevo.<br><br>
+
+![image.png](./assets/Deploy3.png)
+Descripción: Área destinada a la carga de los archivos requeridos para la Landing Page.<br><br>
+
+##### 3. Habilitar GitHub Pages
+- Ingresa al repositorio en GitHub.  
+- Dirígete a la sección Settings.  
+- En el menú lateral, selecciona Pages.  
+- En “Source”, elige la rama main y la carpeta raíz (/).  
+- Presiona Save para guardar los cambios.
+- 
+![image.png](./assets/Deploy4.png)
+Demostración de que la Landing Page ha sido correctamente desplegada.<br><br>
+
+Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
