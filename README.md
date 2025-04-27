@@ -24,7 +24,6 @@
 - Tony Do Santos Torres Cortez - U201917662
 - Cristian Luis Iparraguirre Rueda - U202113111
 - Esteban Valentino Alvarez Falen - U202315628
-- 
 
 **Abril, 2025**  
 **URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
@@ -225,12 +224,8 @@ Ser reconocidos como una startup líder en el desarrollo de plataformas educativ
 		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegi esta carreara porque desde pequeño me apasiona la tecnología y todo lo relacionado a ella. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades. En mi tiempo libre, me gusta pasar tiempo con mi familia, ver series y practicar programación.</td>
 	</TR>
   <TR>
-		<td style="text-align: center; align-content: center; margin: center"><p>Esteban Valentino Alvarez Falen - U202315628<br><br><img src="assets/fotoEsteban.jpeg" alt="Foto Esteban" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center"><p>Esteban Valentino Alvarez Falen - U202315628<br><br><img src="assets/fotoEsteban.jpg" alt="Foto Esteban" width="1202"> </p></td> 
 		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de Ingeniería de software y siempre tuve una pasión en los juegos y en su desarrollo con el sueño de ser parte de uno. Me encanta el arte y aunque no pueda memorizar los nombres o categorías disfruto verlo.</td>
-	</TR>
-  <TR>
-		<td style="text-align: center; align-content: center; margin: center"><p>XXXXXXXX - XXXXXXXX<br><br><img src="assets/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
-		<td style="text-align: center; align-content: center; margin: center">XXXXXXXX</td>
 	</TR>
 </TABLE>
 
