@@ -1523,5 +1523,8 @@ Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/Landing
 
 
 
-
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este sprint, las tareas de diseño, implementación y documentación de la landing page fueron asignadas entre los miembros del equipo. La mayor parte de la implementación y despliegue de la landing page fue realizada por Diego Acuña.
+
+![image.png](./assets/CollaborationSprint1.png)
