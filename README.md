@@ -728,7 +728,20 @@ Epic ID
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags
+
+### 1. Landing Page
+
+| Tag              | Contenido |
+|------------------|-----------|
+| Title            | "Edunova - Cursos Universitarios" |
+| Meta Description | "Plataforma educativa para impulsar tu carrera con cursos de alta calidad, clases en vivo y certificaciones. Aprende a tu ritmo desde cualquier lugar." |
+| Keywords         | "educación online, cursos universitarios, certificaciones profesionales, aprendizaje flexible" |
+| Author           | "SofTeam" |
+
 ### 4.2.4. Searching Systems.
+
+
+
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
