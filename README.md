@@ -91,6 +91,13 @@
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines-1)
+      - [**1. Componentes UI Responsive**](#1-componentes-ui-responsive)
+        - [**A. Header/Navegación**](#a-headernavegación)
+        - [**B. Cards (Cursos/Lecciones)**](#b-cards-cursoslecciones)
+        - [**C. Formularios (Login/Register/Enroll)**](#c-formularios-loginregisterenroll)
+      - [**2. Interacciones y Estados**](#2-interacciones-y-estados)
+      - [**3. Breakpoints y Grid**](#3-breakpoints-y-grid)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
@@ -771,7 +778,173 @@ Epic ID
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+Esta guía establece los fundamentos de diseño visual y comunicación para **Edunova**, enfocándose en **consistencia**, **claridad académica** y **experiencia de usuario amigable**. Se basa en principios de diseño modernos y buenas prácticas de UI/UX para plataformas educativas.
+
+---
+
+<h4>1. BRANDING</h4>
+
+**Identidad Visual:**  
+- **Estilo:** Académico moderno con toques de innovación.  
+- **Enfoque:** Educación universitaria accesible y de alta calidad.  
+- **Elementos clave:**  
+  - **Logo:** Tipografía elegante + ícono opcional de libro abierto o diploma.  
+  - **Eslogan:** *"Learn. Create. Achieve."*  
+
+**Personalidad de Marca:**  
+- **Seria pero accesible:** Mensajes como *"Amplía tus horizontes académicos"*.  
+- **Confiable y profesional:** Diseño limpio, foco en estructura y contenido.
+
+---
+
+<h4>2. TYPOGRAPHY</h4>
+
+**Jerarquía:**  
+| Elemento          | Estilo (Mobile First)       | Ejemplo en Mockup          |  
+|-------------------|------------------------------|-----------------------------|  
+| **H1 (Título)**   | `600 2rem/2.5rem`             | Explore University Courses  |  
+| **H2 (Subtítulo)**| `500 1.5rem/2rem`             | Featured Instructors        |  
+| **Body (Texto)**  | `400 1rem/1.5rem`             | Course descriptions and profiles |  
+| **Botones**       | `600 1rem/1rem` + ALL CAPS    | ENROLL NOW                  |  
+
+**Fuentes:**  
+- **Principal:** `Poppins` (sans-serif, moderna y legible).  
+- **Secundaria:** `Roboto` para descripciones y contenido largo.
+
+**Reglas:**  
+- Alineación izquierda para todo el contenido textual.  
+- Uso de negritas solo en títulos principales y llamadas a la acción importantes.
+
+---
+
+<h4>3. COLORS</h4>
+
+**Paleta Principal:**  
+| Rol               | Color (HEX)     | Uso                                 |  
+|-------------------|-----------------|-------------------------------------|  
+| **Primario**      | `#E07219`        | Botones principales, acentos de acción (enroll, buy). |
+| **Fondo Oscuro**  | `#1D1D1D`        | Fondo de cabeceras, pie de página, dark mode. |
+| **Secundario**    | `#DEB12C`        | Elementos destacados (precios, logros, insignias). |
+| **Fondo Claro**   | `#ECECEC`        | Fondo general de páginas y tarjetas. |
+
+<p align="center">
+  <img src="./assets/ColorPalette.jpeg" alt="Color Palette"/>
+</p> 
+
+---
+
+<h4>4. SPACING</h4>
+
+**Sistema 8px:**  
+- **Espaciado entre secciones:** `32px` (ej: entre "Explore Courses" y los cards).  
+- **Padding interno:** `16px` (en móvil) / `24px` (en desktop).  
+- **Botones:** `12px 24px` (área de toque cómoda).  
+
+**Grid Layout:**  
+- **Mobile:** 1 columna (scroll vertical optimizado).  
+- **Tablet:** 2 columnas.  
+- **Desktop:** 3-4 columnas para mostrar cursos e instructores.
+
+---
+
+<h4>5. TONO DE COMUNICACIÓN</h4>
+
+**Lenguaje:**  
+| Situación          | Ejemplo                                    |  
+|--------------------|--------------------------------------------|  
+| **Instrucciones**  | *"Select a course to start learning."*     |  
+| **Motivación**     | *"Unlock your potential today! 🚀"*         |  
+| **Errores**        | *"Please complete all required fields."*    |  
+
+**Tono:**
+- Profesional pero inspirador.  
+- Claridad ante todo: instrucciones breves, enfocadas en la acción.
+
+---
+
+<h4>6. TERMINOLOGÍA CONSISTENTE</h4>
+
+**Palabras y Frases:**  
+- **Cursos:** Usar siempre *"Course [Name]"* (ej: *Course Data Science Basics*).  
+- **Botones:** Verbos en infinitivo (*"Enroll Now"*, *"View Details"*, *"Start Lesson"*).  
+- **Roles de Usuario:** *Student*, *Instructor*, *Admin*.  
+- **Estados de Cursos:** *Draft*, *Published*, *Archived*.  
+- **Acciones Comunes:** *Enroll*, *Buy Course*, *Join Live Session*.
+
+---
+
 ### 4.1.2. Web Style Guidelines.
+#### 4.1.2. Web Style Guidelines
+
+Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo estándares visuales modernos para una interfaz *responsive*. Incluiré componentes principales, reglas de interacción y diseño adaptativo, enfocados en accesibilidad, usabilidad y consistencia.
+
+---
+
+#### **1. Componentes UI Responsive**  
+**Patrones reutilizables y su comportamiento en distintos dispositivos:**  
+
+##### **A. Header/Navegación**  
+- **Desktop:**  
+  - Logo alineado a la izquierda + menú de navegación horizontal (`display: flex`).  
+  - Hover en ítems: subrayado en color secundario (`border-bottom: 2px solid #DEB12C`).  
+- **Mobile:**  
+  - Menú hamburguesa (`position: fixed`) + overlay oscuro (`background: rgba(0,0,0,0.5)`).  
+  - Logo centrado, reducido a `36px` de altura.  
+
+##### **B. Cards (Cursos/Lecciones)**  
+- **Desktop:**  
+  - 3 o 4 columnas (`grid-template-columns: repeat(3, 1fr)` o `repeat(4, 1fr)` según ancho).  
+  - Hover: Elevación sutil (`box-shadow: 0 4px 10px rgba(0,0,0,0.1)`).  
+- **Mobile:**  
+  - 1 columna + scroll horizontal (`overflow-x: auto`).  
+  - Ancho de card fijo `320px`.  
+
+##### **C. Formularios (Login/Register/Enroll)**  
+- **Desktop:**  
+  - Ancho de formulario al `50%` de pantalla, centrado (`margin: auto`).  
+- **Mobile:**  
+  - Ancho completo (`width: 100%`), padding interno `16px`.  
+  - Inputs grandes: Altura mínima de `48px` para mejor experiencia táctil.
+
+---
+
+#### **2. Interacciones y Estados**  
+**Microinteracciones sutiles para una plataforma académica más fluida:**  
+
+| Componente   | Estado        | Estilo/Comportamiento                           |  
+|--------------|---------------|------------------------------------------------|  
+| **Botón**    | Hover          | `background-color: #C86117` (oscurecer 10%).    |  
+| **Input**    | Focus          | `outline: 2px solid #DEB12C`.                   |  
+| **Filtros**  | Active         | `background: #E07219`, `color: #FFFFFF`.         |  
+| **Cards**    | Clic/Tap       | Animación ligera de elevación (`transform: scale(1.03)`). |
+
+---
+
+#### **3. Breakpoints y Grid**  
+**Diseño mobile-first para una navegación fluida:**  
+
+```css
+/* Mobile First */
+.container { padding: 16px; }
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+  .container { padding: 24px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Desktop (≥1024px) */
+@media (min-width: 1024px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Large Desktop (≥1440px) */
+@media (min-width: 1440px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
+}
+```
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
