@@ -109,7 +109,42 @@
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
+- [1. Organización Visual del Contenido](#1-organización-visual-del-contenido)
+  - [a) Jerárquica (Prioridad Visual)](#a-jerárquica-prioridad-visual)
+    - [Página de inicio (Landing Page)](#página-de-inicio-landing-page)
+    - [Panel de control principal](#panel-de-control-principal)
+  - [b) Secuencial (Paso a Paso)](#b-secuencial-paso-a-paso)
+    - [Registro nuevo usuario:](#registro-nuevo-usuario)
+    - [Reserva de asesoría:](#reserva-de-asesoría)
+  - [c) Matricial (Cuadrícula)](#c-matricial-cuadrícula)
+    - [Explorar ejercicios:](#explorar-ejercicios)
+- [2. Esquemas de Categorización](#2-esquemas-de-categorización)
+  - [a) Por Temas](#a-por-temas)
+  - [b) Por Tipo de Usuario](#b-por-tipo-de-usuario)
+    - [Usuario regular:](#usuario-regular)
+    - [Asesor:](#asesor)
+    - [Administrador:](#administrador)
+  - [c) Cronológico](#c-cronológico)
+    - [Historial de progreso:](#historial-de-progreso)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
+- [1. Landing Page](#1-landing-page)
+  - [a) Navegación Principal](#a-navegación-principal)
+  - [b) Sección Hero](#b-sección-hero)
+  - [c) Sección de Beneficios](#c-sección-de-beneficios)
+  - [d) Sección de Sobre Nosotros](#d-sección-de-sobre-nosotros)
+  - [e) Sección de Contactanos](#e-sección-de-contactanos)
+  - [f) Sección de Información](#f-sección-de-información)
+- [2. Aplicación Web](#2-aplicación-web)
+  - [a) Navegación Global](#a-navegación-global)
+  - [b) Panel de Control](#b-panel-de-control)
+  - [c) Formularios](#c-formularios)
+- [3. Convenciones Transversales](#3-convenciones-transversales)
+  - [a) Estados](#a-estados)
+  - [b) Tamaños de Texto](#b-tamaños-de-texto)
+- [4. Reglas de Implementación](#4-reglas-de-implementación)
+  - [Consistencia lingüística:](#consistencia-lingüística)
+  - [Accesibilidad:](#accesibilidad)
+  - [Localización:](#localización)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
@@ -1367,6 +1402,8 @@ En esta sección se encontrará el flujo de interacción que tiene la página, s
   <img src="./assets/relation2.png" alt="relation2" width="1000"/>
 </div>
 
+Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
+
 ### 4.4.2. Web Applications Mock-ups.
 
 Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, inclusión, arquitectura de información y el Design System. Las maquetas ilustran la implementación de estos conceptos en la interfaz de usuario y son cruciales para comunicar el diseño a desarrolladores y clientes.
@@ -1382,6 +1419,8 @@ Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, i
 <div align="center">
   <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
 </div>
+
+Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
@@ -1401,6 +1440,58 @@ Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de princ
 </div>
 
 ## 4.5. Web Applications Prototyping.
+En el desarrollo de nuestra aplicación web, hemos priorizado la creación de una experiencia simple, funcional y académicamente confiable para los usuarios interesados en ampliar sus conocimientos universitarios mediante cursos en línea especializados. A continuación, se describen las principales funcionalidades prototipadas:
+
+---
+
+**Registro en la Plataforma:**  
+El proceso de registro es rápido e intuitivo. El usuario puede crear una cuenta utilizando su correo electrónico o iniciar sesión directamente a través de su cuenta de Google. Se recopilan datos básicos para personalizar la experiencia desde el primer acceso.
+
+---
+
+**Explorar y Buscar Cursos:**  
+Los usuarios pueden explorar un catálogo organizado por categorías académicas (Ingeniería, Negocios, Derecho, Tecnología, etc.) o buscar cursos específicos mediante palabras clave, filtros de nivel de dificultad y duración.
+
+---
+
+**Visualizar Información del Curso:**  
+Al seleccionar un curso, el usuario accede a una vista detallada que muestra la descripción general, el temario, los requisitos previos, el precio, los materiales disponibles (videos, documentos) y la presentación del instructor.
+
+---
+
+**Comprar e Inscribirse en un Curso:**  
+Los usuarios pueden adquirir cursos de forma rápida y segura a través de diferentes métodos de pago integrados. Tras la compra, se habilita automáticamente el acceso completo al contenido del curso.
+
+---
+
+**Acceder a Contenido del Curso:**  
+Una vez inscritos, los estudiantes pueden:  
+- Ver lecciones en video pregrabadas.  
+- Descargar materiales de apoyo.  
+- Participar en sesiones en vivo programadas.  
+- Marcar su progreso dentro del curso.  
+- Tomar notas personales en cada lección.
+
+---
+
+**Editar Perfil de Usuario:**  
+Los usuarios pueden personalizar su perfil agregando datos académicos relevantes como su universidad, carrera, áreas de interés y actualizar su información personal o sus métodos de pago vinculados.
+
+---
+
+**Participar en Foros y Comentarios:**  
+Cada curso incluye una sección de comentarios o foros donde los estudiantes pueden interactuar, hacer preguntas y compartir experiencias directamente con el instructor o con otros alumnos.
+
+---
+
+**Recibir Notificaciones Académicas:**  
+Los usuarios reciben notificaciones importantes sobre nuevos cursos, promociones, recordatorios de sesiones en vivo y actualizaciones relevantes a través de correos electrónicos y alertas dentro de la plataforma.
+
+---
+
+**Obtener Certificados de Finalización:**  
+Al completar exitosamente los cursos, los estudiantes pueden descargar certificados digitales que acreditan su participación y logros, útiles para su portafolio académico o profesional.
+
 ## 4.6. Domain-Driven Software Architecture.
 El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
 
