@@ -689,10 +689,12 @@ Las dificultades técnicas y la limitada interacción en algunos entornos digita
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <div align="center">
   <img src="./assets/UserPersona1.png" alt="UserPersona1" width="1000"/>
 </div>
 
+**Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/UserPersona2.png" alt="UserPersona2" width="1000"/>
 </div>
