@@ -1454,6 +1454,27 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+
+En esta entrega, nuestro equipo logró publicar exitosamente la landing page.
+
+Enlace de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+![image.png](./assets/LPHero.png)
+Descripción: Imagen del hero y header<br><br>
+
+![image.png](./assets/LPInformation.png)
+Descripción: Imagen de la sección Information<br><br>
+
+![image.png](./assets/LPBenefits.png)
+Descripción: Imagen de la sección Benefits<br><br>
+
+![image.png](./assets/LPAboutUs.png)
+Descripción: Imagen de la sección About Us<br><br>
+
+![image.png](./assets/LPContactUs.png)
+Descripción: Imagen de la sección Contact Us<br><br>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
