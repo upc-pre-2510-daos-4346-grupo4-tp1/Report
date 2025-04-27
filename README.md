@@ -84,6 +84,10 @@
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+  - [Análisis](#análisis)
+    - [Tareas con mayor frecuencia e importancia](#tareas-con-mayor-frecuencia-e-importancia)
+    - [Coincidencias](#coincidencias)
+    - [Diferencias](#diferencias)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
@@ -700,6 +704,52 @@ Las dificultades técnicas y la limitada interacción en algunos entornos digita
 </div>
 
 ### 2.3.2. User Task Matrix.
+
+
+
+Este User Task Matrix considera dos segmentos clave:
+
+- **Creadores de cursos (Sofía Fuentes)**: Profesionales de educación que buscan herramientas visuales, organizadas y efectivas para enseñar, mantener comunicación activa con los estudiantes y ofrecer certificaciones.
+- **Estudiantes universitarios (Samuel García)**: Estudiantes que desean encontrar cursos online accesibles, económicos y fáciles de filtrar para mejorar su nivel académico, optimizando su tiempo.
+
+Las tareas listadas son actividades que estos segmentos realizan habitualmente para cumplir sus objetivos educativos, sin depender necesariamente de una plataforma específica.
+
+| Tareas | Sofía Fuentes (Frecuencia) | Sofía Fuentes (Importancia) | Samuel García (Frecuencia) | Samuel García (Importancia) |
+|:--|:--|:--|:--|:--|
+| Crear cursos estructurados y organizados | Alta | Alta | - | - |
+| Mantener comunicación constante con estudiantes | Alta | Alta | Media | Alta |
+| Buscar herramientas visuales y organizadas | Media | Alta | - | - |
+| Encontrar cursos que mejoren habilidades académicas | - | - | Alta | Alta |
+| Buscar cursos accesibles en precio | - | - | Alta | Alta |
+| Usar filtros de búsqueda eficiente para cursos | - | - | Alta | Alta |
+| Administrar plataformas educativas | Media | Alta | Media | Media |
+| Optimizar tiempo de navegación y búsqueda | Media | Alta | Alta | Alta |
+| Mantener interacción activa en cursos online | Alta | Alta | Media | Alta |
+| Resolver dudas de estudiantes/profesores en plataformas | Media | Alta | Media | Alta |
+
+
+## Análisis
+
+### Tareas con mayor frecuencia e importancia
+
+**Samuel García:**  
+Se enfoca principalmente en encontrar cursos rápidamente, comparar opciones y asegurarse de obtener certificaciones. Esto refleja su necesidad de eficiencia, accesibilidad económica y facilidad de uso para complementar su educación formal.
+
+**Sofía Fuentes:**  
+Da máxima prioridad a crear contenido organizado, gestionar la comunicación con estudiantes, y evaluar el progreso de sus alumnos. Su perfil busca plataformas que favorezcan la enseñanza estructurada, colaborativa y visualmente atractiva.
+
+### Coincidencias
+
+- Ambos consideran seguir el progreso (académico o de sus alumnos) como una tarea crítica.
+- Ambos valoran plataformas que faciliten la interacción (Samuel buscando ayuda técnica y Sofía comunicándose con estudiantes).
+- Compartir recursos y tener acceso a contenidos relevantes es importante para ambos, aunque en distintos roles.
+
+### Diferencias
+
+- Samuel busca principalmente acceso rápido a cursos y certificaciones para su crecimiento académico; sus tareas son más orientadas al consumo de contenido.
+- Sofía se centra en crear y gestionar contenido para otros, priorizando la calidad de la enseñanza, la organización visual y la retroalimentación activa.
+- Las tareas de publicar, actualizar cursos y gestionar estudiantes son exclusivas de Sofía como creadora de contenido.
+
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 
