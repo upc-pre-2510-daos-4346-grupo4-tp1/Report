@@ -746,6 +746,11 @@ Epic ID
 | Rango de Fechas  | Selector de calendario       | Buscar cursos activos en un rangos específicos |
 | Nivel de Curso   | Básico/Intermedio/Avanzado    | Personaliza los resultados según nivel académico |
 
+**Visualización de Resultados:**
+
+ - Cards de cursos encontrados (una combinacion de imagen + título + resumen breve)
+ - Filtros aplicados visibles en la parte superior
+ - Sistema de "favoritos" para guardar cursos de interes
 
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
