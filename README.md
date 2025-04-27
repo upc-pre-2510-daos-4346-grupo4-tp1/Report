@@ -241,25 +241,16 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 #### 1.2.2.1. Lean UX Problem Statements.
 #### 1.2.2.2. Lean UX Assumptions.
 
-Asumimos que existe una demanda significativa de estudiantes universitarios que buscan contenido académico especializado más allá de lo que ofrecen las plataformas masivas.
-
-Creemos que los docentes y profesionales con experiencia académica están dispuestos a crear y vender cursos en una plataforma enfocada en el ámbito universitario.
-
-Asumimos que los estudiantes valoran la calidad pedagógica y la estructuración de los contenidos al estilo universitario.
-
-Suponemos que los usuarios (estudiantes) están dispuestos a pagar un precio premium por cursos que les ayuden a preparar exámenes y reforzar asignaturas específicas.
-
-Creemos que una interfaz intuitiva con filtros por asignatura, nivel y profesor reducirá drásticamente el tiempo de búsqueda de cursos.
-
-Asumimos que el principal freno para los docentes es la complejidad de las herramientas de creación; si las simplificamos, aumentará el número de cursos publicados.
-
-Creemos que ofrecer herramientas de comunicación directa (foros, chats, mentorías) incrementará la confianza y el engagement de los estudiantes.
-
-Suponemos que el mercado universitario de Latinoamérica es suficientemente grande como para validar el producto antes de expandirse a otras regiones.
-
-Suponemos que la falta de espacios especializados para formación universitaria es un problema más relevante que el de idiomas, programación o habilidades blandas.
-
-Creemos que el proceso de pago y venta debe ser ágil y transparente para no ahuyentar ni a estudiantes ni a docentes
+- Asumimos que existe una demanda significativa de estudiantes universitarios que buscan contenido académico especializado más allá de lo que ofrecen las plataformas masivas.
+- Creemos que los docentes y profesionales con experiencia académica están dispuestos a crear y vender cursos en una plataforma enfocada en el ámbito universitario.
+- Asumimos que los estudiantes valoran la calidad pedagógica y la estructuración de los contenidos al estilo universitario.
+- Suponemos que los usuarios (estudiantes) están dispuestos a pagar un precio premium por cursos que les ayuden a preparar exámenes y reforzar asignaturas específicas.
+- Creemos que una interfaz intuitiva con filtros por asignatura, nivel y profesor reducirá drásticamente el tiempo de búsqueda de cursos.
+- Asumimos que el principal freno para los docentes es la complejidad de las herramientas de creación; si las simplificamos, aumentará el número de cursos publicados.
+- Creemos que ofrecer herramientas de comunicación directa (foros, chats, mentorías) incrementará la confianza y el engagement de los estudiantes.
+- Suponemos que el mercado universitario de Latinoamérica es suficientemente grande como para validar el producto antes de expandirse a otras regiones.
+- Suponemos que la falta de espacios especializados para formación universitaria es un problema más relevante que el de idiomas, programación o habilidades blandas.
+- Creemos que el proceso de pago y venta debe ser ágil y transparente para no ahuyentar ni a estudiantes ni a docentes.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
