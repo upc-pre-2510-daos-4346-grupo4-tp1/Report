@@ -90,6 +90,12 @@
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+        - [**1. BRANDING**](#1-branding)
+        - [**2. TYPOGRAPHY**](#2-typography)
+        - [**3. COLORS**](#3-colors)
+        - [**4. SPACING**](#4-spacing)
+        - [**5. TONO DE COMUNICACIÓN**](#5-tono-de-comunicación)
+        - [**6. TERMINOLOGÍA CONSISTENTE**](#6-terminología-consistente)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
@@ -771,6 +777,95 @@ Epic ID
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+Esta guía establece los fundamentos de diseño visual y comunicación para **Edunova**, enfocándose en **consistencia**, **claridad académica** y **experiencia de usuario amigable**. Se basa en principios de diseño modernos y buenas prácticas de UI/UX para plataformas educativas.
+
+---
+
+##### **1. BRANDING**  
+**Identidad Visual:**  
+- **Estilo:** Académico moderno con toques de innovación.  
+- **Enfoque:** Educación universitaria accesible y de alta calidad.  
+- **Elementos clave:**  
+  - **Logo:** Tipografía elegante + ícono opcional de libro abierto o diploma.  
+  - **Eslogan:** *"Learn. Create. Achieve."*  
+
+**Personalidad de Marca:**  
+- **Seria pero accesible:** Mensajes como *"Amplía tus horizontes académicos"*.  
+- **Confiable y profesional:** Diseño limpio, foco en estructura y contenido.
+
+---
+
+##### **2. TYPOGRAPHY**  
+**Jerarquía:**  
+| Elemento          | Estilo (Mobile First)       | Ejemplo en Mockup          |  
+|-------------------|------------------------------|-----------------------------|  
+| **H1 (Título)**   | `600 2rem/2.5rem`             | Explore University Courses  |  
+| **H2 (Subtítulo)**| `500 1.5rem/2rem`             | Featured Instructors        |  
+| **Body (Texto)**  | `400 1rem/1.5rem`             | Course descriptions and profiles |  
+| **Botones**       | `600 1rem/1rem` + ALL CAPS    | ENROLL NOW                  |  
+
+**Fuentes:**  
+- **Principal:** `Poppins` (sans-serif, moderna y legible).  
+- **Secundaria:** `Roboto` para descripciones y contenido largo.
+
+**Reglas:**  
+- Alineación izquierda para todo el contenido textual.  
+- Uso de negritas solo en títulos principales y llamadas a la acción importantes.
+
+---
+
+##### **3. COLORS**  
+**Paleta Principal:**  
+| Rol               | Color (HEX)     | Uso                                 |  
+|-------------------|-----------------|-------------------------------------|  
+| **Primario**      | `#E07219`        | Botones principales, acentos de acción (enroll, buy). |
+| **Fondo Oscuro**  | `#1D1D1D`        | Fondo de cabeceras, pie de página, dark mode. |
+| **Secundario**    | `#DEB12C`        | Elementos destacados (precios, logros, insignias). |
+| **Fondo Claro**   | `#ECECEC`        | Fondo general de páginas y tarjetas. |
+
+<p align="center">
+  <img src="./assets/ColorPalette.jpeg" alt="Color Palette"/>
+</p> 
+
+---
+
+##### **4. SPACING**  
+**Sistema 8px:**  
+- **Espaciado entre secciones:** `32px` (ej: entre "Explore Courses" y los cards).  
+- **Padding interno:** `16px` (en móvil) / `24px` (en desktop).  
+- **Botones:** `12px 24px` (área de toque cómoda).  
+
+**Grid Layout:**  
+- **Mobile:** 1 columna (scroll vertical optimizado).  
+- **Tablet:** 2 columnas.  
+- **Desktop:** 3-4 columnas para mostrar cursos e instructores.
+
+---
+
+##### **5. TONO DE COMUNICACIÓN**  
+**Lenguaje:**  
+| Situación          | Ejemplo                                    |  
+|--------------------|--------------------------------------------|  
+| **Instrucciones**  | *"Select a course to start learning."*     |  
+| **Motivación**     | *"Unlock your potential today! 🚀"*         |  
+| **Errores**        | *"Please complete all required fields."*    |  
+
+**Tono:**  
+- Profesional pero inspirador.  
+- Claridad ante todo: instrucciones breves, enfocadas en la acción.
+
+---
+
+##### **6. TERMINOLOGÍA CONSISTENTE**  
+**Palabras y Frases:**  
+- **Cursos:** Usar siempre *"Course [Name]"* (ej: *Course Data Science Basics*).  
+- **Botones:** Verbos en infinitivo (*"Enroll Now"*, *"View Details"*, *"Start Lesson"*).  
+- **Roles de Usuario:** *Student*, *Instructor*, *Admin*.  
+- **Estados de Cursos:** *Draft*, *Published*, *Archived*.  
+- **Acciones Comunes:** *Enroll*, *Buy Course*, *Join Live Session*.
+
+---
+
 ### 4.1.2. Web Style Guidelines.
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
