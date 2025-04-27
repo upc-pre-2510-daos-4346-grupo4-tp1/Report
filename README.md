@@ -1,27 +1,30 @@
-# SofTeam  
-**Producto: EDUnova**  
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<h1>SofTeam</h1>
+<h2>Producto: EDUnova</h2>
+<h2>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h2>
 
 <p align="center">
   <img src="./assets/upc-logo.png" alt="UPC Logo" width="200"/>
 </p>
 
 
-### Carrera: Ingeniería de Software  
-### Ciclo: 5° ciclo  
-### Curso: Desarrollo de Aplicaciones Open Source
-### Sección: 1ASI0729
-### Profesor: Rafael Oswaldo Castro Veramendi
+<h3>Carrera: Ingeniería de Software</h3>
+<h3>Ciclo: 5° ciclo</h3>
+<h3>Curso: Desarrollo de Aplicaciones Open Source</h3>
+<h3>Sección: 1ASI0729</h3>
+<h3>Profesor: Rafael Oswaldo Castro Veramendi</h3>
 
-## Informe de Trabajo Final  
-**"SofTeam"**  
+<h2>Informe de Trabajo Final</h2>
+
+**Startup: "SofTeam"**  
 **Producto: "EDUnova"**
 
-### Integrantes:
+<h3>Integrantes:</h3>
+
 - Diego Rolin Acuña Tomas – U202221436  
 - Tony Do Santos Torres Cortez - U201917662
--  
--   
+- Cristian Luis Iparraguirre Rueda - U202113111
+- Esteban Valentino Alvarez Falen - U202315628
+- 
 
 **Abril, 2025**  
 **URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
@@ -31,8 +34,9 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor | Descripción |
-|---------|-------------|-------|-------------|
+| Versión | Fecha      | Autor                               | Descripción de modificación        |
+|---------|------------|-------------------------------------|------------------------------------|
+| TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Torres Cortez, Tony Do Santos<br>- Alvarez Falen, Esteban Valentino<br>- | Implementación del capítulo 1 al 5 y el landing page |
 
 # Project Report Collaboration Insights
 
@@ -44,15 +48,6 @@
 
 
 # Contenido
-- [SofTeam](#softeam)
-- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
-    - [Carrera: Ingeniería de Software](#carrera-ingeniería-de-software)
-    - [Ciclo: 5° ciclo](#ciclo-5-ciclo)
-    - [Curso: Desarrollo de Aplicaciones Open Source](#curso-desarrollo-de-aplicaciones-open-source)
-    - [Sección: 1ASI0729](#sección-1asi0729)
-    - [Profesor: Rafael Oswaldo Castro Veramendi](#profesor-rafael-oswaldo-castro-veramendi)
-  - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Integrantes:](#integrantes)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -184,24 +179,32 @@ Ser reconocidos como una startup líder en el desarrollo de plataformas educativ
 </p>
 
 ### 1.1.2. Perfiles de integrantes del equipo.
-
----
-<h4> Diego Rolin Acuña Tomas – Ingeniería de Software – u202221436</h4>
-
-<img src="./assets/DiegoA.jpg" alt="DIEGOACUÑA" style="display: block; margin-left: auto; margin-right: auto;" height="300"/>
-
-Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegí esta carrera porque me apasionan las matemáticas y la programación. Mi objetivo es aplicar mis conocimientos para desarrollar aplicaciones enfocadas en el área de finanzas, ya que aspiro a trabajar en el sector bancario. En mi tiempo libre, disfruto ver películas con mi familia y caminar por lugares interesantes, como montañas o playas. Considero que mis principales fortalezas son la tenacidad y la curiosidad, cualidades que me ayudarán a superar con éxito el curso y alcanzar el mejor puntaje posible.
-
----
-
-<h4> Tony Do Santos Torres Cortez – Ingeniería de Software – u201917662</h4>
-
-<img src="./assets/cara.png" alt="TONY" style="display: block; margin-left: auto; margin-right: auto;" height="300"/>
-
-Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegi esta carreara porque desde pequeño me apasiona la tecnología y todo lo relacionado a ella. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades. En mi tiempo libre, me gusta pasar tiempo con mi familia, ver series y practicar programación. 
-
-
-
+<TABLE BORDER>
+	<TR>
+		<TH><h2>Intregantes</h2></TH> 
+		<TH><h2>Descripción</h2></TH>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Cristian Luis Iparraguirre Rueda - U202113111<br><br><img src="assets/fotoCristian.jpg" alt="Foto Cristian" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy una persona con habilidades de aprendizaje rápido, lo que me permite optimizar tanto mi trabajo individual como en equipo para alcanzar los objetivos establecidos. Tengo experiencia trabajando en equipo, contribuyendo con ideas creativas y soluciones prácticas. Me apasiona aprender sobre nuevas tecnologías y mantengo una actitud perseverante en el desarrollo de cualquier proyecto. Tengo conocimientos sólidos en C#, Java, Python, C++, SQL y NoSQL, así como en el desarrollo web con HTML, CSS y JavaScript. Mi enfoque está en la resolución de problemas a través de la programación y en el manejo de bases de datos. Disfruto aprendiendo y explorando nuevas tecnologías, lo que me permite optimizar mis proyectos para que se completen de manera innovadora y efectiva.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Diego Rolin Acuña Tomas – U202221436<br><br><img src="assets/DiegoA.jpg" alt="Foto Diego" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegí esta carrera porque me apasionan las matemáticas y la programación. Mi objetivo es aplicar mis conocimientos para desarrollar aplicaciones enfocadas en el área de finanzas, ya que aspiro a trabajar en el sector bancario. En mi tiempo libre, disfruto ver películas con mi familia y caminar por lugares interesantes, como montañas o playas. Considero que mis principales fortalezas son la tenacidad y la curiosidad, cualidades que me ayudarán a superar con éxito el curso y alcanzar el mejor puntaje posible.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Tony Do Santos Torres Cortez – U201917662<br><br><img src="assets/cara.png" alt="Foto Tony" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegi esta carreara porque desde pequeño me apasiona la tecnología y todo lo relacionado a ella. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades. En mi tiempo libre, me gusta pasar tiempo con mi familia, ver series y practicar programación.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Esteban Valentino Alvarez Falen - U202315628<br><br><img src="assets/fotoEsteban.jpeg" alt="Foto Esteban" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de Ingeniería de software y siempre tuve una pasión en los juegos y en su desarrollo con el sueño de ser parte de uno. Me encanta el arte y aunque no pueda memorizar los nombres o categorías disfruto verlo.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>XXXXXXXX - XXXXXXXX<br><br><img src="assets/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">XXXXXXXX</td>
+	</TR>
+</TABLE>
 
 ## 1.2. Solution Profile.
 ### 1.2.1 Antecedentes y problemática.
