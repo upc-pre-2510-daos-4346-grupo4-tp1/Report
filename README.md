@@ -813,11 +813,7 @@ Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WK
   <img src="./assets/FInal4.jpg" alt="mock4" width="1000"/>
 </div>
 
-
-<div align="center">
-  <img src="./assets/FInal5.jpg" alt="mock5" width="1000"/>
-</div>
-
+Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled?node-id=0-1&t=XRp6JykfbClFpZ4R-1)
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
