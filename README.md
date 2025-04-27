@@ -37,15 +37,27 @@
 | Versión | Fecha      | Autor                               | Descripción de modificación        |
 |---------|------------|-------------------------------------|------------------------------------|
 | TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Torres Cortez, Tony Do Santos<br>- Alvarez Falen, Esteban Valentino<br>- | Creacion del documento|
-|TB1      | 24/04/20205| - Diego Rolin | - Programé la landing page estática desde cero, asegurándome de que fuera responsive y que pudiera hacer deploy. También estuve modificándola para solucionar errores.|
-|TB1| 25/04/2025| - Tony Do Santos |Realice el capitulo 4 parcialmente <br> Analisis competitivo <br> User Stories <br> Cuadro de product Backlog|
-|TB1| 25/04/2025| - Acuña Tomas|Realice parcialmente el cap 1 <br>|
-|TB1| 25/04/2025| - Esteban Valentino|Realice parcialmente el cap 2 <br>|
-|TB1| 25/04/2025| - Diego Rolin|Realice el capitulo 5 <br>|
-|TB1| 25/04/2025| - Alvarez Falen|Realice el parcialmente capitulo 3 <br>|
-|TB1| 25/04/2025| - Cristian Iparraguirre|Realice el capitulo 4 parcialmente <br>|
+|TB1      | 24/04/20205| - Diego Acuña|Programé la landing page estática desde cero, asegurándome de que fuera responsive y que pudiera hacer deploy. También estuve modificándola para solucionar errores.|
+|TB1| 25/04/2025| - Tony Torres |Realice el apartado de Wireframe y Mockups para mostrar el diseño inicial y final de lo que seria nuestra landing|
+|TB1| 25/04/2025| - Esteban alvarez| Realice el Lean UX  canvas para el desarrollo y guia para los segmentos de nuestro proyecto|
+|TB1      | 24/04/20205| - Diego Acuña|Realice el Software Configuration Management que muestra los difenteste estilos y propositos del porque optamos por nuestra landing final|
+|TB1| 25/04/2025| - Cristian Iparraguirre|Realice Antecedentes y problematica para indentificar con claridad el problema que abordamos e intentamos solucionar|
+|TB1| 25/04/2025| - Tony Torres |Realice el analisis competitivo para identificar nuestros pros y contras frente a nuestra competencia directa|
+|TB1| 25/04/2025| - Cristian Iparraguirre|Realice diseño y registro de entrevistas para saber que opinan los segmentos osbre nuestra pagina y asi poder darle mejoras especificas|
+|TB1| 24/04/20205| - Diego Acuña|Desarrolle el Web Applications UX/UI Design en conjunto a mi compañero Cristian Iparraguirre  para demostrar las diferentes interfaces de nuestro sistema|
+|TB1| 25/04/2025| - Esteban alvarez|Realice los segmentos objetivos para definir a quien va dirigido nuestro producto|
+|TB1| 25/04/2025| - Tony Torres |Realice los user storie para deja claro las funciones y procesos que podras hacer el usuario en nuestra aplicacion|
+|TB1| 24/04/20205| - Diego Acuña|Realice el Landing Page, Services & Applications Implementation para presentar los diferentes procesos por los que paso nuestra landing |
+|TB1| 25/04/2025| - Cristian Iparraguirre|Realice el Domain-Driven Software Architecture para demostrar los procesos por los cuales pasa nuestra aplicacion para cumplir con las funciones implementadas|
+|TB1| 25/04/2025| - Esteban alvarez|Realice el analisis de entrevistas para identificar que podemos implementar o mejorar en nuestro proyecto|
+|TB1| 25/04/2025| - Tony Torres |Desarrolle la descripcion de nuestra startup para reflejar nuestra intencion, mision y vision|
+|TB1| 24/04/20205| - Diego Acuña|Desarrolle tanto as-is scenario mapping como to-be scenario mapping para mostrar las diferentes etapaspor las que pasa nuestro cliente al usar nuestra aplicación|
+|TB1| 25/04/2025| - Cristian Iparraguirre|Desarrolle Software Object-Oriented Design para identificar los diferentes valores, clases, datos, etc que empleara nuestro proyecto para cumplir con los estandares impuestos|
+|TB1| 25/04/2025| - Esteban alvarez|Realice el user persona para definir los perfiles de usuario que tenemos|
+|TB1| 25/04/2025| - Diego Acuña|Realice el Empathy map para mostrar las diferentes etapas de nuestros usuarios|
+|TB1| 25/04/2025| - Cristian Iparraguirre|Desarrolle el Web Applications UX/UI Design en conjunto a mi compañero Diego acuña para demostrar las diferentes interfaces de nuestro sistema|
 
-|
+
 # Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:**  
