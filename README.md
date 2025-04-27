@@ -657,6 +657,25 @@ Resumen:
 
 ## 2.4. Ubiquitous Language.
 
+
+| **Término**              | **Significado dentro del dominio de la app**                                              |
+|--------------------------|-----------------------------------------------------------------------------------------|
+| **Plataforma EDUnova**    | Sistema que conecta a estudiantes, docentes y creadores de cursos especializados en educación superior. |
+| **Estudiantes**           | Usuarios que buscan aprender y reforzar conocimientos universitarios a través de cursos. |
+| **Docentes**              | Profesionales que crean y ofrecen contenido educativo a los estudiantes en la plataforma. |
+| **Creadores de Cursos**  | Personas que desarrollan y venden cursos especializados en la plataforma.               |
+| **Cursos Universitarios**| Contenidos educativos específicos para la educación superior.                           |
+| **Contenido Académico**   | Material educativo ofrecido en la plataforma, como textos, videos y exámenes.           |
+| **Certificación**         | Reconocimiento oficial otorgado a los estudiantes por completar un curso.               |
+| **Plataforma de Monetización** | Herramientas para que los creadores gestionen y vendan sus cursos.                      |
+| **Interacción Docente-Estudiante** | Comunicación entre estudiantes y docentes a través de la plataforma.            |
+| **Feedback**              | Comentarios de usuarios para mejorar la plataforma y el contenido.                      |
+| **Accesibilidad**         | Facilidad de uso de la plataforma, tanto en precios como en formatos.                   |
+| **Gamificación**          | Estrategias para aumentar la motivación y el compromiso de los estudiantes.             |
+| **Marketplace de Cursos** | Espacio donde los creadores publican y venden sus cursos.                              |
+| **Aulas en Tiempo Real**  | Clases en vivo que permiten la interacción directa entre docentes y estudiantes.         |
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
 
