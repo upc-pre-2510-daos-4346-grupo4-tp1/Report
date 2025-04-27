@@ -1487,6 +1487,14 @@ Los usuarios reciben notificaciones importantes sobre nuevos cursos, promociones
 **Obtener Certificados de Finalización:**  
 Al completar exitosamente los cursos, los estudiantes pueden descargar certificados digitales que acreditan su participación y logros, útiles para su portafolio académico o profesional.
 
+<p align="center">
+<img src="./assets/PrototipoWeb.png" alt="PrototipoWeb"/>
+</p>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/EZPGSnteMP1Jg-y2LMju5dYBN5JEsNQnkx43cHBEqKQG5Q?e=stK1n5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+
 ## 4.6. Domain-Driven Software Architecture.
 El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
 
