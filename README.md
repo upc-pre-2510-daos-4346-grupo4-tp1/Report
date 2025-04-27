@@ -740,6 +740,11 @@ Epic ID
 
 ### 4.2.4. Searching Systems.
 
+| Filtro           | Opciones                    | Función |
+|------------------|------------------------------|---------|
+| Tipo de Contenido | Cursos/Certificaciones/Webinars | Filtros por categoría académica |
+| Rango de Fechas  | Selector de calendario       | Buscar cursos activos en un rangos específicos |
+| Nivel de Curso   | Básico/Intermedio/Avanzado    | Personaliza los resultados según nivel académico |
 
 
 ### 4.2.5. Navigation Systems.
