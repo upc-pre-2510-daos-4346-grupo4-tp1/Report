@@ -1,27 +1,30 @@
-# SofTeam  
-**Producto: EDUnova**  
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<h1>SofTeam</h1>
+<h2>Producto: EDUnova</h2>
+<h2>UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h2>
 
 <p align="center">
   <img src="./assets/upc-logo.png" alt="UPC Logo" width="200"/>
 </p>
 
 
-### Carrera: Ingeniería de Software  
-### Ciclo: 5° ciclo  
-### Curso: Desarrollo de Aplicaciones Open Source
-### Sección: 1ASI0729
-### Profesor: Rafael Oswaldo Castro Veramendi
+<h3>Carrera: Ingeniería de Software</h3>
+<h3>Ciclo: 5° ciclo</h3>
+<h3>Curso: Desarrollo de Aplicaciones Open Source</h3>
+<h3>Sección: 1ASI0729</h3>
+<h3>Profesor: Rafael Oswaldo Castro Veramendi</h3>
 
-## Informe de Trabajo Final  
-**"SofTeam"**  
+<h2>Informe de Trabajo Final</h2>
+
+**Startup: "SofTeam"**  
 **Producto: "EDUnova"**
 
-### Integrantes:
+<h3>Integrantes:</h3>
+
 - Diego Rolin Acuña Tomas – U202221436  
+- Tony Do Santos Torres Cortez - U201917662
+- Cristian Luis Iparraguirre Rueda - U202113111
+- Esteban Valentino Alvarez Falen - U202315628
 - 
--  
--   
 
 **Abril, 2025**  
 **URL del proyecto:** [https://github.com/upc-pre-2510-daos-4346-grupo4-tp1](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1)
@@ -31,8 +34,9 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor | Descripción |
-|---------|-------------|-------|-------------|
+| Versión | Fecha      | Autor                               | Descripción de modificación        |
+|---------|------------|-------------------------------------|------------------------------------|
+| TB1     | 19/04/2025 | - Iparraguirre Rueda, Cristian Luis<br>- Acuña Tomas, Diego Rolin<br>- Torres Cortez, Tony Do Santos<br>- Alvarez Falen, Esteban Valentino<br>- | Implementación del capítulo 1 al 5 y el landing page |
 
 # Project Report Collaboration Insights
 
@@ -44,15 +48,6 @@
 
 
 # Contenido
-- [SofTeam](#softeam)
-- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
-    - [Carrera: Ingeniería de Software](#carrera-ingeniería-de-software)
-    - [Ciclo: 5° ciclo](#ciclo-5-ciclo)
-    - [Curso: Desarrollo de Aplicaciones Open Source](#curso-desarrollo-de-aplicaciones-open-source)
-    - [Sección: 1ASI0729](#sección-1asi0729)
-    - [Profesor: Rafael Oswaldo Castro Veramendi](#profesor-rafael-oswaldo-castro-veramendi)
-  - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [Integrantes:](#integrantes)
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
@@ -96,12 +91,21 @@
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines-1)
+      - [**1. Componentes UI Responsive**](#1-componentes-ui-responsive)
+        - [**A. Header/Navegación**](#a-headernavegación)
+        - [**B. Cards (Cursos/Lecciones)**](#b-cards-cursoslecciones)
+        - [**C. Formularios (Login/Register/Enroll)**](#c-formularios-loginregisterenroll)
+      - [**2. Interacciones y Estados**](#2-interacciones-y-estados)
+      - [**3. Breakpoints y Grid**](#3-breakpoints-y-grid)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [1. Landing Page](#1-landing-page)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [1. Landing Page](#1-landing-page-1)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
@@ -113,7 +117,7 @@
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.2. Software Architecture Container Diagram.](#462-software-architecture-container-diagram)
     - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
   - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
     - [4.7.1. Class Diagrams.](#471-class-diagrams)
@@ -123,9 +127,26 @@
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirement Management](#requirement-management)
+  - [| **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | miro.com |](#-miro--plataforma-colaborativa-en-línea-utilizada-para-la-creación-de-pizarras-visuales-facilitando-la-lluvia-de-ideas-la-planificación-de-flujos-de-trabajo-y-la-representación-de-conceptos-clave-del-proyecto--mirocom-)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Documentation](#software-documentation)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
+      - [Producto y Repositorio](#producto-y-repositorio)
+      - [Estructura del Repositorio](#estructura-del-repositorio)
+      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
+      - [Mensajes de Commits](#mensajes-de-commits)
+      - [Documentación](#documentación)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+      - [Landing Page](#landing-page)
+      - [Control de Versiones](#control-de-versiones)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
@@ -135,7 +156,15 @@
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+    - [🚀 **Pasos para hacer deploy**](#-pasos-para-hacer-deploy)
+        - [1. Crear un nuevo repositorio en GitHub](#1-crear-un-nuevo-repositorio-en-github)
+        - [2. Subir tu proyecto al repositorio](#2-subir-tu-proyecto-al-repositorio)
+        - [3. Habilitar GitHub Pages](#3-habilitar-github-pages)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+  - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 # Student Outcome
 
@@ -143,20 +172,48 @@
 ## 1.1. Startup Profile.
 ### 1.1.1. Descripción de la Startup.
 SofTeam creada como un startup por un grupo de estudiantes universitarios de la carrera de ingeniería de Software. Nuestro propósito es desarrollar un producto de software que brinde soporte a un modelo de negocio independiente y sostenible. 
-Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. 
+Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. Lo que nos diferencia de otras aplicaciones es que nuestra plataforma está enfocada en ser intuitiva, flexible y en constante evolución, es decir, incorporar tecnologias emergentes que permitan un mejor analisis de usuario resultando asi en una mejora significativa en la educación superior digital.
+
+Misión
+Desarrollar soluciones de software innovadoras y accesibles que fortalezcan la educación superior, facilitando el aprendizaje y la enseñanza a través de herramientas tecnológicas modernas, confiables y sostenibles.
+
+Visión
+Ser reconocidos como una startup líder en el desarrollo de plataformas educativas digitales en América Latina, impulsando el crecimiento profesional y académico mediante la tecnología y el compromiso con la calidad y la innovación.
+
+
+<p align="center">
+  <img src="assets/Logo.png" alt="Logo Edunova"/>
+</p>
+
 ### 1.1.2. Perfiles de integrantes del equipo.
+<TABLE BORDER>
+	<TR>
+		<TH><h2>Intregantes</h2></TH> 
+		<TH><h2>Descripción</h2></TH>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Cristian Luis Iparraguirre Rueda - U202113111<br><br><img src="assets/fotoCristian.jpg" alt="Foto Cristian" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy una persona con habilidades de aprendizaje rápido, lo que me permite optimizar tanto mi trabajo individual como en equipo para alcanzar los objetivos establecidos. Tengo experiencia trabajando en equipo, contribuyendo con ideas creativas y soluciones prácticas. Me apasiona aprender sobre nuevas tecnologías y mantengo una actitud perseverante en el desarrollo de cualquier proyecto. Tengo conocimientos sólidos en C#, Java, Python, C++, SQL y NoSQL, así como en el desarrollo web con HTML, CSS y JavaScript. Mi enfoque está en la resolución de problemas a través de la programación y en el manejo de bases de datos. Disfruto aprendiendo y explorando nuevas tecnologías, lo que me permite optimizar mis proyectos para que se completen de manera innovadora y efectiva.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Diego Rolin Acuña Tomas – U202221436<br><br><img src="assets/DiegoA.jpg" alt="Foto Diego" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegí esta carrera porque me apasionan las matemáticas y la programación. Mi objetivo es aplicar mis conocimientos para desarrollar aplicaciones enfocadas en el área de finanzas, ya que aspiro a trabajar en el sector bancario. En mi tiempo libre, disfruto ver películas con mi familia y caminar por lugares interesantes, como montañas o playas. Considero que mis principales fortalezas son la tenacidad y la curiosidad, cualidades que me ayudarán a superar con éxito el curso y alcanzar el mejor puntaje posible.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Tony Do Santos Torres Cortez – U201917662<br><br><img src="assets/cara.png" alt="Foto Tony" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de la carrera de Ingeniería de Software en la UPC. Elegi esta carreara porque desde pequeño me apasiona la tecnología y todo lo relacionado a ella. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades. En mi tiempo libre, me gusta pasar tiempo con mi familia, ver series y practicar programación.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>Esteban Valentino Alvarez Falen - U202315628<br><br><img src="assets/fotoEsteban.jpeg" alt="Foto Esteban" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">Soy estudiante de Ingeniería de software y siempre tuve una pasión en los juegos y en su desarrollo con el sueño de ser parte de uno. Me encanta el arte y aunque no pueda memorizar los nombres o categorías disfruto verlo.</td>
+	</TR>
+  <TR>
+		<td style="text-align: center; align-content: center; margin: center"><p>XXXXXXXX - XXXXXXXX<br><br><img src="assets/fotoXXXXXXXX.jpeg" alt="Foto XXXXXXXX" width="1202"> </p></td> 
+		<td style="text-align: center; align-content: center; margin: center">XXXXXXXX</td>
+	</TR>
+</TABLE>
+
 ## 1.2. Solution Profile.
-Nombre: Tony Do Santos Torres Cortez
-Código: U201917662
-
-Foto.
-
-Descripción de carrera: 
-Soy estudiante de Ingeniería de Software, y mi objetivo es profundizar mis conocimientos en el desarrollo de aplicaciones y soluciones tecnológicas. Me interesa aprender a crear software eficiente y de calidad, aplicando las bases teóricas de la programación en proyectos reales que puedan resolver problemas actuales. A lo largo de mi carrera, busco perfeccionar mis habilidades y estar preparado para enfrentar los desafíos de un campo que está en constante evolución.      
-
-Conocimiento y habilidades: 
-Tengo conocimientos en lenguajes de programación como C++, Python y Java, lo que me permite adaptarme a diferentes entornos de desarrollo. Mi principal meta es mejorar mis habilidades para tener más oportunidades de trabajo en el futuro. Además, siempre estoy buscando nuevas tecnologías y herramientas que me ayuden a ampliar mi repertorio de habilidades, ya que quiero crecer profesionalmente y estar a la vanguardia en el ámbito del software.
-
 ### 1.2.1 Antecedentes y problemática.
 En los últimos años, el aprendizaje en línea ha experimentado un crecimiento exponencial, impulsado por la digitalización, la masificación del acceso a internet y las nuevas dinámicas de enseñanza. Sin embargo, la mayoría de las plataformas existentes se enfocan en cursos de interés general, programación, idiomas o habilidades blandas, dejando de lado contenidos estrictamente académicos y universitarios, especialmente de nivel superior.
 
@@ -293,17 +350,90 @@ Una plataforma que brinda la capacidad a creadores de vender y personalizar sus 
 | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Ofrece un ambiente de aprendizaje tanto autonomo como mediante aulas con docentes en tiempo real. | Ofrece a sus consumidores poder adquirir educación superior con una evidencia como es el certificado por culminar los diferentes cursos que tienen. | Ofrece una plataforma abierta donde cualquier persona pueda aprender y enseñar en línea. | Ofrece una plataforma de monetización para creadores, educadores y profesionales. Otorga libertad creativa. |
 | **Mercado objetivo** | Dirigida para un publico universitario tanto alumnos como docentes universitarios que buscna reforzar o adquirir nuevos conocimientos| Apunta a estudiantes y profesionales que buscan una formación académica que certifiquen a los que completan sus cursos con éxito. | Dirigida a un publico amplio que busca aprende habilidades de manera flexible  | Orientada a expertos y emprendedores que crean y venden cursos bajo su marca personal |
 | Perfil de producto                  |Brinda acceso a contenido universitario asi como aulas en tiempo real para una mayor interaccion entre docente - alumnado|Brinda acceso a cursos con certificaciones y alianzas con universidades y empresas globales|Ofrece cursos en línea sobre habilidades en áreas tecnológicas, empresarial y desarrollo personal.|Proporciona a los creadores, que diseñen gestionen y vendan su propios cursos .|
+| Canales de distribución| Servicio disponible temporalmente solo a traves de la aplicación | Sitio web, app móvil (iOS y Android), alianzas con universidades y empresas, redes sociales,integraciones con plataformas educativas institucionales.|Sitio web, app móvil (iOS y Android), redes sociales, publicidad en motores de búsqueda, colaboraciones con empresas a través de Udemy Business, integraciones con LMS corporativos.|Sitio web personalizado por cada creador de cursos, app móvil (incluido en algunos planes), correo electrónico, redes sociales, integraciones con herramientas de marketing como Zapier|
+|Fortalezas| - Aplicacion emergente que prioriza la comunicacion docente a estudiante para garantizar educacion de calidad. |- Alianzas con universidades de prestigio (Stanford, Yale, etc.) <br> - Certificados oficiales y hasta títulos universitarios. <br> - Plataforma robusta y confiable.| - Gran volumen de cursos y estudiantes globales. <br> - Marketplace con alta visibilidad. <br> - Accesible en precio para usuarios.|- Control total para creadores sobre el contenido y precios.<br> - Facilidad de uso para lanzar cursos personalizados.|
+|Oportunidades|- Oportunidad de mejora continua gracias al buen uso de informacion para optimizar y solucionar caracteristicas y funcionalidades deficientes que presenten nuestra aplicación |- Mayor demanda de educación superior remota. <br> - Crecimiento en mercados emergentes.|- Expansión de Udemy Business para empresas. <br> - Colaboración con instituciones y empresas.|- Auge del emprendimiento educativo. <br >- Nichos de mercado desatendidos.|
+|Debilidades|- Promocion y alcance limitados  | - Costos más altos que otras plataformas.<br>- Menor flexibilidad para creadores independientes.| - Calidad de contenido variable.<br>- Mucha competencia interna entre cursos similares.|- Limitada app móvil.<br>- Menor visibilidad si no se tiene una marca fuerte.|
+|Amenazas|- Congestion en las aplicaciones, provocando alto volumen e ineficiencias en el servicio|- Competencia con modelos más abiertos o económicos.<br>- Cambios en las políticas educativas o alianzas institucionales. |- Reducción de márgenes para instructores.<br>- Plataformas con contenido gratuito o más exclusivo.|- Saturación del mercado de creadores.<br>- Alternativas con mayores audiencias como Udemy o YouTube.|
 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
- - Nos enfocaremos en una pagina intuitiva y flexible que permita al usuario navegar con comodidad y facilidad entre las diferentes funciones y tópicos que ofrecemos.
+Basandonos en el analisis competitivo previo, hemos podido identificar con claridad las foda (fortelaza, oportunidad, debilidad, amenaza) de nuestros competidores. Esta informacion es de suma importancia para poder diseñar estrategias y tacticas eficientes que nos permitan superar los servicios que brinda nuestra competencia.
 
- - Realizaremos encuestas a nuestro usuarios para conocer qué características en específico debemos mejorar
+Afrontaremos las fortalezas de la competencia . . .
+ - Enfocandonos en una pagina flexible  e intuitiva que permita al usuario navegar entre las difentes funciones y cursos de los cuales disponemos comodamente.
+ - Priorizando la comunicación fluida entre docentes y estudiantes generando experiencia educativa de calidad
 
- - Siempre priorizaremos la comunicación para brindar mas confianza y seguridad para nuestros clientes.
+Comprendemos que nuestras fortalezas son. . .
+ - Priorizar la comunicacion personalizada docente-estudiante.
+ - Aprovechar la agilidad de ser una aplicación emergente para una rapida adaptacion del mercado.
 
- - Recopilar información sobre nuestros competidores a través de foros para mejorar nuestro posición en el rubro
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Incorporar espacios de mensajería directa o foros entre estudiantes y docentes.
+
+Tácticas
+
+ - Realizar sesiones de prueba con usuarios para perfeccionar la navegación antes del lanzamiento.
+
+Afrontaremos las oportunidades de la competencia . . .
+ - Recopilando informacion mediantes encuestas periodicas  a nuestros usuarios
+ - Observando foros y tendencias del mercado .
+
+Comprendemos que nuestras oportunidades son. . .
+ - Uso efectivo de la retroalimentación para optimizar la aplicación.
+ - Capacidad de adaptarnos velozmente en un mercado de educación remota en crecimiento.
+
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Mantener un programa continuo de recopilación de feedback y análisis competitivo.
+
+ - Mejorar funciones basándonos en sugerencias reales y prácticas de los usuarios.
+
+Tácticas
+
+ - Lanzar encuestas breves tras la finalización de cada curso.
+
+Afrontaremos nuestras debilidades . . .
+ - Siendo conscientes de que actualmente tenemos promoción y alcance limitados.
+
+Comprendemos que nuestras debilidades son . . .
+ - Bajo reconocimiento de marca.
+ - Recursos más limitados frente a competidores consolidados.
+
+Podemos implementar las siguientes tácticas y estrategias . . .
+
+Estrategias
+
+ - Desarrollar campañas de marketing digital enfocadas en testimonios reales de estudiantes y docentes.
+
+Tácticas
+
+ - Ofrecer certificados gratuitos de participación para quienes compartan nuestra plataforma en redes sociales.
+
+ - Implementar un sistema de recomendación entre usuarios con beneficios exclusivos.
+
+ Afrontando nuestras amenazas . . .
+ - Reconociendo que puede existir congestión de plataformas educativas afectando la calidad del servicio.
+
+Comprendemos que nuestras amenazas son . . .
+
+ - La saturación del mercado.
+ - Riesgo de ineficiencia por alta demanda.
+
+Estrategias
+
+ - Mantener tiempos de respuesta ágiles tanto en navegación como en atención al cliente.
+
+Tácticas
+
+ - Automatizar procesos de soporte para consultas frecuentes, reduciendo tiempos de espera.
+
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
@@ -583,6 +713,15 @@ Dados los testimonios brindados por los docentes y profesionales entrevistados, 
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
+
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
+<p align="center">
+  <img src="./assets/UPSofia.png" alt="emp1"/>
+
+**Segmento Objetivo: Creadores de cursos**
+<p align="center">
+  <img src="./assets/UPSamuel.png" alt="emp2"/>
+
 ### 2.3.5. As-is Scenario Mapping.
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
@@ -596,6 +735,25 @@ Dados los testimonios brindados por los docentes y profesionales entrevistados, 
 </div>
 
 ## 2.4. Ubiquitous Language.
+
+
+| **Término**              | **Significado dentro del dominio de la app**                                              |
+|--------------------------|-----------------------------------------------------------------------------------------|
+| **Plataforma EDUnova**    | Sistema que conecta a estudiantes, docentes y creadores de cursos especializados en educación superior. |
+| **Estudiantes**           | Usuarios que buscan aprender y reforzar conocimientos universitarios a través de cursos. |
+| **Docentes**              | Profesionales que crean y ofrecen contenido educativo a los estudiantes en la plataforma. |
+| **Creadores de Cursos**  | Personas que desarrollan y venden cursos especializados en la plataforma.               |
+| **Cursos Universitarios**| Contenidos educativos específicos para la educación superior.                           |
+| **Contenido Académico**   | Material educativo ofrecido en la plataforma, como textos, videos y exámenes.           |
+| **Certificación**         | Reconocimiento oficial otorgado a los estudiantes por completar un curso.               |
+| **Plataforma de Monetización** | Herramientas para que los creadores gestionen y vendan sus cursos.                      |
+| **Interacción Docente-Estudiante** | Comunicación entre estudiantes y docentes a través de la plataforma.            |
+| **Feedback**              | Comentarios de usuarios para mejorar la plataforma y el contenido.                      |
+| **Accesibilidad**         | Facilidad de uso de la plataforma, tanto en precios como en formatos.                   |
+| **Gamificación**          | Estrategias para aumentar la motivación y el compromiso de los estudiantes.             |
+| **Marketplace de Cursos** | Espacio donde los creadores publican y venden sus cursos.                              |
+| **Aulas en Tiempo Real**  | Clases en vivo que permiten la interacción directa entre docentes y estudiantes.         |
+
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
@@ -611,22 +769,341 @@ Dados los testimonios brindados por los docentes y profesionales entrevistados, 
 </div>
 
 ## 3.2. User Stories.
+
+
+| User Story ID | Título                                           | Descripción                                                                                                                                   | Criterio de Aceptación                                                                                                                                                                           | Relación con Epic ID |
+|---------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+| US01          | Barra de navegación en la Landing Page           | Implementar el menú de navegación de la landing page de EDUnova, asegurando que las opciones sean fáciles de usar y claras para los usuarios. | **Escenario 1: Creación de la barra de navegación**<br>Dado que el usuario accede a la landing page, cuando vea la barra de navegación, entonces podrá acceder fácilmente a las diferentes secciones. | 1                    |
+| US02          | Sección Hero en la Landing Page                  | Diseñar la sección principal de la landing page con una imagen atractiva y un título que capte la atención del visitante.                     | **Escenario 1: Creación de la sección Hero**<br>Dado que el visitante entra a la landing page, cuando vea la sección principal, entonces captará rápidamente la atención mediante la imagen y el título. | 2                    |
+| US03          | Sección Footer en la Landing Page                | Crear la sección de pie de página con enlaces a información sobre el equipo y los términos y condiciones de uso.                              | **Escenario 1: Creación del Footer**<br>Dado que el usuario navega hasta el final de la página, cuando llegue al footer, entonces encontrará enlaces útiles como "Sobre nosotros" y "Términos de uso". | 3                    |
+| US04          | Sección "About Us" en la Landing Page            | Desarrollar la sección "Sobre nosotros" para proporcionar detalles acerca del equipo y la misión de la empresa.                               | **Escenario 1: Creación de sección About Us**<br>Dado que el visitante desee conocer más sobre la empresa, cuando visite esta sección, entonces podrá leer acerca del equipo y la misión. | 4                    |
+| US05          | Sección "Information" en la Landing Page         | Crear una sección que explique de manera detallada nuestro producto.                                                                          | **Escenario 1: Creación de sección Information**<br>Dado que el visitante explore los productos, cuando acceda a esta sección, entonces podrá entender claramente el detalle del producto. | 5                    |
+| US06          | Sección "Benefits" en la Landing Page            | Desarrollar una sección destacada que explique los beneficios de la aplicación en comparación con otras opciones disponibles.                 | **Escenario 1: Creación de sección Benefits**<br>Dado que el visitante busque razones para usar la aplicación, cuando lea esta sección, entonces entenderá los beneficios de forma clara. | 6                    |
+| US07          | Sección "Contact us" en la Landing Page          | Incluir la información de contacto del equipo para facilitar la interacción con los usuarios.                                                  | **Escenario 1: Creación de sección Contact Us**<br>Dado que el visitante quiera contactarse, cuando entre a esta sección, entonces encontrará la información necesaria para hacerlo. | 7                    |
+| US08          | Landing Page Responsive con diferentes dispositivos | Asegurar que la landing page sea completamente funcional y se vea bien en diferentes dispositivos y resoluciones de pantalla.                  | **Escenario 1: Ajuste responsive**<br>Dado que el visitante use cualquier dispositivo, cuando acceda a la página, entonces verá que la visualización se adapta correctamente a su pantalla. | 8                    |
+| US09          | Buscar cursos por palabra clave                  | Como estudiante quiero buscar cursos usando una palabra clave para encontrar lo que necesito más rápido.                                     | **Escenario 1: Búsqueda por palabra clave**<br>Dado que el estudiante se encuentra en la página de búsqueda, cuando escribe una palabra en el buscador, entonces se muestran los cursos que contienen esa palabra en su título o descripción. | 2                    |
+| US10          | Ver descripción del curso                        | Como estudiante quiero ver detalles del curso para saber si es lo que estoy buscando.                                                        | **Escenario 1: Visualización de detalles del curso**<br>Dado que el estudiante está en la página de un curso, cuando accede a la sección de descripción, entonces debe visualizar el título, descripción, temario, duración, precio e instructor del curso. | 2                    |
+| US11          | Comprar un curso                                 | Como estudiante quiero comprar un curso fácilmente para poder comenzar a estudiarlo.                                                         | **Escenario 1: Proceso de compra**<br>Dado que el estudiante ha seleccionado un curso, cuando hace clic en el botón de compra, entonces se debe redirigir al proceso de pago con múltiples métodos disponibles. | 3                    |
+| US12          | Acceder a mis cursos comprados                   | Como estudiante quiero acceder a mis cursos después de comprarlos para empezar a aprender.                                                   | **Escenario 1: Acceso a cursos comprados**<br>Dado que el estudiante ha comprado un curso, cuando accede a su perfil, entonces podrá ver el curso en su sección “Mis cursos” y abrirlo para comenzar a aprender. | 3                    |
+| US13          | Ver videos pregrabados                           | Como estudiante quiero ver videos pregrabados en el curso para aprender a mi ritmo.                                                          | **Escenario 1: Reproducción de videos**<br>Dado que el estudiante está dentro de un curso, cuando hace clic en un video pregrabado, entonces debe poder reproducir el video, pausarlo, reproducirlo y verlo en pantalla completa. | 4                    |
+| US14          | Descargar materiales                             | Como estudiante quiero descargar guías o documentos para estudiar offline.                                                                  | **Escenario 1: Descarga de materiales**<br>Dado que el estudiante está en la página de un curso, cuando hace clic en el botón de descarga, entonces debe poder descargar los materiales disponibles. | 4                    |
+| US15          | Marcar progreso                                  | Como estudiante quiero marcar mi progreso en el curso para saber cuánto me falta.                                                            | **Escenario 1: Marcar lecciones completadas**<br>Dado que el estudiante ha completado una lección, cuando marca la lección como completada, entonces la lección aparece con una marca de completada y el indicador de progreso se actualiza. | 4                    |
+| US16          | Realizar preguntas                               | Como estudiante quiero hacer preguntas al instructor si tengo dudas durante el curso.                                                        | **Escenario 1: Preguntar al instructor**<br>Dado que el estudiante está en un curso, cuando escribe una pregunta en la sección correspondiente, entonces el instructor podrá leer y responder a esa pregunta. | 5                    |
+| US17          | Crear un curso                                   | Como instructor quiero poder crear un curso y subir sus contenidos fácilmente.                                                               | **Escenario 1: Crear curso**<br>Dado que el instructor accede a la sección de creación de curso, cuando llena los campos de título, descripción, módulos, videos y archivos adjuntos, entonces el curso es creado correctamente. | 6                    |
+| US18          | Programar sesión en vivo                         | Como instructor quiero agendar una sesión en vivo para interactuar con estudiantes en tiempo real.                                           | **Escenario 1: Programación de sesión en vivo**<br>Dado que el instructor está creando un curso, cuando agrega una sesión en vivo con fecha y hora, entonces se guarda correctamente y el enlace se muestra en el curso. | 6                    |
+| US19          | Ver estadísticas del curso                       | Como instructor quiero ver estadísticas del curso para saber cómo va su rendimiento.                                                         | **Escenario 1: Ver estadísticas del curso**<br>Dado que el instructor está en el panel de control del curso, cuando selecciona la opción de estadísticas, entonces se muestran datos sobre visitas, ventas, calificaciones y progreso de estudiantes. | 7                    |
+| US20          | Responder preguntas de estudiantes               | Como instructor quiero responder preguntas de estudiantes para apoyar su aprendizaje.                                                        | **Escenario 1: Responder preguntas**<br>Dado que el instructor ha recibido una pregunta, cuando la lee y responde, entonces la respuesta se muestra correctamente en el foro de preguntas. | 5                    |
+| US21          | Editar perfil personal                           | Como usuario quiero editar mi perfil con mi información personal.                                                                            | **Escenario 1: Editar perfil**<br>Dado que el usuario está en su perfil, cuando edita su nombre, foto o descripción, entonces los cambios se guardan y actualizan correctamente. | 8                    |
+| US22          | Ver historial de cursos                          | Como usuario quiero revisar mi historial para consultar cursos tomados o enseñados.                                                          | **Escenario 1: Consultar historial**<br>Dado que el usuario está en su perfil, cuando accede a la sección de historial, entonces se muestra la lista de cursos tomados o enseñados con fechas. | 8                    |
+| US23          | Recibir notificaciones importantes               | Como usuario quiero que me avisen sobre eventos clave como clases en vivo o nuevos cursos.                                                   | **Escenario 1: Notificaciones activadas**<br>Dado que el usuario ha configurado sus preferencias de notificaciones, cuando ocurre un evento relevante, entonces se le notifica correctamente. | 9                    |
+| US24          | Ver cursos por categoría                         | Como estudiante quiero explorar los cursos organizados por categorías.                                                                      | **Escenario 1: Ver cursos por categoría**<br>Dado que el estudiante selecciona una categoría, cuando accede a ella, entonces se muestran los cursos relacionados con esa categoría. | 2                    |
+| US25          | Obtener certificado de finalización              | Como estudiante quiero recibir un certificado al terminar un curso.                                                                          | **Escenario 1: Obtener certificado**<br>Dado que el estudiante ha completado un curso, cuando se genera el certificado, entonces el estudiante puede descargarlo en formato PDF. | 4                    |
+| US26          | Calificar un curso                               | Como estudiante quiero dejar una reseña y calificación para compartir mi experiencia.                                                        | **Escenario 1: Dejar reseña y calificación**<br>Dado que el estudiante ha completado el curso, cuando deja una reseña y calificación, entonces la reseña se guarda y aparece junto al curso. | 5                    |
+| US27          | Ver cursos en oferta                             | Como estudiante quiero ver los cursos en descuento para aprovechar promociones.                                                               | **Escenario 1: Ver cursos en oferta**<br>Dado que el estudiante está en la página principal, cuando accede a la sección de promociones, entonces se muestran los cursos en oferta. | 2                    |
+| US28          | Aplicar cupón de descuento                       | Como estudiante quiero usar cupones para obtener descuento en los cursos.                                                                    | **Escenario 1: Aplicar cupón de descuento**<br>Dado que el estudiante está en la página de pago, cuando ingresa un código de cupón válido, entonces el descuento se aplica correctamente al total. | 3                    |
+| US29          | Visualizar instructor del curso                  | Como estudiante quiero ver quién es el instructor del curso y su experiencia.                                                                | **Escenario 1: Ver instructor del curso**<br>Dado que el estudiante está en la página del curso, cuando hace clic en la sección del instructor, entonces se muestra la información del instructor, incluyendo nombre, foto y biografía. | 2                    |
+| US30          | Activar modo oscuro                              | Como usuario quiero usar modo oscuro para no forzar la vista en ambientes oscuros.                                                           | **Escenario 1: Alternar entre modos**<br>Dado que el usuario está en la plataforma, cuando activa el modo oscuro, entonces la interfaz cambia correctamente a modo oscuro. | 8                    |
+| US31          | Usar buscador con sugerencias                    | Como estudiante quiero ver sugerencias mientras escribo en el buscador para encontrar cursos más rápido.                                    | **Escenario 1: Ver sugerencias en buscador**<br>Dado que el estudiante está escribiendo en el buscador, cuando comienza a escribir, entonces se muestran sugerencias de cursos relacionados con la búsqueda. | 2                    |
+| US32          | Iniciar sesión y ver panel personalizado         | Como usuario quiero iniciar sesión y ver una interfaz personalizada con mis cursos e historial.                                              | **Escenario 1: Iniciar sesión y ver panel**<br>Dado que el usuario ha iniciado sesión, cuando accede a su dashboard, entonces ve su historial de cursos, progreso y notificaciones relevantes. | 8                    |
+    
+Epic ID
+1 =	Estructura de la Landing Page
+2 =	Exploración y descubrimiento de cursos
+3 =	Compra de cursos y promociones
+4 =	Acceso y progreso en el contenido
+5 =	Interacción entre estudiantes e instructores
+6 =	Creación y gestión de cursos para instructores
+7 =	Análisis de rendimiento de cursos
+8 =	Gestión del perfil y experiencia del usuario
+9 =	Notificaciones y comunicación en la plataforma
+
+
 ## 3.3. Impact Mapping.
+<div align="center">
+  <img src="./assets/impac open source.png" alt="ImpacMap" width="1000"/>
+</div>
 ## 3.4. Product Backlog.
+
+|# Orden | User Story ID | Título                                 | Descripción                                                                                           | Story Points |
+|---------|---------------|----------------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US09          | Buscar cursos por palabra clave        | Como estudiante quiero buscar cursos usando una palabra clave para encontrar lo que necesito más rápido. | 5            |
+| 2       | US11          | Comprar un curso                       | Como estudiante quiero comprar un curso fácilmente para poder comenzar a estudiarlo.                   | 8            |
+| 3       | US13          | Ver videos pregrabados                 | Como estudiante quiero ver videos pregrabados en el curso para aprender a mi ritmo.                    | 5            |
+| 4       | US17          | Crear un curso                         | Como instructor quiero poder crear un curso y subir sus contenidos fácilmente.                         | 8            |
+| 5       | US19          | Ver estadísticas del curso             | Como instructor quiero ver estadísticas del curso para saber cómo va su rendimiento.                   | 5            |
+| 6       | US25          | Obtener certificado de finalización    | Como estudiante quiero recibir un certificado al terminar un curso.                                    | 3            |
+| 7       | US32          | Iniciar sesión y ver panel personalizado| Como usuario quiero iniciar sesión y ver una interfaz personalizada con mis cursos e historial.        | 5            |
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+Esta guía establece los fundamentos de diseño visual y comunicación para **Edunova**, enfocándose en **consistencia**, **claridad académica** y **experiencia de usuario amigable**. Se basa en principios de diseño modernos y buenas prácticas de UI/UX para plataformas educativas.
+
+---
+
+<h4>1. BRANDING</h4>
+
+**Identidad Visual:**  
+- **Estilo:** Académico moderno con toques de innovación.  
+- **Enfoque:** Educación universitaria accesible y de alta calidad.  
+- **Elementos clave:**  
+  - **Logo:** Tipografía elegante + ícono opcional de libro abierto o diploma.  
+  - **Eslogan:** *"Learn. Create. Achieve."*  
+
+**Personalidad de Marca:**  
+- **Seria pero accesible:** Mensajes como *"Amplía tus horizontes académicos"*.  
+- **Confiable y profesional:** Diseño limpio, foco en estructura y contenido.
+
+---
+
+<h4>2. TYPOGRAPHY</h4>
+
+**Jerarquía:**  
+| Elemento          | Estilo (Mobile First)       | Ejemplo en Mockup          |  
+|-------------------|------------------------------|-----------------------------|  
+| **H1 (Título)**   | `600 2rem/2.5rem`             | Explore University Courses  |  
+| **H2 (Subtítulo)**| `500 1.5rem/2rem`             | Featured Instructors        |  
+| **Body (Texto)**  | `400 1rem/1.5rem`             | Course descriptions and profiles |  
+| **Botones**       | `600 1rem/1rem` + ALL CAPS    | ENROLL NOW                  |  
+
+**Fuentes:**  
+- **Principal:** `Poppins` (sans-serif, moderna y legible).  
+- **Secundaria:** `Roboto` para descripciones y contenido largo.
+
+**Reglas:**  
+- Alineación izquierda para todo el contenido textual.  
+- Uso de negritas solo en títulos principales y llamadas a la acción importantes.
+
+---
+
+<h4>3. COLORS</h4>
+
+**Paleta Principal:**  
+| Rol               | Color (HEX)     | Uso                                 |  
+|-------------------|-----------------|-------------------------------------|  
+| **Primario**      | `#E07219`        | Botones principales, acentos de acción (enroll, buy). |
+| **Fondo Oscuro**  | `#1D1D1D`        | Fondo de cabeceras, pie de página, dark mode. |
+| **Secundario**    | `#DEB12C`        | Elementos destacados (precios, logros, insignias). |
+| **Fondo Claro**   | `#ECECEC`        | Fondo general de páginas y tarjetas. |
+
+<p align="center">
+  <img src="./assets/ColorPalette.jpeg" alt="Color Palette"/>
+</p> 
+
+---
+
+<h4>4. SPACING</h4>
+
+**Sistema 8px:**  
+- **Espaciado entre secciones:** `32px` (ej: entre "Explore Courses" y los cards).  
+- **Padding interno:** `16px` (en móvil) / `24px` (en desktop).  
+- **Botones:** `12px 24px` (área de toque cómoda).  
+
+**Grid Layout:**  
+- **Mobile:** 1 columna (scroll vertical optimizado).  
+- **Tablet:** 2 columnas.  
+- **Desktop:** 3-4 columnas para mostrar cursos e instructores.
+
+---
+
+<h4>5. TONO DE COMUNICACIÓN</h4>
+
+**Lenguaje:**  
+| Situación          | Ejemplo                                    |  
+|--------------------|--------------------------------------------|  
+| **Instrucciones**  | *"Select a course to start learning."*     |  
+| **Motivación**     | *"Unlock your potential today! 🚀"*         |  
+| **Errores**        | *"Please complete all required fields."*    |  
+
+**Tono:**
+- Profesional pero inspirador.  
+- Claridad ante todo: instrucciones breves, enfocadas en la acción.
+
+---
+
+<h4>6. TERMINOLOGÍA CONSISTENTE</h4>
+
+**Palabras y Frases:**  
+- **Cursos:** Usar siempre *"Course [Name]"* (ej: *Course Data Science Basics*).  
+- **Botones:** Verbos en infinitivo (*"Enroll Now"*, *"View Details"*, *"Start Lesson"*).  
+- **Roles de Usuario:** *Student*, *Instructor*, *Admin*.  
+- **Estados de Cursos:** *Draft*, *Published*, *Archived*.  
+- **Acciones Comunes:** *Enroll*, *Buy Course*, *Join Live Session*.
+
+---
+
 ### 4.1.2. Web Style Guidelines.
+#### 4.1.2. Web Style Guidelines
+
+Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo estándares visuales modernos para una interfaz *responsive*. Incluiré componentes principales, reglas de interacción y diseño adaptativo, enfocados en accesibilidad, usabilidad y consistencia.
+
+---
+
+#### **1. Componentes UI Responsive**  
+**Patrones reutilizables y su comportamiento en distintos dispositivos:**  
+
+##### **A. Header/Navegación**  
+- **Desktop:**  
+  - Logo alineado a la izquierda + menú de navegación horizontal (`display: flex`).  
+  - Hover en ítems: subrayado en color secundario (`border-bottom: 2px solid #DEB12C`).  
+- **Mobile:**  
+  - Menú hamburguesa (`position: fixed`) + overlay oscuro (`background: rgba(0,0,0,0.5)`).  
+  - Logo centrado, reducido a `36px` de altura.  
+
+##### **B. Cards (Cursos/Lecciones)**  
+- **Desktop:**  
+  - 3 o 4 columnas (`grid-template-columns: repeat(3, 1fr)` o `repeat(4, 1fr)` según ancho).  
+  - Hover: Elevación sutil (`box-shadow: 0 4px 10px rgba(0,0,0,0.1)`).  
+- **Mobile:**  
+  - 1 columna + scroll horizontal (`overflow-x: auto`).  
+  - Ancho de card fijo `320px`.  
+
+##### **C. Formularios (Login/Register/Enroll)**  
+- **Desktop:**  
+  - Ancho de formulario al `50%` de pantalla, centrado (`margin: auto`).  
+- **Mobile:**  
+  - Ancho completo (`width: 100%`), padding interno `16px`.  
+  - Inputs grandes: Altura mínima de `48px` para mejor experiencia táctil.
+
+---
+
+#### **2. Interacciones y Estados**  
+**Microinteracciones sutiles para una plataforma académica más fluida:**  
+
+| Componente   | Estado        | Estilo/Comportamiento                           |  
+|--------------|---------------|------------------------------------------------|  
+| **Botón**    | Hover          | `background-color: #C86117` (oscurecer 10%).    |  
+| **Input**    | Focus          | `outline: 2px solid #DEB12C`.                   |  
+| **Filtros**  | Active         | `background: #E07219`, `color: #FFFFFF`.         |  
+| **Cards**    | Clic/Tap       | Animación ligera de elevación (`transform: scale(1.03)`). |
+
+---
+
+#### **3. Breakpoints y Grid**  
+**Diseño mobile-first para una navegación fluida:**  
+
+```css
+/* Mobile First */
+.container { padding: 16px; }
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+  .container { padding: 24px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Desktop (≥1024px) */
+@media (min-width: 1024px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Large Desktop (≥1440px) */
+@media (min-width: 1440px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
+}
+```
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags
+
+### 1. Landing Page
+
+| Tag              | Contenido |
+|------------------|-----------|
+| Title            | "Edunova - Cursos Universitarios" |
+| Meta Description | "Plataforma educativa para impulsar tu carrera con cursos de alta calidad, clases en vivo y certificaciones. Aprende a tu ritmo desde cualquier lugar." |
+| Keywords         | "educación online, cursos universitarios, certificaciones profesionales, aprendizaje flexible" |
+| Author           | "SofTeam" |
+
 ### 4.2.4. Searching Systems.
+
+| Filtro           | Opciones                    | Función |
+|------------------|------------------------------|---------|
+| Tipo de Contenido | Cursos/Certificaciones/Webinars | Filtros por categoría académica |
+| Rango de Fechas  | Selector de calendario       | Buscar cursos activos en un rangos específicos |
+| Nivel de Curso   | Básico/Intermedio/Avanzado    | Personaliza los resultados según nivel académico |
+
+**Visualización de Resultados:**
+
+ - Cards de cursos encontrados (una combinacion de imagen + título + resumen breve)
+ - Filtros aplicados visibles en la parte superior
+ - Sistema de "favoritos" para guardar cursos de interes
+
 ### 4.2.5. Navigation Systems.
+
+### 1. Landing Page
+
+| Sección     | Descripción                                | Elementos Clave |
+|-------------|--------------------------------------------|-----------------|
+| Hero        | Introducción inspiradora  | - Botón "Explora Cursos" <br> - Frase motivadora |
+| Beneficios  | Destaca ventajas de estudiar online        | - Íconos ilustrativos <br> - Texto breve |
+| Cursos Destacados | Paleta de cursos recomendados      | - Miniaturas <br> - Botón "Ver Más" |
+| Testimonios | Opiniones de alumnos satisfechos           | - Foto + nombre <br> - Testimonio breve |
+
+
+| Tag              | Contenido                                                                                          |
+|------------------|----------------------------------------------------------------------------------------------------|
+| Title            | "EDUnova - Plataforma de Educación"                                                |
+| Meta Description | "Accede a tus cursos, calificaciones y recursos educativos personalizados para mejorar tu aprendizaje." |
+| Keywords         | "educación en línea, cursos, aprendizaje, plataforma educativa, recursos educativos"              |
+| Author           | "EDUnova Team"                                                                                     |
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+<div align="center">
+  <img src="./assets/Figma1.jpg" alt="Wireframe1" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Figma2.jpg" alt="Wireframe2" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Figma3.jpg" alt="Wireframe3" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Figma4.jpg" alt="Wireframe4" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Figma5.jpg" alt="Wireframe5" width="1000"/>
+</div>
+
+Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WKB5NhWh/Open-source?t=XRp6JykfbClFpZ4R-1)
+
 ### 4.3.2. Landing Page Mock-up.
+
+<div align="center">
+  <img src="./assets/Final1.jpg" alt="final1" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Final2.jpg" alt="final2" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Final3.jpg" alt="final3" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/Final4.jpg" alt="final4" width="1000"/>
+</div>
+
+Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled?node-id=0-1&t=XRp6JykfbClFpZ4R-1)
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
@@ -681,28 +1158,1021 @@ Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de princ
 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
+El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
+
 ### 4.6.1. Software Architecture Context Diagram.
-### 4.6.2. Software Architecture Container Diagrams.
+<p align="center">
+  <img src="./assets/SAContextDiagram.png" alt="Context Diagram"/>
+</p>
+
+### 4.6.2. Software Architecture Container Diagram.
+<p align="center">
+  <img src="./assets/SAContainerDiagram.png" alt="Container Diagram"/>
+</p>
+
 ### 4.6.3. Software Architecture Components Diagrams.
+Los componentes del sistema siguen el patrón CQRS, organizados por bounded context: User Management, Course Management, Enrollment & Purchase Management, Notification Management y Live Session Management.
+
+**User Management**<br>
+Gestión de estudiantes, instructores, admins.
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsUserManagement.png" alt="User Management"/>
+</p>
+
+---
+
+**Course Management**<br>
+Gestión de cursos, materiales, módulos, sesiones en vivo.
+
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsCourseManagement.png" alt="Course Management"/>
+</p>
+
+---
+
+**Enrollment & Purchase Management**<br>
+Gestión de inscripciones, compras, pagos.
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
+</p>
+
+---
+
+**Notification Management**<br>
+Gestión de notificaciones internas (recordatorios, promociones).
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsNotificationManagement.png" alt="Notification Management"/>
+</p>
+
+---
+
+**Live Session Management**<br>
+Gestión de clases en vivo (integración con videoconferencias).
+<p align="center">
+  <img src="./assets/SAComponentsDiagramsLiveSessionManagement.png" alt="Live Session Management"/>
+</p>
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+Nuestro dominio se divide en 5 Bounded Contexts:
+<ol>
+  <li>
+    <b>User Management</b> se encarga de gestionar toda la información de los usuarios de Edunova, incluyendo estudiantes, instructores y administradores, así como su autenticación y perfil.
+    <p align="center">
+      <img src="./assets/CDUserManagement.png" alt="User Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Course Management</b> maneja todo lo relacionado con los cursos: creación, estructura modular (módulos y lecciones), materiales de aprendizaje (documentos, videos) y la gestión de su publicación.
+    <p align="center">
+      <img src="./assets/CDCourseManagement.png" alt="Course Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Enrollment & Purchase Management</b> gestiona la inscripción de estudiantes a los cursos (Enrollment) y el proceso de compra y validación de pagos (Purchase).
+    <p align="center">
+      <img src="./assets/CDEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Notification Management</b> gestiona el envío de notificaciones automáticas o manuales a los usuarios (estudiantes, instructores o administradores) a través de diferentes canales (email, SMS, etc.).
+    <p align="center">
+      <img src="./assets/CDNotificationManagement.png" alt="Notification Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Live Session Management</b> gestiona la programación, actualización y recordatorio de sesiones en vivo de los cursos en Edunova, incluyendo la integración con plataformas externas de videoconferencia.
+    <p align="center">
+      <img src="./assets/CDLiveSessionManagement.png" alt="Live Session Management"/>
+    </p>
+  </li>
+</ol>
+
+---
+
+<b>Diagrama de clases completo</b>
+<p align="center">
+  <img src="./assets/CDCompleto.png" alt="Class diagram complete"/>
+</p>
+
 ### 4.7.2. Class Dictionary.
+<h3>User Management</h3>
+
+**Class: User (Aggregate Root)**
+| Name            | Attribute Type | Description                                      |
+|-----------------|-----------------|--------------------------------------------------|
+| id              | UUID             | Unique identifier for the user                  |
+| firstName       | string           | User's first name                               |
+| lastName        | string           | User's last name                                |
+| email           | string           | User's email address                            |
+| phoneNumber     | string           | User's contact number                           |
+| role            | UserRole         | Role of the user (Student, Instructor, Admin)    |
+| address         | Address          | Address associated with the user                |
+| credential      | Credential       | Authentication credentials of the user          |
+| register()      | void             | Registers a new user                            |
+| updateProfile() | void             | Updates user profile information                |
+| deactivate()    | void             | Deactivates the user account                    |
+
+**Class: StudentProfile (Entity)**
+| Name                   | Attribute Type | Description                                  |
+|-------------------------|----------------|----------------------------------------------|
+| id                      | UUID           | Unique identifier for the student profile   |
+| userId                  | UUID           | Associated user identifier                  |
+| university              | string         | Name of the university                      |
+| major                   | string         | Major field of study                        |
+| academicYear            | string         | Current academic year                       |
+| updateAcademicInfo()    | void           | Updates student's academic information      |
+
+**Class: InstructorProfile (Entity)**
+| Name                      | Attribute Type | Description                                |
+|----------------------------|----------------|--------------------------------------------|
+| id                         | UUID           | Unique identifier for the instructor profile |
+| userId                     | UUID           | Associated user identifier                |
+| biography                  | string         | Short biography of the instructor          |
+| expertiseAreas             | string         | Areas of expertise                         |
+| linkedInProfile            | string         | LinkedIn profile URL                       |
+| updateProfessionalInfo()   | void           | Updates instructor's professional info     |
+
+**Class: AdminProfile (Entity)**
+| Name                 | Attribute Type | Description                                  |
+|-----------------------|----------------|----------------------------------------------|
+| id                    | UUID           | Unique identifier for the admin profile     |
+| userId                | UUID           | Associated user identifier                  |
+| adminLevel            | string         | Access level of the administrator           |
+| updateAdminLevel()    | void           | Updates the admin's level of access          |
+
+**Class: Address (Value Object)**
+| Name           | Attribute Type | Description                |
+|----------------|----------------|----------------------------|
+| country        | string          | Country of residence       |
+| city           | string          | City of residence          |
+| postalCode     | string          | Postal code                |
+| streetAddress  | string          | Street address             |
+
+**Class: Credential (Value Object)**
+| Name              | Attribute Type | Description                        |
+|--------------------|----------------|------------------------------------|
+| email              | string         | Email used for authentication     |
+| passwordHash       | string         | Encrypted password                |
+| passwordSalt       | string         | Salt value used in password encryption |
+
+---
+
+<h3>Course Management</h3>
+
+**Class: Course (Aggregate Root)**  
+| Name            | Attribute Type | Description                                     |
+|-----------------|-----------------|-------------------------------------------------|
+| id              | UUID             | Unique identifier for the course               |
+| instructorId    | UUID             | Identifier of the instructor who created the course |
+| title           | string           | Title of the course                             |
+| description     | string           | Description of the course                      |
+| price           | decimal          | Price of the course                            |
+| status          | CourseStatus     | Status of the course (Draft, Published, Archived) |
+| metadata        | CourseMetadata   | Additional metadata about the course           |
+| create()        | void             | Creates a new course                           |
+| update()        | void             | Updates course details                         |
+| publish()       | void             | Publishes the course                           |
+| archive()       | void             | Archives the course                            |
+
+**Class: Module (Entity)**  
+| Name            | Attribute Type | Description                                  |
+|-----------------|-----------------|----------------------------------------------|
+| id              | UUID             | Unique identifier for the module            |
+| courseId        | UUID             | Identifier of the course this module belongs to |
+| title           | string           | Title of the module                         |
+| description     | string           | Description of the module                   |
+| order           | int              | Display order of the module                 |
+| addLesson()     | void             | Adds a lesson to the module                 |
+| updateModule()  | void             | Updates module information                 |
+
+**Class: Lesson (Entity)**  
+| Name            | Attribute Type | Description                                 |
+|-----------------|-----------------|---------------------------------------------|
+| id              | UUID             | Unique identifier for the lesson           |
+| moduleId        | UUID             | Identifier of the module this lesson belongs to |
+| title           | string           | Title of the lesson                        |
+| content         | string           | Lesson content                             |
+| order           | int              | Display order of the lesson                |
+| material        | Material         | Material associated with the lesson        |
+| updateLesson()  | void             | Updates lesson information                 |
+
+**Class: Material (Value Object)**  
+| Name           | Attribute Type | Description                              |
+|----------------|-----------------|------------------------------------------|
+| type           | MaterialType    | Type of material (Video, PDF, etc.)       |
+| url            | string          | URL where the material is hosted         |
+| fileName       | string          | Name of the material file                |
+
+**Class: CourseMetadata (Value Object)**  
+| Name                   | Attribute Type | Description                           |
+|-------------------------|----------------|---------------------------------------|
+| estimatedDurationHours  | int             | Estimated duration of the course in hours |
+| level                   | CourseLevel     | Difficulty level of the course        |
+| prerequisites           | string          | Required knowledge to take the course |
+
+---
+
+<h3>Enrollment & Purchase Management</h3>
+
+**Class: Enrollment (Aggregate Root)**  
+| Name                | Attribute Type  | Description                                       |
+|---------------------|------------------|---------------------------------------------------|
+| id                  | UUID              | Unique identifier for the enrollment             |
+| studentId           | UUID              | Identifier of the enrolled student               |
+| courseId            | UUID              | Identifier of the enrolled course                |
+| enrollmentDate      | datetime          | Date and time of enrollment                      |
+| progressPercentage  | float             | Student's progress in the course (0-100%)        |
+| status              | EnrollmentStatus  | Current status of the enrollment (Active, Completed, Cancelled) |
+| enrollStudent()     | void              | Enrolls a student into a course                  |
+| updateProgress()    | void              | Updates the student's progress in the course     |
+| completeEnrollment()| void              | Marks the enrollment as completed                |
+
+**Class: Purchase (Aggregate Root)**  
+| Name                | Attribute Type  | Description                                        |
+|---------------------|------------------|----------------------------------------------------|
+| id                  | UUID              | Unique identifier for the purchase                |
+| studentId           | UUID              | Identifier of the student who made the purchase   |
+| courseId            | UUID              | Identifier of the purchased course                |
+| purchaseDate        | datetime          | Date and time when the purchase was made          |
+| amountPaid          | decimal           | Amount paid for the course                        |
+| paymentDetail       | PaymentDetail     | Payment details associated with the purchase      |
+| status              | PurchaseStatus    | Status of the purchase (Completed, Failed)         |
+| completePurchase()  | void              | Marks the purchase as successful                  |
+| failPurchase()      | void              | Marks the purchase as failed                      |
+
+**Class: PaymentDetail (Value Object)**  
+| Name                  | Attribute Type  | Description                                |
+|------------------------|-----------------|--------------------------------------------|
+| paymentMethod          | PaymentMethod    | Method used for payment (Credit Card, PayPal, etc.) |
+| transactionId          | string           | Transaction identifier from the payment gateway |
+| paymentGateway         | string           | Name of the external payment gateway used  |
+| confirmationTimestamp  | datetime         | Time when the payment was confirmed        |
+
+---
+
+<h3>Notification Management</h3>
+
+**Class: Notification (Aggregate Root)**  
+| Name               | Attribute Type    | Description                                     |
+|--------------------|-------------------|-------------------------------------------------|
+| id                 | UUID               | Unique identifier for the notification         |
+| createdAt          | datetime           | Date and time when the notification was created |
+| scheduledAt        | datetime           | Date and time when the notification is scheduled to be sent |
+| sentAt             | datetime           | Date and time when the notification was sent   |
+| status             | NotificationStatus | Current status of the notification (Scheduled, Sent, Cancelled) |
+| content            | NotificationContent| Content of the notification                    |
+| recipients         | list<NotificationRecipient> | List of users who will receive the notification |
+| scheduleNotification() | void           | Schedules the notification for delivery       |
+| sendNotification()     | void           | Sends the notification                        |
+| cancelNotification()   | void           | Cancels a scheduled notification              |
+
+**Class: NotificationContent (Value Object)**  
+| Name         | Attribute Type  | Description                           |
+|--------------|------------------|---------------------------------------|
+| subject      | string            | Subject of the notification           |
+| message      | string            | Body message of the notification      |
+| channel      | NotificationChannel | Channel through which the notification is sent (Email, SMS, etc.) |
+
+**Class: NotificationRecipient (Entity)**  
+| Name               | Attribute Type  | Description                             |
+|--------------------|------------------|-----------------------------------------|
+| id                 | UUID              | Unique identifier for the recipient    |
+| userId             | UUID              | Identifier of the user who receives the notification |
+| deliveryStatus     | DeliveryStatus    | Status of delivery (Pending, Delivered, Failed) |
+| deliveryTimestamp  | datetime          | Time when the notification was delivered |
+| updateDeliveryStatus() | void          | Updates the delivery status of the notification |
+
+---
+
+**Class: LiveSession (Aggregate Root)**  
+| Name                | Attribute Type | Description                                      |
+|---------------------|-----------------|--------------------------------------------------|
+| id                  | UUID             | Unique identifier for the live session          |
+| courseId            | UUID             | Identifier of the associated course             |
+| instructorId        | UUID             | Identifier of the instructor conducting the session |
+| topic               | string           | Title or topic of the live session               |
+| scheduledAt         | datetime         | Scheduled date and time for the live session     |
+| durationMinutes     | int              | Duration of the live session in minutes         |
+| meetingLink         | MeetingLink      | Link details to access the live session         |
+| status              | LiveSessionStatus| Current status of the session (Scheduled, Completed, Cancelled) |
+| scheduleSession()   | void             | Schedules a new live session                    |
+| rescheduleSession() | void             | Reschedules an existing live session            |
+| cancelSession()     | void             | Cancels the scheduled live session              |
+
+**Class: MeetingLink (Value Object)**  
+| Name           | Attribute Type  | Description                                  |
+|----------------|------------------|----------------------------------------------|
+| platform       | VideoPlatform     | Platform used for the live session (Zoom, Google Meet, etc.) |
+| url            | string            | URL link to join the live session            |
+| meetingId      | string            | Meeting identifier provided by the platform  |
+| accessCode     | string            | Access code or password for the meeting      |
+
+**Class: Reminder (Entity)**  
+| Name               | Attribute Type  | Description                               |
+|--------------------|------------------|-------------------------------------------|
+| id                 | UUID              | Unique identifier for the reminder       |
+| liveSessionId      | UUID              | Identifier of the associated live session |
+| sentAt             | datetime          | Date and time when the reminder was sent  |
+| reminderType       | ReminderType      | Type of reminder (24h before, 1h before, etc.) |
+| sendReminder()     | void              | Sends a reminder for the live session    |
+
 ## 4.8. Database Design.
+En esta sección se presenta el diseño de la base de datos. Se incluye un diagrama de la base de datos que ilustra la estructura y las relaciones entre las tablas principales del sistema.
+<p align="center">
+  <img src="./assets/DatabaseDesign.png" alt="Database Design"/>
+</p>
+
 ### 4.8.1. Database Diagram.
+El diagrama de la base de datos proporciona una representación visual de las tablas, sus atributos y las relaciones entre ellas, facilitando la comprensión de la organización y la integridad de los datos en el sistema.
+
+A continuación, presentaremos el diagrama de base de datos, una herramienta fundamental para el diseño y la comprensión de bases de datos relacionales. Este diagrama nos permitirá visualizar las entidades, atributos y relaciones que conforman nuestra base de datos.
+
+<p align="center">
+  <img src="./assets/DatabaseDiagram.png" alt="Database Diagram"/>
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
+Este apartado describe las directrices y procesos seguidos durante la creación y despliegue del sitio web de EDUnova, con el objetivo de garantizar la consistencia y solidez del software desde su fase inicial hasta su puesta en marcha y mantenimiento continuo.
+
 ### 5.1.1. Software Development Environment Configuration.
+
+
+#### Project Management
+Con el fin de gestionar el proyecto de manera eficiente, se optó por implementar diversas herramientas que permitieran asignar tareas, coordinar reuniones y fomentar la colaboración entre los miembros del equipo. Además, se utilizó un repositorio centralizado para integrar los avances de forma organizada. A continuación, se detallan las plataformas elegidas y su función dentro del desarrollo del proyecto.
+
+- **Centro de organización de trabajo:** Github  
+- **Planificación de tareas:** Trello  
+- **Reuniones de equipo:** Google Meet  
+- **Coordinación grupal:** WhatsApp 
+
+#### Requirement Management
+A lo largo del desarrollo del proyecto, se utilizaron distintas herramientas que apoyaron la identificación, análisis y visualización de los requisitos tanto técnicos como funcionales. Estas plataformas contribuyeron a una planificación más ordenada y a una mejor comprensión del diseño conceptual del sistema.
+
+
+| Herramienta   | Descripción                                                                                                     | Enlace                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Trello**        | Herramienta de gestión de proyectos que utiliza tableros y tarjetas, utilizada para asignar responsabilidades a los integrantes del equipo y monitorear el avance de cada etapa del desarrollo. | [trello.com](https://trello.com/)           |
+| **Uxpressia**     | Herramienta digital empleada para crear mapas estratégicos, como el *Impact Mapping*, facilitando la conexión visual y comprensible entre los objetivos del negocio y las funciones del producto. | [uxpressia.com](https://uxpressia.com/)     |
+| **Structurizr**   | Plataforma de modelado arquitectónico que permite elaborar diagramas C4, ofreciendo una representación estandarizada de la estructura lógica del sistema y la interacción entre sus componentes. | [structurizr.com](https://www.structurizr.com/) |
+| **Lucidchart**    | Entorno de diagramación colaborativo utilizado para crear modelos técnicos, como diagramas de clases y esquemas de bases de datos, esenciales para definir la arquitectura del sistema. | [lucidchart.com](https://www.lucidchart.com/) |
+| **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | [miro.com](https://miro.com/es/) |
+---
+
+#### Product UX/UI Design
+
+El diseño de la experiencia de usuario y la interfaz visual se llevó a cabo utilizando herramientas especializadas, que facilitaron la creación de prototipos gráficos y mapas de navegación. Esto permitió validar la estructura de la aplicación antes de su desarrollo:
+
+| Herramienta | Descripción                                                                                          | Enlace                              |
+|-------------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Figma**   | Plataforma de diseño colaborativo en línea que facilitó a los miembros del equipo la creación y edición en tiempo real de wireframes y mockups, garantizando la consistencia visual y funcional de la landing page. | [figma.com](https://www.figma.com/) |
+
+---
+
+#### Software Development
+Para la creación de la página web, se utilizaron lenguajes de programación y marcado fundamentales para definir la estructura, el diseño y las funcionalidades del sistema. A continuación, se detallan las herramientas empleadas:
+
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **HTML**       | Lenguaje de marcado clave para organizar el contenido y la disposición de los elementos en la página web. | [HTML](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de diseño que se utiliza para aplicar estilos visuales a los elementos definidos en HTML, optimizando su apariencia. | [CSS](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos empleado para incorporar interactividad y funcionalidades dinámicas en la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+
+---
+#### Software Documentation
+La gestión y documentación del proyecto se realizó mediante herramientas que optimizaron la organización y el acceso a la información técnica, garantizando la transparencia y la trazabilidad del proceso de desarrollo:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub**     | Plataforma de desarrollo colaborativo que se utilizó también para gestionar y almacenar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Formato de texto sencillo utilizado para redactar y organizar la documentación técnica del proyecto de manera clara y fácil de leer. | [markdown.es](https://markdown.es/)                          |
+
+---
+#### Software Deployment
+Para publicar la landing page, se utilizó una plataforma de hosting que permite desplegar el sitio directamente desde un repositorio de GitHub, lo que aseguró una gestión eficaz del ciclo de vida de la aplicación:
+
+| Herramienta     | Descripción                                                                                              | Enlace                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub Pages** | Servicio de GitHub que permite publicar la aplicación directamente desde el repositorio, facilitando su acceso público en línea. | [GitHub Pages](https://pages.github.com/)                   |
+
+---
+
+
 ### 5.1.2. Source Code Management.
+
+
+#### Producto y Repositorio
+| Producto             | Repositorio        | URL                                                       |
+|----------------------|--------------------|------------------------------------------------------------|
+| Landing Page         | EDUnova-Landing Page| [LandingPage](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/LandingPage)     |
+| Web Services         | EDUnova-Web Services| [Backend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Backend-EDUnova) |
+| Front Web Application| EDUnova-Frontend    | [Frontend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Frontend-EDUnova) |
+
+#### Estructura del Repositorio
+El repositorio se ha organizado en ramas dedicadas a distintas fases del desarrollo, asegurando un flujo de trabajo estructurado y eficiente. La estructura de ramas es la siguiente:
+
+- **Main branch** (rama principal): Alberga la versión estable y lista para su implementación del software.
+  
+- **Develop branch** (rama de desarrollo): Contiene el código en progreso, que se integrará a la rama principal una vez haya sido probado y validado.
+
+Asimismo, para el desarrollo de nuevas funcionalidades, se generaron ramas específicas respetando las convenciones de nomenclatura establecidas:
+
+- **Feature branches**: Ramas destinadas al desarrollo de nuevas características, utilizando la nomenclatura `feature/nueva-funcionalidad`.
+  
+Adoptamos **GitFlow**, un modelo de gestión de ramas propuesto por Vincent Driessen, que contempla las siguientes ramas:
+
+- **Main branch**: Contiene el código estable y listo para ser implementado en producción.
+
+- **Develop branch**: Rama donde se incorporan nuevas funcionalidades y correcciones antes de su fusión con la rama principal.
+
+- **Feature branches**: Se crean a partir de develop para desarrollar nuevas características, siguiendo la estructura de nombre feature/nueva-funcionalidad.
+
+- **Release branches**: Se utilizan para preparar nuevas versiones, permitiendo realizar pruebas finales y ajustes antes de su despliegue en producción.
+
+ - **Hotfix branches**: Destinadas a solucionar errores críticos en producción, siguiendo la convención de nombre hotfix/correccion-critica.
+
+#### Flujo de trabajo GitFlow
+
+- Una rama de **producción** (`main`).
+- Una rama de **pruebas** (`develop`).
+- Rama de **hotfix** para corrección de errores críticos (`hotfix/*`).
+- Rama de **release** destinada a la estabilización y realización de pruebas finales antes del despliegue (`release/*`).
+- Ramas para **features** (`feature/*`).
+- Cada actualización en **producción** se trata como una nueva versión.
+- Cambios en `main` y `develop` requieren aprobación.
+
+#### Mensajes de Commits
+Implementamos el estándar **Conventional Commits** para estructurar los mensajes de nuestros commits, lo que permite una mejor interpretación del historial de cambios y favorece la automatización de versiones. A continuación, se presentan algunos ejemplos de mensajes:
+
+- `feat`: Añadir nueva funcionalidad, por ejemplo, `feat: agregar módulo de comentarios en publicaciones`.
+- `fix`: Corregir errores, por ejemplo, `fix: corregir error en el cálculo de precios`.
+- `docs`: Actualizar documentación, por ejemplo, `docs: mejorar documentación del proceso de despliegue`.
+- `style`: Aplicar formato, por ejemplo, `style: reformatear código siguiendo el estándar de estilo`.
+- `refactor`: Mejorar el código sin cambiar su funcionalidad, por ejemplo, `refactor: reorganizar componentes del formulario de registro`.
+- `test`: Añadir o modificar pruebas, por ejemplo, `test: crear pruebas unitarias para el servicio de pagos`.
+
+#### Documentación
+
+La documentación del proyecto está disponible en el archivo `README.md` ubicado en el repositorio. Este documento ofrece información sobre la configuración, el uso del software y las instrucciones para colaborar en el proyecto.
+
+---
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+
+#### HTML
+
+Durante el desarrollo de la estructura del sitio, se implementaron las siguientes buenas prácticas para garantizar una adecuada accesibilidad y organización:
+
+- Utilizar únicamente minúsculas en las etiquetas.
+  
+- Verificar el cierre adecuado de todos los elementos.
+
+- Escribir los atributos en minúsculas.
+
+- Añadir `alt`, `width` y `height` en las imágenes para mejorar la accesibilidad y el control de su presentación.
+
+- Eliminar espacios innecesarios dentro de las etiquetas.
+
+**Ejemplo de imagen:**
+```html
+<img src="html5.gif" alt="HTML5" style="width:64px;height:64px">
+```
+
+**Etiquetas HTML utilizadas:**
+
+```html
+<header>, <nav>, <div>, <img>, <ul>, <li>, <a>, <p>, <button>, <h1>, <h2>, <h3>, <h4>
+```
+
+---
+
+#### CSS
+
+Con el objetivo de asegurar la coherencia en el diseño y mejorar la legibilidad del código, se siguieron las siguientes pautas:
+- Asignar a las clases e IDs nombres descriptivos y con significado.
+- Utilizar nombres cortos pero claros.
+
+```css
+#gallery {}
+.video {}
+```
+
+- Emplear propiedades abreviadas siempre que sea viable para mantener el código más conciso.
+```css
+padding: 0 1em 2em;
+```
+
+- Omitir las unidades en los valores que sean cero.
+```css
+margin: 0;
+padding: 0;
+```
+
+- Organizar las propiedades en orden alfabético para mejorar la rapidez de lectura.
+
+```css
+align-items: center;
+background-color: #ffffff;
+border: 2px dashed #ccc;
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+```
+
+---
+
+#### JavaScript
+Para asegurar un código más limpio y fácil de mantener, se adoptaron las siguientes prácticas de codificación:
+
+- Emplear funciones con llaves correctamente organizadas.
+
+```js
+function myFunc() {
+  console.log('Hello World!');
+}
+```
+
+- Usar `lowerCamelCase` para declarar variables.
+
+```js
+let userAge = 25;
+```
+
+- Optar por el uso de `let` y `const` en lugar de `var`.
+
+```js
+const userName = 'Alex';
+let userScore = 10;
+userScore += 5;
+console.log(userScore);
+```
+
+- Nombrar las funciones utilizando la convención `lowerCamelCase`.
+
+```js
+function calculateTotal() {
+  return price * quantity;
+}
+```
+---
+
 ### 5.1.4. Software Deployment Configuration.
+
+
+#### Landing Page
+
+**Recomendaciones antes del despliegue:**
+
+1. Archivos en formatos HTML, CSS y JS.
+2. Publicación en un repositorio de GitHub.
+3. Ejecución de pruebas de funcionamiento (tanto internas como externas).
+
+**Condiciones necesarias:**
+
+- Repositorio público en GitHub.
+- Código fuente completo de la landing page.
+
+**Instrucciones para llevar a cabo el despliegue:**
+
+A continuación, se describen los pasos necesarios para desplegar nuestro sitio web utilizando GitHub Pages.
+
+&nbsp;
+
+1. **Despliegue con GitHub Pages**: Primero, ingresamos al repositorio de GitHub donde está alojado el proyecto y luego accedemos a la sección de configuración del repositorio.
+
+   ![Imagen](./assets/SettingsWeb.png)
+
+   &nbsp;
+
+2. Dentro del menú de ajustes, seleccionamos la opción "Pages".
+
+   ![Imagen](./assets/PagesWeb.png)
+   
+---
+
+#### Control de Versiones
+
+**Uso de Git**: Es esencial mantener un registro completo de los cambios para administrar las distintas versiones del código de forma eficiente.
+
+En la sección de **GitHub Pages**, seleccionamos la rama principal (`main`) en el menú desplegable bajo la opción "Branch" y luego hacemos clic en "Save" para aplicar los cambios. Tras un breve tiempo de espera, se generará el enlace a nuestro sitio web, ahora disponible en GitHub Pages.
+
+---
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+
+En Scrum, un Sprint es un período breve y específico en el que el equipo se enfoca en realizar las tareas necesarias para cumplir con el objetivo del producto, también llamado "Product Goal" (Scrum Alliance, 2024).
+
 #### 5.2.1.1. Sprint Planning 1.
+
+
+Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #1, que comenzó el 14 de agosto de 2024, tiene como objetivo desarrollar una landing page atractiva para EcoMovil, pensada para captar la atención de los usuarios y resaltar las principales ventajas del producto.
+
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 1 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td>  25/04/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 18:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de Discord <td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Acuña Tomas, Diego Rolin <td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+            <br>
+             Acuña Tomas, Diego Rolin
+            <br>
+             Alvarez Falen, Esteban Valentino
+            <br>
+            Guerrero Vasquez, Jhon Danny
+            <br>
+             Iparraguirre Rueda, Cristian Luis
+            <br>
+            Torres Cortez, Tony Do Santos
+        <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
+        <td> Dado que es nuestro primer sprint de desarrollo, aún no disponemos de un resumen de la revisión del sprint. <td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
+        <td> Dado que este es nuestro primer sprint de desarrollo, aún no hemos establecido planes de mejora.<td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Goal</td>
+          <td>  En este sprint, el objetivo es crear la landing page con las secciones de inicio de sesión, hero, y elementos de navegación como el footer, "About us", "Contact Us", "Information" y "Benefits". Al finalizar el sprint, la landing page debe estar publicada en GitHub, permitiendo que cualquier usuario acceda a ella a través de un enlace. <td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+          <td>  33  <td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 33 <td>
+      </tr>
+
+
+  </table>
+
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Navbar (Barra de navegación) | Hero Section | Footer | About Us Section | Information Section | Benefits Section | Contact Us Section | Responsive Design (Multi-device) | Documentación del Sprint |
+|-------------------------------------|-----------------|------------------------------|--------------|--------|------------------|---------------------|------------------|-------------------|-------------------------------|---------------------------|
+| Acuña Tomas, Diego Rolin | ComidaRapida007 | L | L | L | L | L| L| L| L| L |
+| Alvarez Falen, Esteban Valentino | EstebanAlvarez1402 | C | C | C | C | C | C | C | C | C |
+| Guerrero Vasquez, Jhon Danny | EstebanAlvarez1402 | C | C | C | C | C | C | C | C | C |
+| Iparraguirre Rueda, Cristian Luis | cristianipa7 | C | C | C | C | C | C | C | C | C |
+| MTorres Cortez, Tony Do Santos | TonyTorresC | C | C | C | C | C | C | C | C | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
+
+
+En el primer sprint backlog, el equipo estableció como objetivo comenzar y finalizar el desarrollo de la landing page. Para organizar y gestionar al equipo, se utilizó Trello, una herramienta que permitió desglosar las user stories en tareas más pequeñas y asignarlas según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page en su totalidad, asegurando que fuera atractiva y funcional.
+
+![Trello](assets/Sprint1.png)
+
+
+<table style="width:100%; height:auto; border-collapse: collapse;">
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr>
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item / Task </th>
+   </tr>
+   <tr>
+     <th> Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th> Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th>
+     <th> Status (To-do / In-Process / To-Review / Done) </th>
+   </tr>
+   <tr>
+   <th> US01 </th>
+   <th colspan="3"> Barra de navegación en la Landing Page </th>
+   <th> UT01 </th>
+   <th> Creación de la barra de navegación. </th>
+   <th> Implementar el menú de navegación de la landing page de EDUnova, asegurando que las opciones sean fáciles de usar y claras para los usuarios. </th>
+   <th> 1 </th>
+   <th> Diego Acuña </th> 
+   <th> Done </th>
+    </tr>
+    <tr>
+    <th> US01 </th>
+    <th colspan="3"> Barra de navegación en la Landing Page </th>
+    <th> UT02</th>
+    <th> Optimización de la barra de navegación. </th>
+    <th> Mejorar la experiencia del usuario en la barra de navegación mediante la inclusión de animaciones y transiciones suaves. </th>
+    <th> 3 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US02 </th>
+    <th colspan="3"> Sección Hero en la Landing Page </th>
+    <th> UT03</th>
+    <th> Creación de la sección Hero. </th>
+    <th> Diseñar la sección principal de la landing page con una imagen atractiva y un título que capte la atención del visitante. </th>
+    <th> 3 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US02 </th>
+    <th colspan="3"> Sección Hero en la Landing Page </th>
+    <th> UT04 </th>
+    <th> Modificaciones en la sección Hero. </th>
+    <th> Ajustar la sección Hero para asegurar su correcta visualización en diferentes dispositivos y tamaños de pantalla. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US03 </th>
+    <th colspan="3"> Sección Footer en la Landing Page </th>
+    <th> UT05 </th>
+    <th> Creación de la sección de footer. </th>
+    <th> Crear la sección de pie de página con enlaces a información sobre el equipo y los términos y condiciones de uso. </th>
+    <th> 1 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US04 </th>
+    <th colspan="3"> Sección "About Us" en la Landing Page </th>
+    <th> UT06 </th>
+    <th> Crear una sección que describa nuestra startup. </th>
+    <th> Desarrollar la sección "Sobre nosotros" para proporcionar detalles acerca del equipo y la misión de la empresa. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US04 </th>
+    <th colspan="3"> Sección "About Us" en la Landing Page </th>
+    <th> UT07 </th>
+    <th> Describir nuestra empresa y a los miembros del equipo. </th>
+    <th> Incluir información detallada sobre la historia de la empresa y sus miembros en la sección "Sobre nosotros". </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US05 </th>
+    <th colspan="3"> Sección "Information" en la Landing Page </th>
+    <th> UT08 </th>
+    <th> Describir en detalle nuestro producto. </th>
+    <th> Crear una sección que explique de manera detallada nuestro producto. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US05 </th>
+    <th colspan="3"> Sección "Information" en la Landing Page </th>
+    <th> UT09 </th>
+    <th> Modificación de la sección "Information". </th>
+    <th> Agregar información complementaria sobre el producto, junto con una frase persuasiva y una imagen representativa. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US06 </th>
+    <th colspan="3"> Sección "Benefits" en la Landing Page </th>
+    <th> UT10 </th>
+    <th> Explicar los beneficios de nuestro producto. </th>
+    <th> Desarrollar una sección destacada que explique los beneficios de la aplicación en comparación con otras opciones disponibles. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US06 </th>
+    <th colspan="3"> Sección "Benefits" en la Landing Page </th>
+    <th> UT11 </th>
+    <th> Modificación de la sección "Benefits". </th>
+    <th> Explicar los beneficios de manera atractiva, utilizando imágenes interactivas y textos explicativos para cada beneficio. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US07 </th>
+    <th colspan="3"> Sección "Contact us" en la Landing Page </th>
+    <th> UT12 </th>
+    <th> Creación de la sección de contacto. </th>
+    <th> Incluir la información de contacto del equipo para facilitar la interacción con los usuarios. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US07 </th>
+    <th colspan="3"> Sección "Contact us" en la Landing Page </th>
+    <th> UT13 </th>
+    <th> Desarrollar el formulario de contacto. </th>
+    <th> Desarrollar un formulario de contacto funcional en la sección correspondiente de la página. </th>
+    <th> 1 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US08 </th>
+    <th colspan="3"> Landing Page Responsive con diferentes dispositivos </th>
+    <th> UT14 </th>
+    <th> Ajustar cada elemento de la página web para que se adapte a diferentes dispositivos. </th>
+    <th> Asegurar que la landing page sea completamente funcional y se vea bien en diferentes dispositivos y resoluciones de pantalla. </th>
+    <th> 6 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+    </tr>
+    <tr>
+    <th> US08 </th>
+    <th colspan="3"> Landing Page Responsive con diferentes dispositivos </th>
+    <th> UT15 </th>
+    <th> Adaptación para dispositivos móviles. </th>
+    <th> Optimizar el diseño para ofrecer una experiencia de usuario más fluida en dispositivos móviles. </th>
+    <th> 2 </th>
+    <th> Diego Acuña </th> 
+    <th> Done </th>
+</tr>
+
+</table>
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+  En estos commits se reflejan las actualizaciones más recientes realizadas en la rama main del repositorio de la Landing Page.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 3ec4d83 | feat: Agrege los archivos y carpetas | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 37829ec | feat: Agregar estilos de escritura y iconos | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 8931eef | feat: Agregar la barra de navegacion | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | a37de76 | feat: Agregar la seccion Home que contiene un Hero Image | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 1675d78 | feat: Agregar la seccion de colaboradores | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 670ef88 | feat: Agregar la seccion Information | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 91a0d44 | feat: Agregar la seccion Benefits | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | bd80abf | feat: Agregar la seccion About us | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 3a10955 | feat: Agregar la seccion Contact us | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | ed09e85 | feat: Agregar el footer | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 6a0cd97 | feat: Agregar los estilos de las secciones | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 91cebdb | feat: Agregar los estilos que vuelve responsive al landing page | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 55a68df | feat: Funciones para el correcto funcionamiento del navBar | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | d93f4d2 | feat: Agregar imagenes | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | ade9a21 | feat: Agregar una imagen | - | 26/04/2025 |
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+
+En esta entrega, nuestro equipo logró publicar exitosamente la landing page.
+
+Enlace de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+![image.png](./assets/LPHero.png)
+Descripción: Imagen del hero y header<br><br>
+
+![image.png](./assets/LPInformation.png)
+Descripción: Imagen de la sección Information<br><br>
+
+![image.png](./assets/LPBenefits.png)
+Descripción: Imagen de la sección Benefits<br><br>
+
+![image.png](./assets/LPAboutUs.png)
+Descripción: Imagen de la sección About Us<br><br>
+
+![image.png](./assets/LPContactUs.png)
+Descripción: Imagen de la sección Contact Us<br><br>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Este apartado aborda los Web Services y el uso de métodos HTTP, temas que no forman parte del alcance definido para este primer Sprint Review.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+
+En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Github.
+
+
+### 🚀 **Pasos para hacer deploy**
+##### 1. Crear un nuevo repositorio en GitHub
+- Poseer una cuenta en GitHub.  
+- Tener tu landing page finalizada (HTML, CSS, JS, etc.) guardada en una carpeta local.  
+- Contar con un archivo principal nombrado `index.html`.
+
+![image.png](./assets/Deploy1.png)
+Descripción: Imagen del proceso de creación de un repositorio.<br><br>
+
+##### 2. Subir tu proyecto al repositorio
+- Ingresar a tu repositorio  
+- Hacer clic en Add file → Upload files  
+- Elegir los archivos que deseas subir
+
+![image.png](./assets/Deploy2.png)
+Descripción: Visualización de un repositorio, en este ejemplo ya contiene la Landing Page desplegada, aunque normalmente estaría vacío si es un repositorio nuevo.<br><br>
+
+![image.png](./assets/Deploy3.png)
+Descripción: Área destinada a la carga de los archivos requeridos para la Landing Page.<br><br>
+
+##### 3. Habilitar GitHub Pages
+- Ingresa al repositorio en GitHub.  
+- Dirígete a la sección Settings.  
+- En el menú lateral, selecciona Pages.  
+- En “Source”, elige la rama main y la carpeta raíz (/).  
+- Presiona Save para guardar los cambios.
+  
+![image.png](./assets/Deploy4.png)
+Demostración de que la Landing Page ha sido correctamente desplegada.<br><br>
+
+Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este sprint, las tareas de diseño, implementación y documentación de la landing page fueron asignadas entre los miembros del equipo. La mayor parte de la implementación y despliegue de la landing page fue realizada por Diego Acuña.
+
+![image.png](./assets/CollaborationSprint1.png)
+
+
+
+## Conclusiones
+1. **Viabilidad del Proyecto**
+   - A lo largo del proceso de investigación y desarrollo, se validó la viabilidad técnica y comercial de la startup EDUnova. La solución propuesta aborda una necesidad real en el mercado educativo, especialmente dirigida a usuarios universitarios que buscan aprender, repasar o ampliar sus conocimientos.
+
+2. **Ajuste con el Usuario**
+   - Las entrevistas realizadas, junto con las herramientas de *needfinding* (como las personas y los mapas de viaje del usuario), revelaron que los usuarios valoran la educación alternativa y personalizada. No solo podrán aprender de profesores, sino también de estudiantes y egresados que enseñan de manera más accesible. Además, destacan la accesibilidad de la plataforma y su integración con otros dispositivos, como los móviles.
+
+3. **Rendimiento del Producto**
+   - La primera iteración del producto, que abarcó la creación de la página de destino y el prototipado de la aplicación web, mostró ser exitosa en cuanto a diseño de interfaz y experiencia de usuario. Los prototipos recibieron una respuesta positiva en las pruebas iniciales, aunque todavía hay aspectos que necesitan ajustes.
+
+4. **Estrategias Competitivas**
+   - En comparación con sus competidores, EDUnova se diferencia por su enfoque integral en personalización y adaptabilidad, lo que le otorga una ventaja competitiva. No obstante, la competencia es intensa, particularmente en cuanto a las funcionalidades adicionales y la calidad del contenido.
+
+5. **Desafíos en el Desarrollo**
+   - El diseño de la arquitectura de software y la integración de la plataforma con otros servicios presentó algunos desafíos, particularmente en la gestión de la base de datos y la escalabilidad de los servicios. No obstante, se resolvieron la mayoría de los problemas técnicos, y la arquitectura del software avanza de manera sólida.
+
+## Recomendaciones
+
+1. **Optimización de la Experiencia de Usuario**
+   - Se sugiere llevar a cabo pruebas de usabilidad adicionales con un grupo más diverso de usuarios para identificar posibles mejoras en la navegación y la interfaz de la aplicación. Incorporar más interacciones personalizadas para quienes estén interesados en crear cursos y centrarse en mejorar la accesibilidad a través de dispositivos móviles podría optimizar la experiencia general.
+
+2. **Expansión de Funcionalidades**
+   - Para seguir siendo competitivos, es crucial incorporar nuevas funcionalidades, como programas de creación de cursos más intuitivos y adaptativos, soporte para una mayor variedad de dispositivos, y características sociales que promuevan la interacción entre los usuarios.
+
+3. **Mejorar la Estrategia de Marketing**
+   - La estrategia de marketing debe centrarse en resaltar la diversidad de enfoques educativos que EDUnova ofrece a sus usuarios. Incluir testimonios de usuarios reales y casos de éxito podría ser clave para atraer a más usuarios y mejorar la percepción del producto en el mercado.
+
+4. **Escalabilidad y Optimización Técnica**
+   - Para asegurar un crecimiento continuo, es crucial realizar pruebas de carga y mejorar la infraestructura técnica para garantizar que el sistema pueda gestionar un número creciente de usuarios sin afectar el rendimiento. Asimismo, es importante evaluar la posibilidad de implementar una solución más eficiente en cuanto a la base de datos y la sincronización en tiempo real.
+
+5. **Mejorar la Gestión de Equipos**
+   - A medida que el equipo se expanda, es fundamental establecer canales de comunicación más efectivos y herramientas de gestión que garanticen que todos los miembros estén alineados con los objetivos y tareas del proyecto. Adoptar metodologías ágiles de manera más rigurosa puede ayudar a aumentar la productividad y fomentar una mejor colaboración.
+
+## Bibliografía
+
+- *III Informe Bienal sobre la Realidad Universitaria en el Perú.* (s. f.). Informes y Publicaciones - Superintendencia Nacional de Educación Superior Universitaria - Plataforma del Estado Peruano. https://www.gob.pe/institucion/sunedu/informes-publicaciones/2824150-iii-informe-bienal-sobre-la-realidad-universitaria-en-el-peru
+- *Erestel: el 91.9 % de hogares peruanos cuenta con  teléfonos inteligentes o smartphones.* (s. f.). OSIPTEL. https://www.osiptel.gob.pe/portal-del-usuario/noticias/erestel-el-91-9-de-hogares-peruanos-cuenta-con-telefonos-inteligentes-o-smartphones/
+- Gamero-Burón, C. (2024). Hábitos de estudio y rendimiento académico universitario. El poder predictivo de los exámenes on-line. *Revista Digital de Investigación En Docencia Universitaria, 18*(1), e1826. https://doi.org/10.19083/ridu.2024.1826
+- Vargas-Campos, K., Danielli-Rocca, J. J., Parillo-Sosa, E., & Reeves-Huapaya, E. S. (2024). La educación virtual universitaria postpandemia: Una revisión sistemática. *Revista Arbitrada Interdisciplinaria Koinonía, 9*(1), 62-76. https://doi.org/10.35381/r.k.v9i1.3553
+- Del Carmen Molinero Bárcenas, M., & Morales, U. C. (2019). Herramientas tecnológicas en el proceso de enseñanza-aprendizaje en estudiantes de educación superior. *RIDE Revista Iberoamericana Para la Investigación y el Desarrollo Educativo, 10*(19). https://doi.org/10.23913/ride.v10i19.494
+- Bossio, J. (2023, 16 mayo). *Tendencias que impactan la Educación Superior* -. https://innovacioneducativa.upc.edu.pe/2023/05/16/tendencias-que-impactan-la-educacion-superior/
+
+## Anexos
+Link de la Organización: https://github.com/upc-pre-2510-daos-4346-grupo4
+
+Link de la documentanción: https://github.com/upc-pre-2510-daos-4346-grupo4/Report
+
+Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
