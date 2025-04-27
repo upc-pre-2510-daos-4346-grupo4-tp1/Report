@@ -91,13 +91,6 @@
   - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines-1)
-      - [**1. Componentes UI Responsive**](#1-componentes-ui-responsive)
-        - [**A. Header/Navegación**](#a-headernavegación)
-        - [**B. Cards (Cursos/Lecciones)**](#b-cards-cursoslecciones)
-        - [**C. Formularios (Login/Register/Enroll)**](#c-formularios-loginregisterenroll)
-      - [**2. Interacciones y Estados**](#2-interacciones-y-estados)
-      - [**3. Breakpoints y Grid**](#3-breakpoints-y-grid)
   - [4.2. Information Architecture.](#42-information-architecture)
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
@@ -934,16 +927,17 @@ Esta guía establece los fundamentos de diseño visual y comunicación para **Ed
 ---
 
 ### 4.1.2. Web Style Guidelines.
-#### 4.1.2. Web Style Guidelines
 
 Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo estándares visuales modernos para una interfaz *responsive*. Incluiré componentes principales, reglas de interacción y diseño adaptativo, enfocados en accesibilidad, usabilidad y consistencia.
 
 ---
 
-#### **1. Componentes UI Responsive**  
+<h4>1. Componentes UI Responsive</h4>
+
 **Patrones reutilizables y su comportamiento en distintos dispositivos:**  
 
-##### **A. Header/Navegación**  
+<h5>A. Header/Navegación</h5>  
+
 - **Desktop:**  
   - Logo alineado a la izquierda + menú de navegación horizontal (`display: flex`).  
   - Hover en ítems: subrayado en color secundario (`border-bottom: 2px solid #DEB12C`).  
@@ -951,7 +945,8 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
   - Menú hamburguesa (`position: fixed`) + overlay oscuro (`background: rgba(0,0,0,0.5)`).  
   - Logo centrado, reducido a `36px` de altura.  
 
-##### **B. Cards (Cursos/Lecciones)**  
+<h5>B. Cards (Cursos/Lecciones)</h5>
+
 - **Desktop:**  
   - 3 o 4 columnas (`grid-template-columns: repeat(3, 1fr)` o `repeat(4, 1fr)` según ancho).  
   - Hover: Elevación sutil (`box-shadow: 0 4px 10px rgba(0,0,0,0.1)`).  
@@ -959,7 +954,8 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
   - 1 columna + scroll horizontal (`overflow-x: auto`).  
   - Ancho de card fijo `320px`.  
 
-##### **C. Formularios (Login/Register/Enroll)**  
+<h5>C. Formularios (Login/Register/Enroll)</h5>
+
 - **Desktop:**  
   - Ancho de formulario al `50%` de pantalla, centrado (`margin: auto`).  
 - **Mobile:**  
@@ -968,7 +964,8 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
 
 ---
 
-#### **2. Interacciones y Estados**  
+<h4>2. Interacciones y Estados</h4>
+
 **Microinteracciones sutiles para una plataforma académica más fluida:**  
 
 | Componente   | Estado        | Estilo/Comportamiento                           |  
@@ -980,7 +977,8 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
 
 ---
 
-#### **3. Breakpoints y Grid**  
+<h4>3. Breakpoints y Grid</h4>
+
 **Diseño mobile-first para una navegación fluida:**  
 
 ```css
@@ -1003,7 +1001,6 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
   .grid { grid-template-columns: repeat(4, 1fr); }
 }
 ```
-
 
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
