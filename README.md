@@ -757,6 +757,7 @@ Epic ID
   <img src="./assets/Figma5.jpg" alt="Wireframe5" width="1000"/>
 </div>
 
+Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WKB5NhWh/Open-source?t=XRp6JykfbClFpZ4R-1)
 
 ### 4.3.2. Landing Page Mock-up.
 
