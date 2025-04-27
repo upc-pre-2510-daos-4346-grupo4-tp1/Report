@@ -1519,7 +1519,7 @@ Descripción: Área destinada a la carga de los archivos requeridos para la Land
 - En el menú lateral, selecciona Pages.  
 - En “Source”, elige la rama main y la carpeta raíz (/).  
 - Presiona Save para guardar los cambios.
-- 
+  
 ![image.png](./assets/Deploy4.png)
 Demostración de que la Landing Page ha sido correctamente desplegada.<br><br>
 
