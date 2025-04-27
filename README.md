@@ -79,6 +79,8 @@
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [Estudiantes](#estudiantes)
+  - [Instructores](#instructores)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
@@ -681,11 +683,15 @@ Resumen:
 </p>
 
 ### 2.2.3. Análisis de entrevistas.
-Estudiantes
-De acuerdo a los testimonios brindados por parte de los estudiantes universitarios entrevistados coinciden en que los cursos online deben ser accesibles, flexibles y con contenido de calidad. Valoran especialmente la interacción con docentes, las clases en vivo para resolver dudas, y materiales descargables. La falta de oferta constante y la escasa personalización son problemas comunes. Prefieren plataformas visuales y herramientas conocidas, y se motivan más cuando hay certificación válida y promociones para estudiantes. Por ello, se evidencia la necesidad de una propuesta educativa online más dinámica, personalizada y alineada a sus intereses profesionales.
+## Estudiantes
+De acuerdo a los testimonios brindados por parte de los estudiantes universitarios entrevistados, coinciden en que los cursos online deben ser accesibles, flexibles y con contenido de calidad. Valoran especialmente la interacción con docentes, las clases en vivo para resolver dudas, y materiales descargables.  
+La falta de oferta constante y la escasa personalización son problemas comunes. Prefieren plataformas visuales y herramientas conocidas, y se motivan más cuando hay certificación válida y promociones para estudiantes.  
+Se evidencia la necesidad de una propuesta educativa online más dinámica, personalizada y alineada a sus intereses profesionales.
 
-Instructores
-Dados los testimonios brindados por los docentes y profesionales entrevistados, se ha podido deducir que uno de los principales problemas al crear y dictar cursos online universitarios radica en la falta de plataformas que integren de forma efectiva la personalización, seguimiento del progreso y herramientas interactivas. Asimismo, valoran altamente la organización modular, la entrega de certificados, el control sobre precios y estadísticas, y muestran preferencia por modelos de pago únicos o suscripciones simples. Las dificultades técnicas y la limitada interacción en algunos entornos digitales también fueron mencionadas como barreras importantes a superar para garantizar una educación virtual de calidad
+## Instructores
+De acuerdo a los testimonios de docentes y profesionales entrevistados, uno de los principales problemas al crear y dictar cursos online universitarios radica en la falta de plataformas que integren de forma efectiva la personalización, seguimiento del progreso y herramientas interactivas.  
+Valoran altamente la organización modular, la entrega de certificados, el control sobre precios y estadísticas, y muestran preferencia por modelos de pago únicos o suscripciones simples.  
+Las dificultades técnicas y la limitada interacción en algunos entornos digitales también fueron mencionadas como barreras importantes a superar.
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
