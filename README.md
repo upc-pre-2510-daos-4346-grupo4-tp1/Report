@@ -62,32 +62,19 @@
       - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
-  - [Hypothesis Statement 1](#hypothesis-statement-1)
-  - [Hypothesis Statement 2](#hypothesis-statement-2)
-  - [Hypothesis Statement 3](#hypothesis-statement-3)
-  - [Hypothesis Statement 4](#hypothesis-statement-4)
       - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
-  - [Segmento objetivo #1: Estudiantes universitarios que desean aprender](#segmento-objetivo-1-estudiantes-universitarios-que-desean-aprender)
-  - [Segmento objetivo #2: Creadores de cursos](#segmento-objetivo-2-creadores-de-cursos)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores.](#21-competidores)
     - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
-- [Competitive Analysis Landscape](#competitive-analysis-landscape)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
-  - [Estudiantes](#estudiantes)
-  - [Instructores](#instructores)
   - [2.3. Needfinding.](#23-needfinding)
     - [2.3.1. User Personas.](#231-user-personas)
     - [2.3.2. User Task Matrix.](#232-user-task-matrix)
-  - [Análisis](#análisis)
-    - [Tareas con mayor frecuencia e importancia](#tareas-con-mayor-frecuencia-e-importancia)
-    - [Coincidencias](#coincidencias)
-    - [Diferencias](#diferencias)
     - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
@@ -105,10 +92,8 @@
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [1. Landing Page](#1-landing-page)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-    - [1. Landing Page](#1-landing-page-1)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
@@ -130,26 +115,9 @@
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Requirement Management](#requirement-management)
-  - [| **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | miro.com |](#-miro--plataforma-colaborativa-en-línea-utilizada-para-la-creación-de-pizarras-visuales-facilitando-la-lluvia-de-ideas-la-planificación-de-flujos-de-trabajo-y-la-representación-de-conceptos-clave-del-proyecto--mirocom-)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Development](#software-development)
-      - [Software Documentation](#software-documentation)
-      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
-      - [Producto y Repositorio](#producto-y-repositorio)
-      - [Estructura del Repositorio](#estructura-del-repositorio)
-      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
-      - [Mensajes de Commits](#mensajes-de-commits)
-      - [Documentación](#documentación)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-      - [HTML](#html)
-      - [CSS](#css)
-      - [JavaScript](#javascript)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-      - [Landing Page](#landing-page)
-      - [Control de Versiones](#control-de-versiones)
   - [5.2. Landing Page, Services \& Applications Implementation.](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
       - [5.2.1.1. Sprint Planning 1.](#5211-sprint-planning-1)
@@ -159,10 +127,6 @@
       - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-    - [🚀 **Pasos para hacer deploy**](#-pasos-para-hacer-deploy)
-        - [1. Crear un nuevo repositorio en GitHub](#1-crear-un-nuevo-repositorio-en-github)
-        - [2. Subir tu proyecto al repositorio](#2-subir-tu-proyecto-al-repositorio)
-        - [3. Habilitar GitHub Pages](#3-habilitar-github-pages)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
@@ -257,19 +221,23 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-## Hypothesis Statement 1
+<h3>Hypothesis Statement 1</h3>
+
 > Creemos que al implementar en nuestra plataforma la funcionalidad de filtros avanzados por asignatura, nivel y docente, ayudaremos a los estudiantes a localizar el curso que necesitan en menos de 2 minutos.  
 > **Sabremos que hemos tenido éxito:** Cuando el 80 % de los estudiantes encuentren un curso relevante en menos de 2 minutos.
 
-## Hypothesis Statement 2
+<h3>Hypothesis Statement 2</h3>
+
 > Creemos que si ofrecemos plantillas pedagógicas prediseñadas en el panel de creación, facilitaremos a los docentes estructurar y publicar sus cursos de forma ágil.  
 > **Sabremos que hemos tenido éxito:** Cuando el 70 % de los nuevos cursos se publique en menos de 1 día desde el inicio de la creación.
 
-## Hypothesis Statement 3
+<h3>Hypothesis Statement 3</h3>
+
 > Creemos que al habilitar un sistema de valoraciones y reseñas por parte de los estudiantes, incrementaremos la confianza y el engagement en los cursos ofertados.  
 > **Sabremos que hemos tenido éxito:** Cuando el 60 % de los cursos reciba al menos 10 reseñas con puntuación de más de 4 en el primer mes.
 
-## Hypothesis Statement 4
+<h3>Hypothesis Statement 4</h3>
+
 > Creemos que si implementamos sesiones de mentoría en vivo y foros de discusión, mejoraremos la satisfacción y retención de los estudiantes.  
 > **Sabremos que hemos tenido éxito:** Cuando la tasa de estudiantes activos sea mayor al 75 % tras 30 días de uso.
 
@@ -283,7 +251,8 @@ El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrad
 
 ## 1.3. Segmentos objetivo.
 
-## Segmento objetivo #1: Estudiantes universitarios que desean aprender
+<h3>Segmento objetivo #1: Estudiantes universitarios que desean aprender</h3>
+
 **Descripción:**
 Este grupo está compuesto por hombres y mujeres de entre 18 y 25 años, estudiantes universitarios motivados por mejorar sus conocimientos, habilidades y desempeño académico o profesional. Buscan aprender más allá del aula: profundizar en los temas, entender mejor los contenidos y prepararse para el entorno laboral. Por ello, valoran plataformas accesibles, confiables y adaptadas a sus necesidades educativas.
 
@@ -297,7 +266,8 @@ Este grupo está compuesto por hombres y mujeres de entre 18 y 25 años, estudia
 
 - Residen en zonas urbanas, son nativos digitales y utilizan redes sociales, YouTube, Google, foros académicos y apps educativas.
 
-## Segmento objetivo #2: Creadores de cursos
+<h3>Segmento objetivo #2: Creadores de cursos</h3>
+
 **Descripción:**
 Este grupo está formado por personas con conocimientos universitarios que desean compartir lo que saben y generar ingresos a través de cursos. Incluye profesores, egresados y estudiantes avanzados que dominan temas académicos o técnicos. Buscan plataformas que les permitan crear, publicar y monetizar contenido de forma sencilla, profesional y sin necesidad de conocimientos técnicos avanzados.
 
@@ -329,7 +299,7 @@ Una plataforma que brinda la capacidad a creadores de vender y personalizar sus 
 
 ### 2.1.1. Análisis competitivo.
 
-# Competitive Analysis Landscape
+<h3>Competitive Analysis Landscape</h3>
 
 | **Nuestro Producto / Competidores** | **EDUnova** | **Coursera** | **Udemy** | **Teachable** |
 |-------------------------------------|-------------|--------------|-----------|---------------|
@@ -680,12 +650,14 @@ Resumen:
 </p>
 
 ### 2.2.3. Análisis de entrevistas.
-## Estudiantes
+<h3>Estudiantes</h3>
+
 De acuerdo a los testimonios brindados por parte de los estudiantes universitarios entrevistados, coinciden en que los cursos online deben ser accesibles, flexibles y con contenido de calidad. Valoran especialmente la interacción con docentes, las clases en vivo para resolver dudas, y materiales descargables.  
 La falta de oferta constante y la escasa personalización son problemas comunes. Prefieren plataformas visuales y herramientas conocidas, y se motivan más cuando hay certificación válida y promociones para estudiantes.  
 Se evidencia la necesidad de una propuesta educativa online más dinámica, personalizada y alineada a sus intereses profesionales.
 
-## Instructores
+<h3>Instructores</h3>
+
 De acuerdo a los testimonios de docentes y profesionales entrevistados, uno de los principales problemas al crear y dictar cursos online universitarios radica en la falta de plataformas que integren de forma efectiva la personalización, seguimiento del progreso y herramientas interactivas.  
 Valoran altamente la organización modular, la entrega de certificados, el control sobre precios y estadísticas, y muestran preferencia por modelos de pago únicos o suscripciones simples.  
 Las dificultades técnicas y la limitada interacción en algunos entornos digitales también fueron mencionadas como barreras importantes a superar.
@@ -704,8 +676,6 @@ Las dificultades técnicas y la limitada interacción en algunos entornos digita
 </div>
 
 ### 2.3.2. User Task Matrix.
-
-
 
 Este User Task Matrix considera dos segmentos clave:
 
@@ -728,9 +698,9 @@ Las tareas listadas son actividades que estos segmentos realizan habitualmente p
 | Resolver dudas de estudiantes/profesores en plataformas | Media | Alta | Media | Alta |
 
 
-## Análisis
+<h3>Análisis</h3>
 
-### Tareas con mayor frecuencia e importancia
+<h4>Tareas con mayor frecuencia e importancia</h4>
 
 **Samuel García:**  
 Se enfoca principalmente en encontrar cursos rápidamente, comparar opciones y asegurarse de obtener certificaciones. Esto refleja su necesidad de eficiencia, accesibilidad económica y facilidad de uso para complementar su educación formal.
@@ -738,13 +708,13 @@ Se enfoca principalmente en encontrar cursos rápidamente, comparar opciones y a
 **Sofía Fuentes:**  
 Da máxima prioridad a crear contenido organizado, gestionar la comunicación con estudiantes, y evaluar el progreso de sus alumnos. Su perfil busca plataformas que favorezcan la enseñanza estructurada, colaborativa y visualmente atractiva.
 
-### Coincidencias
+<h4>Coincidencias</h4>
 
 - Ambos consideran seguir el progreso (académico o de sus alumnos) como una tarea crítica.
 - Ambos valoran plataformas que faciliten la interacción (Samuel buscando ayuda técnica y Sofía comunicándose con estudiantes).
 - Compartir recursos y tener acceso a contenidos relevantes es importante para ambos, aunque en distintos roles.
 
-### Diferencias
+<h4>Diferencias</h4>
 
 - Samuel busca principalmente acceso rápido a cursos y certificaciones para su crecimiento académico; sus tareas son más orientadas al consumo de contenido.
 - Sofía se centra en crear y gestionar contenido para otros, priorizando la calidad de la enseñanza, la organización visual y la retroalimentación activa.
@@ -1067,7 +1037,7 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
 ### 4.2.2. Labeling Systems.
 ### 4.2.3. SEO Tags and Meta Tags
 
-### 1. Landing Page
+<h3>1. Landing Page</h3>
 
 | Tag              | Contenido |
 |------------------|-----------|
@@ -1092,7 +1062,7 @@ Aquí tienes la propuesta de **Web Style Guide** para **Edunova**, siguiendo est
 
 ### 4.2.5. Navigation Systems.
 
-### 1. Landing Page
+<h3>1. Landing Page</h3>
 
 | Sección     | Descripción                                | Elementos Clave |
 |-------------|--------------------------------------------|-----------------|
@@ -1556,7 +1526,8 @@ Este apartado describe las directrices y procesos seguidos durante la creación 
 ### 5.1.1. Software Development Environment Configuration.
 
 
-#### Project Management
+<h4>Project Management</h4>
+
 Con el fin de gestionar el proyecto de manera eficiente, se optó por implementar diversas herramientas que permitieran asignar tareas, coordinar reuniones y fomentar la colaboración entre los miembros del equipo. Además, se utilizó un repositorio centralizado para integrar los avances de forma organizada. A continuación, se detallan las plataformas elegidas y su función dentro del desarrollo del proyecto.
 
 - **Centro de organización de trabajo:** Github  
@@ -1564,20 +1535,22 @@ Con el fin de gestionar el proyecto de manera eficiente, se optó por implementa
 - **Reuniones de equipo:** Google Meet  
 - **Coordinación grupal:** WhatsApp 
 
-#### Requirement Management
+<h4>Requirement Management</h4>
+
 A lo largo del desarrollo del proyecto, se utilizaron distintas herramientas que apoyaron la identificación, análisis y visualización de los requisitos tanto técnicos como funcionales. Estas plataformas contribuyeron a una planificación más ordenada y a una mejor comprensión del diseño conceptual del sistema.
 
 
 | Herramienta   | Descripción                                                                                                     | Enlace                                      |
 |---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | **Trello**        | Herramienta de gestión de proyectos que utiliza tableros y tarjetas, utilizada para asignar responsabilidades a los integrantes del equipo y monitorear el avance de cada etapa del desarrollo. | [trello.com](https://trello.com/)           |
-| **Uxpressia**     | Herramienta digital empleada para crear mapas estratégicos, como el *Impact Mapping*, facilitando la conexión visual y comprensible entre los objetivos del negocio y las funciones del producto. | [uxpressia.com](https://uxpressia.com/)     |
+| **Uxpressia**     | Herramienta digital empleada para crear mapas estratégicos, como el Impact Mapping, facilitando la conexión visual y comprensible entre los objetivos del negocio y las funciones del producto. | [uxpressia.com](https://uxpressia.com/)     |
 | **Structurizr**   | Plataforma de modelado arquitectónico que permite elaborar diagramas C4, ofreciendo una representación estandarizada de la estructura lógica del sistema y la interacción entre sus componentes. | [structurizr.com](https://www.structurizr.com/) |
 | **Lucidchart**    | Entorno de diagramación colaborativo utilizado para crear modelos técnicos, como diagramas de clases y esquemas de bases de datos, esenciales para definir la arquitectura del sistema. | [lucidchart.com](https://www.lucidchart.com/) |
 | **Miro** | Plataforma colaborativa en línea utilizada para la creación de pizarras visuales, facilitando la lluvia de ideas, la planificación de flujos de trabajo y la representación de conceptos clave del proyecto. | [miro.com](https://miro.com/es/) |
+
 ---
 
-#### Product UX/UI Design
+<h4>Product UX/UI Design</h4>
 
 El diseño de la experiencia de usuario y la interfaz visual se llevó a cabo utilizando herramientas especializadas, que facilitaron la creación de prototipos gráficos y mapas de navegación. Esto permitió validar la estructura de la aplicación antes de su desarrollo:
 
@@ -1587,7 +1560,8 @@ El diseño de la experiencia de usuario y la interfaz visual se llevó a cabo ut
 
 ---
 
-#### Software Development
+<h4>Software Development</h4>
+
 Para la creación de la página web, se utilizaron lenguajes de programación y marcado fundamentales para definir la estructura, el diseño y las funcionalidades del sistema. A continuación, se detallan las herramientas empleadas:
 
 
@@ -1598,7 +1572,9 @@ Para la creación de la página web, se utilizaron lenguajes de programación y 
 | **JavaScript** | Lenguaje de programación orientado a objetos empleado para incorporar interactividad y funcionalidades dinámicas en la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
 
 ---
-#### Software Documentation
+
+<h4>Software Documentation</h4>
+
 La gestión y documentación del proyecto se realizó mediante herramientas que optimizaron la organización y el acceso a la información técnica, garantizando la transparencia y la trazabilidad del proceso de desarrollo:
 
 | Herramienta    | Descripción                                                                                              | Enlace                                                       |
@@ -1607,7 +1583,9 @@ La gestión y documentación del proyecto se realizó mediante herramientas que 
 | **Markdown**   | Formato de texto sencillo utilizado para redactar y organizar la documentación técnica del proyecto de manera clara y fácil de leer. | [markdown.es](https://markdown.es/)                          |
 
 ---
-#### Software Deployment
+
+<h4>Software Deployment</h4>
+
 Para publicar la landing page, se utilizó una plataforma de hosting que permite desplegar el sitio directamente desde un repositorio de GitHub, lo que aseguró una gestión eficaz del ciclo de vida de la aplicación:
 
 | Herramienta     | Descripción                                                                                              | Enlace                                                       |
@@ -1619,15 +1597,16 @@ Para publicar la landing page, se utilizó una plataforma de hosting que permite
 
 ### 5.1.2. Source Code Management.
 
+<h4>Producto y Repositorio</h4>
 
-#### Producto y Repositorio
 | Producto             | Repositorio        | URL                                                       |
 |----------------------|--------------------|------------------------------------------------------------|
 | Landing Page         | EDUnova-Landing Page| [LandingPage](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/LandingPage)     |
 | Web Services         | EDUnova-Web Services| [Backend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Backend-EDUnova) |
 | Front Web Application| EDUnova-Frontend    | [Frontend](https://github.com/upc-pre-2510-daos-4346-grupo4-tp1/Frontend-EDUnova) |
 
-#### Estructura del Repositorio
+<h4>Estructura del Repositorio</h4>
+
 El repositorio se ha organizado en ramas dedicadas a distintas fases del desarrollo, asegurando un flujo de trabajo estructurado y eficiente. La estructura de ramas es la siguiente:
 
 - **Main branch** (rama principal): Alberga la versión estable y lista para su implementación del software.
@@ -1650,7 +1629,7 @@ Adoptamos **GitFlow**, un modelo de gestión de ramas propuesto por Vincent Drie
 
  - **Hotfix branches**: Destinadas a solucionar errores críticos en producción, siguiendo la convención de nombre hotfix/correccion-critica.
 
-#### Flujo de trabajo GitFlow
+<h4>Flujo de trabajo GitFlow</h4>
 
 - Una rama de **producción** (`main`).
 - Una rama de **pruebas** (`develop`).
@@ -1660,7 +1639,8 @@ Adoptamos **GitFlow**, un modelo de gestión de ramas propuesto por Vincent Drie
 - Cada actualización en **producción** se trata como una nueva versión.
 - Cambios en `main` y `develop` requieren aprobación.
 
-#### Mensajes de Commits
+<h4>Mensajes de Commits</h4>
+
 Implementamos el estándar **Conventional Commits** para estructurar los mensajes de nuestros commits, lo que permite una mejor interpretación del historial de cambios y favorece la automatización de versiones. A continuación, se presentan algunos ejemplos de mensajes:
 
 - `feat`: Añadir nueva funcionalidad, por ejemplo, `feat: agregar módulo de comentarios en publicaciones`.
@@ -1670,7 +1650,7 @@ Implementamos el estándar **Conventional Commits** para estructurar los mensaje
 - `refactor`: Mejorar el código sin cambiar su funcionalidad, por ejemplo, `refactor: reorganizar componentes del formulario de registro`.
 - `test`: Añadir o modificar pruebas, por ejemplo, `test: crear pruebas unitarias para el servicio de pagos`.
 
-#### Documentación
+<h4>Documentación</h4>
 
 La documentación del proyecto está disponible en el archivo `README.md` ubicado en el repositorio. Este documento ofrece información sobre la configuración, el uso del software y las instrucciones para colaborar en el proyecto.
 
@@ -1678,8 +1658,7 @@ La documentación del proyecto está disponible en el archivo `README.md` ubicad
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
-
-#### HTML
+<h4>HTML</h4>
 
 Durante el desarrollo de la estructura del sitio, se implementaron las siguientes buenas prácticas para garantizar una adecuada accesibilidad y organización:
 
@@ -1706,7 +1685,7 @@ Durante el desarrollo de la estructura del sitio, se implementaron las siguiente
 
 ---
 
-#### CSS
+<h4>CSS</h4>
 
 Con el objetivo de asegurar la coherencia en el diseño y mejorar la legibilidad del código, se siguieron las siguientes pautas:
 - Asignar a las clases e IDs nombres descriptivos y con significado.
@@ -1741,7 +1720,8 @@ padding: 1rem;
 
 ---
 
-#### JavaScript
+<h4>JavaScript</h4>
+
 Para asegurar un código más limpio y fácil de mantener, se adoptaron las siguientes prácticas de codificación:
 
 - Emplear funciones con llaves correctamente organizadas.
@@ -1779,7 +1759,7 @@ function calculateTotal() {
 ### 5.1.4. Software Deployment Configuration.
 
 
-#### Landing Page
+<h4>Landing Page</h4>
 
 **Recomendaciones antes del despliegue:**
 
@@ -1810,7 +1790,7 @@ A continuación, se describen los pasos necesarios para desplegar nuestro sitio 
    
 ---
 
-#### Control de Versiones
+<h4>Control de Versiones</h4>
 
 **Uso de Git**: Es esencial mantener un registro completo de los cambios para administrar las distintas versiones del código de forma eficiente.
 
@@ -2143,8 +2123,10 @@ Este apartado aborda los Web Services y el uso de métodos HTTP, temas que no fo
 En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Github.
 
 
-### 🚀 **Pasos para hacer deploy**
-##### 1. Crear un nuevo repositorio en GitHub
+<h3>🚀 Pasos para hacer deploy</h3>
+
+<h4>1. Crear un nuevo repositorio en GitHub</h4>
+
 - Poseer una cuenta en GitHub.  
 - Tener tu landing page finalizada (HTML, CSS, JS, etc.) guardada en una carpeta local.  
 - Contar con un archivo principal nombrado `index.html`.
@@ -2152,7 +2134,8 @@ En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Gi
 ![image.png](./assets/Deploy1.png)
 Descripción: Imagen del proceso de creación de un repositorio.<br><br>
 
-##### 2. Subir tu proyecto al repositorio
+<h4>2. Subir tu proyecto al repositorio</h4>
+
 - Ingresar a tu repositorio  
 - Hacer clic en Add file → Upload files  
 - Elegir los archivos que deseas subir
@@ -2163,7 +2146,8 @@ Descripción: Visualización de un repositorio, en este ejemplo ya contiene la L
 ![image.png](./assets/Deploy3.png)
 Descripción: Área destinada a la carga de los archivos requeridos para la Landing Page.<br><br>
 
-##### 3. Habilitar GitHub Pages
+<h4>3. Habilitar GitHub Pages</h4>
+
 - Ingresa al repositorio en GitHub.  
 - Dirígete a la sección Settings.  
 - En el menú lateral, selecciona Pages.  
@@ -2202,7 +2186,6 @@ Durante este sprint, las tareas de diseño, implementación y documentación de 
    - El diseño de la arquitectura de software y la integración de la plataforma con otros servicios presentó algunos desafíos, particularmente en la gestión de la base de datos y la escalabilidad de los servicios. No obstante, se resolvieron la mayoría de los problemas técnicos, y la arquitectura del software avanza de manera sólida.
 
 ## Recomendaciones
-
 1. **Optimización de la Experiencia de Usuario**
    - Se sugiere llevar a cabo pruebas de usabilidad adicionales con un grupo más diverso de usuarios para identificar posibles mejoras en la navegación y la interfaz de la aplicación. Incorporar más interacciones personalizadas para quienes estén interesados en crear cursos y centrarse en mejorar la accesibilidad a través de dispositivos móviles podría optimizar la experiencia general.
 
@@ -2219,7 +2202,6 @@ Durante este sprint, las tareas de diseño, implementación y documentación de 
    - A medida que el equipo se expanda, es fundamental establecer canales de comunicación más efectivos y herramientas de gestión que garanticen que todos los miembros estén alineados con los objetivos y tareas del proyecto. Adoptar metodologías ágiles de manera más rigurosa puede ayudar a aumentar la productividad y fomentar una mejor colaboración.
 
 ## Bibliografía
-
 - *III Informe Bienal sobre la Realidad Universitaria en el Perú.* (s. f.). Informes y Publicaciones - Superintendencia Nacional de Educación Superior Universitaria - Plataforma del Estado Peruano. https://www.gob.pe/institucion/sunedu/informes-publicaciones/2824150-iii-informe-bienal-sobre-la-realidad-universitaria-en-el-peru
 - *Erestel: el 91.9 % de hogares peruanos cuenta con  teléfonos inteligentes o smartphones.* (s. f.). OSIPTEL. https://www.osiptel.gob.pe/portal-del-usuario/noticias/erestel-el-91-9-de-hogares-peruanos-cuenta-con-telefonos-inteligentes-o-smartphones/
 - Gamero-Burón, C. (2024). Hábitos de estudio y rendimiento académico universitario. El poder predictivo de los exámenes on-line. *Revista Digital de Investigación En Docencia Universitaria, 18*(1), e1826. https://doi.org/10.19083/ridu.2024.1826
