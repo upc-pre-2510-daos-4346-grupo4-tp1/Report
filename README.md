@@ -145,8 +145,6 @@
 SofTeam creada como un startup por un grupo de estudiantes universitarios de la carrera de ingeniería de Software. Nuestro propósito es desarrollar un producto de software que brinde soporte a un modelo de negocio independiente y sostenible. 
 Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. 
 ### 1.1.2. Perfiles de integrantes del equipo.
-
-Prueba prueba
 ## 1.2. Solution Profile.
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
@@ -569,11 +567,58 @@ Resumen:
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+
+El wireframe de la landing page de Edunova es un esquema visual que organiza elementos clave como el encabezado, propuesta de valor, testimonios y llamadas a la acción. Su objetivo es crear una experiencia intuitiva para el usuario, optimizando la disposición de los componentes para atraer a los visitantes.
+<div align="center">
+  <img src="./assets/Figma.png" alt="Figma" width="1000"/>
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+En esta sección se encontrará el flujo de interacción que tiene la página, su cambio de pantalla y todo lo que el usuario pueda reaccionar.
+<div align="center">
+  <img src="./assets/relation1.png" alt="relation1" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/relation2.png" alt="relation2" width="1000"/>
+</div>
+
 ### 4.4.2. Web Applications Mock-ups.
+
+Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, inclusión, arquitectura de información y el Design System. Las maquetas ilustran la implementación de estos conceptos en la interfaz de usuario y son cruciales para comunicar el diseño a desarrolladores y clientes.
+<div align="center">
+  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+</div>
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de principios de diseño, diseño inclusivo y arquitectura de información. Estas maquetas visuales son clave para comunicar el diseño de las aplicaciones web a desarrolladores y clientes, ilustrando su funcionalidad y apariencia.
+
+<div align="center">
+  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+</div>
+
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
