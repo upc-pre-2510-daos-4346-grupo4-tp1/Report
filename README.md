@@ -646,6 +646,15 @@ Resumen:
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
+
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
+<p align="center">
+  <img src="./assets/UPSofia.png" alt="emp1"/>
+
+**Segmento Objetivo: Creadores de cursos**
+<p align="center">
+  <img src="./assets/UPSamuel.png" alt="emp2"/>
+
 ### 2.3.5. As-is Scenario Mapping.
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
