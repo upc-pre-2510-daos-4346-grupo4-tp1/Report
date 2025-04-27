@@ -774,7 +774,199 @@ Epic ID
 ### 4.1.2. Web Style Guidelines.
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
+
+# 1. Organización Visual del Contenido
+
+## a) Jerárquica (Prioridad Visual)
+Se aplica en:
+
+### Página de inicio (Landing Page)
+- **Hero principal > Beneficios > Testimonios > Planes > CTA final**
+  
+  **Técnicas:**
+  - **Tamaño decreciente**:  
+    - El título principal (`h1`) es el más destacado, seguido por el subtítulo (`h2`) y el texto normal (`p`).
+  - **Colores**:
+    - Botones primarios (#FF9800) frente a secundarios (#9E9E9E), creando una distinción clara entre los elementos de llamada a la acción y los secundarios.
+
+### Panel de control principal
+- **Progreso semanal (arriba) > Rutina diaria > Nutrición**
+  
+  **Justificación:**  
+  La organización de estos elementos ayuda a guiar al usuario naturalmente hacia las acciones clave del sistema, como el registro y la conversión a usuarios activos, enfocándose en el progreso y el bienestar.
+
+## b) Secuencial (Paso a Paso)
+**Flujos clave:**
+
+### Registro nuevo usuario:
+- **Paso 1**: Ingreso de email y contraseña.
+- **Paso 2**: Ingreso de datos biométricos.
+- **Paso 3**: Definición de objetivos.
+
+### Reserva de asesoría:
+- **Paso 1**: Búsqueda de profesional.
+- **Paso 2**: Selección de horario disponible.
+- **Paso 3**: Confirmación de pago para completar la reserva.
+
+## c) Matricial (Cuadrícula)
+**Uso en:**
+
+### Explorar ejercicios:
+- **Filas**: Tipo de ejercicio (cardio, fuerza).
+- **Columnas**: Dificultad (baja, media, alta).
+
+Esta categorización permite a los usuarios filtrar rápidamente los ejercicios según su tipo y nivel de dificultad, facilitando la navegación en la plataforma.
+
+
+# 2. Esquemas de Categorización
+
+## a) Por Temas
+**Estructura principal:**
+
+- **Nutrición**: Planes alimenticios, tips de nutrición.
+- **Entrenamiento**: Rutinas personalizadas, programas de ejercicio.
+- **Progreso**: Registro de logros, seguimiento de métricas.
+- **Asesorías**: Sesiones con entrenadores y nutricionistas.
+
+## b) Por Tipo de Usuario
+**Vistas diferenciadas:**
+
+### Usuario regular:
+- **Mis rutinas**: Acceso a las rutinas personalizadas.
+- **Mi plan alimenticio**: Detalle de las dietas y hábitos nutricionales.
+  
+### Asesor:
+- **Clientes asignados**: Lista de usuarios que están siendo atendidos.
+- **Calendario**: Horarios disponibles para asesorías.
+
+### Administrador:
+- **Moderación**: Control de acceso y contenido.
+- **Reportes**: Análisis de progreso de los usuarios y rendimiento de la plataforma.
+
+## c) Cronológico
+**Casos de uso:**
+
+### Historial de progreso:
+- **Gráficos ordenados por fecha**: Seguimiento semanal/mensual de métricas como peso, calorías quemadas, etc.
+- **Comparativa semanal/mensual**: Visualización de avances y logros en un formato fácil de entender.
+
 ### 4.2.2. Labeling Systems.
+
+# 1. Landing Page
+
+## a) Navegación Principal
+| **Elemento Menú** | **Explicación** |
+|-------------------|-----------------|
+| **Home**          | Página principal que muestra una visión general de los servicios educativos y ofrece acceso rápido a las principales funcionalidades. Incluye el llamado a acción principal ("Comienza hoy"). |
+| **Information**   | Sección detallada que explica cómo funciona la plataforma, metodologías de enseñanza utilizadas, y los requisitos para comenzar a estudiar. |
+| **Benefits**      | Listado de ventajas competitivas, mostrando comparativas entre planes de suscripción gratuitos y premium, con testimonios de estudiantes y egresados. |
+| **About Us**      | Información corporativa: historia de la empresa, equipo profesional, certificaciones y valores de Edunova. |
+| **Contact Us**    | Formulario de contacto directo con soporte académico y administrativo, ubicación física (si aplica) y horarios de atención. |
+| **Follow Us**     | Enlaces a redes sociales (Facebook, LinkedIn, YouTube) y opción para suscribirse al boletín informativo. |
+
+## b) Sección Hero
+| **Elemento**      | **Etiqueta**               | **Notas de Uso** |
+|-------------------|----------------------------|------------------|
+| **Título principal** | "Impulsa tu carrera, sin límites" | - Frase motivacional.<br>- Resalta el beneficio principal (desarrollo de carrera).<br>- 7 palabras cumple mejor práctica. |
+| **Subtítulo**        | "Cursos 100% online y adaptados a tus necesidades" | - Explica el valor diferencial.<br>- Usa "tú" para personalización.<br>- 9 palabras (límite recomendado). |
+| **Llamada secundaria** | "Estudia a tu ritmo, desde cualquier lugar" | - Empodera al usuario.<br>- Refuerza flexibilidad y accesibilidad.<br>- 7 palabras. |
+| **CTA principal**   | "Comienza hoy"             | - Verbo en imperativo.<br>- Color azul (#2196F3) para destacar.<br>- Mayúscula en "Hoy" para énfasis. |
+
+## c) Sección de Beneficios
+| **Elemento**       | **Etiqueta**                | **Descripción** |
+|--------------------|-----------------------------|-----------------|
+| **Título principal** | "¿Por qué elegir Edunova?"  | Encabezado emocional que genera curiosidad y destaca la propuesta única de Edunova. |
+| **Cursos**           | "Formación 100% adaptada"   | Destaca la personalización de los cursos con un enfoque práctico y orientado a la carrera profesional. Icono de libro (📚). |
+| **Metodología**      | "Aprendizaje flexible y accesible" | Resalta la flexibilidad y el acceso a la educación desde cualquier lugar. Icono de laptop (💻) para reconocimiento visual. |
+| **Soporte**          | "Acompañamiento constante"  | Explica cómo el soporte académico y las tutorías están disponibles durante todo el proceso de aprendizaje. Icono de chat (💬). |
+
+## d) Sección de Sobre Nosotros
+| **Elemento**        | **Etiqueta**                       | **Descripción** |
+|---------------------|------------------------------------|-----------------|
+| **Título principal**  | "Transformamos la educación con tecnología" | Comunica el propósito de la empresa, integrando tecnología y educación para generar impacto. |
+| **Descripción**       | "Edunova es una plataforma educativa creada por expertos en tecnología..." | Explicación que establece credibilidad (origen académico) y propuesta de valor (educación accesible y personalizada). |
+| **Producto destacado**| "Ofrecemos cursos en áreas clave como tecnología, diseño y negocios" | Muestra el enfoque específico de la oferta educativa, destacando las áreas más demandadas del mercado laboral. |
+| **Sección equipo**    | "Nuestro equipo"                   | Presentación de los miembros fundadores (incluir fotos, roles y mini-bios en el diseño final). |
+
+## e) Sección de Contactanos
+| **Elemento**       | **Etiqueta**                    | **Descripción** |
+|--------------------|----------------------------------|-----------------|
+| **Título principal**  | "¿Listo para aprender?"          | Encabezado en formato H1 que plantea una pregunta directa al usuario para generar engagement. |
+| **Texto descriptivo** | "Conéctate con nuestros expertos..." | Párrafo complementario que explica el valor principal del servicio (acceso a expertos) y el beneficio final (educación accesible). |
+| **Campo de entrada**  | "Introduce tu email..."         | Campo de formulario con placeholder que indica dónde ingresar el correo electrónico. |
+| **Botón CTA**        | "Comienza ahora"                | Botón de llamada a acción principal con texto que invita a comenzar el proceso. |
+
+## f) Sección de Información
+| **Elemento**          | **Etiqueta**                | **Descripción** |
+|-----------------------|-----------------------------|-----------------|
+| **Encabezado de sección** | "SOBRE EDUNOVA"           | Texto en mayúsculas que funciona como título identificador de la sección. |
+| **Título principal**   | "Tu guía completa hacia el éxito profesional" | Establece el posicionamiento central de la plataforma como la mejor opción para avanzar profesionalmente. |
+| **Descripción del producto** | "Edunova es una plataforma educativa que combina aprendizaje práctico, formación continua y recursos accesibles..." | Detalla los componentes clave de la plataforma y su público objetivo (personas que buscan mejorar sus habilidades). |
+| **Botón de acción**    | "Más información"          | Elemento interactivo que permite al usuario acceder a información adicional sobre cursos y servicios. |
+
+---
+
+# 2. Aplicación Web
+
+## a) Navegación Global
+| **Elemento**      | **Etiqueta**      | **Ubicación**    | **Estado Activo** |
+|-------------------|-------------------|------------------|-------------------|
+| **Inicio**        | Mi progreso       | Barra lateral    | Icono azul (#2196F3) |
+| **Cursos**        | Mis cursos        | Barra lateral    | Icono naranja (#FF9800) |
+| **Foro**          | Mis dudas         | Barra lateral    | Icono gris (#9E9E9E) |
+| **Soporte**       | Asistencia        | Barra lateral    | Icono verde (#4CAF50) |
+
+## b) Panel de Control
+| **Elemento**      | **Etiqueta**         | **Contexto** |
+|-------------------|----------------------|--------------|
+| **Resumen semanal** | Esta semana        | Sección superior |
+| **Último curso**    | Continuar curso      | Botón naranja (#FF9800) |
+| **Próxima clase**   | Tu próxima clase     | Con fecha y hora |
+
+## c) Formularios
+| **Elemento**     | **Etiqueta**        | **Validación**     |
+|------------------|---------------------|--------------------|
+| **Campo nombre** | Nombre completo     | Requerido, texto alfabético |
+| **Campo email**  | Correo electrónico  | Formato válido de correo |
+| **Botón enviar** | Enviar              | Deshabilitado si hay errores |
+
+---
+
+# 3. Convenciones Transversales
+
+## a) Estados
+| **Estado**   | **Etiqueta**  | **Color** |
+|--------------|---------------|----------|
+| **Éxito**    | ¡Listo!       | Verde (#4CAF50) |
+| **Error**    | Alerta        | Rojo (#F44336) |
+| **Advertencia** | Atención   | Amarillo (#FFC107) |
+
+## b) Tamaños de Texto
+| **Jerarquía** | **Tamaño** | **Uso típico** |
+|---------------|------------|----------------|
+| **H1**        | 24px       | Títulos principales |
+| **H2**        | 20px       | Subtítulos |
+| **Body**      | 16px       | Texto normal |
+| **Notas**     | 14px       | Texto secundario |
+
+---
+
+# 4. Reglas de Implementación
+
+## Consistencia lingüística:
+- Siempre usar "tú" en lugar de "usted".
+- Imperativos en los CTA ("Comienza", "Guarda", "Entra").
+
+## Accesibilidad:
+- Alt text para iconos: "Icono de libro ".
+- Etiquetas ARIA para elementos interactivos.
+
+## Localización:
+- Versión LATAM: "Cursos" en lugar de "Classes".
+- Formatos de fecha: DD/MM/AAAA.
+
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 1. Landing Page
