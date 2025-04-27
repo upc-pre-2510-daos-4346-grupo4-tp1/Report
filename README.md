@@ -1448,22 +1448,46 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 
 ### 4.4.2. Web Applications Mock-ups.
 
+<div align="center">
+  <img src="./assets/Mockup1.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup2.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup3.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup4.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup5.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup6.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup7.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup8.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup9.png" alt="relation2" width="1000"/>
+</div>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
-Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de principios de diseño, diseño inclusivo y arquitectura de información. Estas maquetas visuales son clave para comunicar el diseño de las aplicaciones web a desarrolladores y clientes, ilustrando su funcionalidad y apariencia.
-
 <div align="center">
-  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+  <img src="./assets/UFD.jpg" alt="relation2" width="1000"/>
 </div>
 
 ## 4.5. Web Applications Prototyping.
