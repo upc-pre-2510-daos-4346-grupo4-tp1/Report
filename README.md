@@ -739,29 +739,50 @@ Epic ID
 
 
 <div align="center">
-  <img src="./assets/Figma2.jpg" alt="Wireframe1" width="1000"/>
+  <img src="./assets/Figma2.jpg" alt="Wireframe2" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/Figma3.jpg" alt="Wireframe1" width="1000"/>
+  <img src="./assets/Figma3.jpg" alt="Wireframe3" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/Figma4.jpg" alt="Wireframe1" width="1000"/>
+  <img src="./assets/Figma4.jpg" alt="Wireframe4" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/Figma5.jpg" alt="Wireframe1" width="1000"/>
+  <img src="./assets/Figma5.jpg" alt="Wireframe5" width="1000"/>
 </div>
 
 
 ### 4.3.2. Landing Page Mock-up.
 
+<div align="center">
+  <img src="./assets/FInal1.jpg" alt="mock1" width="1000"/>
+</div>
 
 
+<div align="center">
+  <img src="./assets/FInal1.jpg" alt="mock2" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/FInal3.jpg" alt="mock3" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/FInal4.jpg" alt="mock4" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/FInal5.jpg" alt="mock5" width="1000"/>
+</div>
 
 
 ## 4.4. Web Applications UX/UI Design.
