@@ -145,6 +145,8 @@
 SofTeam creada como un startup por un grupo de estudiantes universitarios de la carrera de ingeniería de Software. Nuestro propósito es desarrollar un producto de software que brinde soporte a un modelo de negocio independiente y sostenible. 
 Como nuestro primer proyecto presentamos EDUnova, que se creó con la finalidad de expandir conocimientos académicos de nivel superior tanto para estudiantes así como para docentes y profesionales. 
 ### 1.1.2. Perfiles de integrantes del equipo.
+
+Prueba prueba
 ## 1.2. Solution Profile.
 Nombre: Tony Do Santos Torres Cortez
 Código: U201917662
