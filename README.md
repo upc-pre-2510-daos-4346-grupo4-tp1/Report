@@ -159,6 +159,10 @@
         - [2. Subir tu proyecto al repositorio](#2-subir-tu-proyecto-al-repositorio)
         - [3. Habilitar GitHub Pages](#3-habilitar-github-pages)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+  - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#recomendaciones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 # Student Outcome
 
@@ -1528,3 +1532,54 @@ Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/Landing
 Durante este sprint, las tareas de diseño, implementación y documentación de la landing page fueron asignadas entre los miembros del equipo. La mayor parte de la implementación y despliegue de la landing page fue realizada por Diego Acuña.
 
 ![image.png](./assets/CollaborationSprint1.png)
+
+
+
+## Conclusiones
+1. **Viabilidad del Proyecto**
+   - A lo largo del proceso de investigación y desarrollo, se validó la viabilidad técnica y comercial de la startup EDUnova. La solución propuesta aborda una necesidad real en el mercado educativo, especialmente dirigida a usuarios universitarios que buscan aprender, repasar o ampliar sus conocimientos.
+
+2. **Ajuste con el Usuario**
+   - Las entrevistas realizadas, junto con las herramientas de *needfinding* (como las personas y los mapas de viaje del usuario), revelaron que los usuarios valoran la educación alternativa y personalizada. No solo podrán aprender de profesores, sino también de estudiantes y egresados que enseñan de manera más accesible. Además, destacan la accesibilidad de la plataforma y su integración con otros dispositivos, como los móviles.
+
+3. **Rendimiento del Producto**
+   - La primera iteración del producto, que abarcó la creación de la página de destino y el prototipado de la aplicación web, mostró ser exitosa en cuanto a diseño de interfaz y experiencia de usuario. Los prototipos recibieron una respuesta positiva en las pruebas iniciales, aunque todavía hay aspectos que necesitan ajustes.
+
+4. **Estrategias Competitivas**
+   - En comparación con sus competidores, EDUnova se diferencia por su enfoque integral en personalización y adaptabilidad, lo que le otorga una ventaja competitiva. No obstante, la competencia es intensa, particularmente en cuanto a las funcionalidades adicionales y la calidad del contenido.
+
+5. **Desafíos en el Desarrollo**
+   - El diseño de la arquitectura de software y la integración de la plataforma con otros servicios presentó algunos desafíos, particularmente en la gestión de la base de datos y la escalabilidad de los servicios. No obstante, se resolvieron la mayoría de los problemas técnicos, y la arquitectura del software avanza de manera sólida.
+
+## Recomendaciones
+
+1. **Optimización de la Experiencia de Usuario**
+   - Se sugiere llevar a cabo pruebas de usabilidad adicionales con un grupo más diverso de usuarios para identificar posibles mejoras en la navegación y la interfaz de la aplicación. Incorporar más interacciones personalizadas para quienes estén interesados en crear cursos y centrarse en mejorar la accesibilidad a través de dispositivos móviles podría optimizar la experiencia general.
+
+2. **Expansión de Funcionalidades**
+   - Para seguir siendo competitivos, es crucial incorporar nuevas funcionalidades, como programas de creación de cursos más intuitivos y adaptativos, soporte para una mayor variedad de dispositivos, y características sociales que promuevan la interacción entre los usuarios.
+
+3. **Mejorar la Estrategia de Marketing**
+   - La estrategia de marketing debe centrarse en resaltar la diversidad de enfoques educativos que EDUnova ofrece a sus usuarios. Incluir testimonios de usuarios reales y casos de éxito podría ser clave para atraer a más usuarios y mejorar la percepción del producto en el mercado.
+
+4. **Escalabilidad y Optimización Técnica**
+   - Para asegurar un crecimiento continuo, es crucial realizar pruebas de carga y mejorar la infraestructura técnica para garantizar que el sistema pueda gestionar un número creciente de usuarios sin afectar el rendimiento. Asimismo, es importante evaluar la posibilidad de implementar una solución más eficiente en cuanto a la base de datos y la sincronización en tiempo real.
+
+5. **Mejorar la Gestión de Equipos**
+   - A medida que el equipo se expanda, es fundamental establecer canales de comunicación más efectivos y herramientas de gestión que garanticen que todos los miembros estén alineados con los objetivos y tareas del proyecto. Adoptar metodologías ágiles de manera más rigurosa puede ayudar a aumentar la productividad y fomentar una mejor colaboración.
+
+## Bibliografía
+
+- *III Informe Bienal sobre la Realidad Universitaria en el Perú.* (s. f.). Informes y Publicaciones - Superintendencia Nacional de Educación Superior Universitaria - Plataforma del Estado Peruano. https://www.gob.pe/institucion/sunedu/informes-publicaciones/2824150-iii-informe-bienal-sobre-la-realidad-universitaria-en-el-peru
+- *Erestel: el 91.9 % de hogares peruanos cuenta con  teléfonos inteligentes o smartphones.* (s. f.). OSIPTEL. https://www.osiptel.gob.pe/portal-del-usuario/noticias/erestel-el-91-9-de-hogares-peruanos-cuenta-con-telefonos-inteligentes-o-smartphones/
+- Gamero-Burón, C. (2024). Hábitos de estudio y rendimiento académico universitario. El poder predictivo de los exámenes on-line. *Revista Digital de Investigación En Docencia Universitaria, 18*(1), e1826. https://doi.org/10.19083/ridu.2024.1826
+- Vargas-Campos, K., Danielli-Rocca, J. J., Parillo-Sosa, E., & Reeves-Huapaya, E. S. (2024). La educación virtual universitaria postpandemia: Una revisión sistemática. *Revista Arbitrada Interdisciplinaria Koinonía, 9*(1), 62-76. https://doi.org/10.35381/r.k.v9i1.3553
+- Del Carmen Molinero Bárcenas, M., & Morales, U. C. (2019). Herramientas tecnológicas en el proceso de enseñanza-aprendizaje en estudiantes de educación superior. *RIDE Revista Iberoamericana Para la Investigación y el Desarrollo Educativo, 10*(19). https://doi.org/10.23913/ride.v10i19.494
+- Bossio, J. (2023, 16 mayo). *Tendencias que impactan la Educación Superior* -. https://innovacioneducativa.upc.edu.pe/2023/05/16/tendencias-que-impactan-la-educacion-superior/
+
+## Anexos
+Link de la Organización: https://github.com/upc-pre-2510-daos-4346-grupo4
+
+Link de la documentanción: https://github.com/upc-pre-2510-daos-4346-grupo4/Report
+
+Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
