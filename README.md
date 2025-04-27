@@ -100,8 +100,10 @@
     - [4.2.1. Organization Systems.](#421-organization-systems)
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [1. Landing Page](#1-landing-page)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [1. Landing Page](#1-landing-page-1)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
@@ -1428,6 +1430,29 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+  En estos commits se reflejan las actualizaciones más recientes realizadas en la rama main del repositorio de la Landing Page.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 3ec4d83 | feat: Agrege los archivos y carpetas | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 37829ec | feat: Agregar estilos de escritura y iconos | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 8931eef | feat: Agregar la barra de navegacion | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | a37de76 | feat: Agregar la seccion Home que contiene un Hero Image | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 1675d78 | feat: Agregar la seccion de colaboradores | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 670ef88 | feat: Agregar la seccion Information | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 91a0d44 | feat: Agregar la seccion Benefits | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | bd80abf | feat: Agregar la seccion About us | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 3a10955 | feat: Agregar la seccion Contact us | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | ed09e85 | feat: Agregar el footer | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 6a0cd97 | feat: Agregar los estilos de las secciones | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 91cebdb | feat: Agregar los estilos que vuelve responsive al landing page | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | 55a68df | feat: Funciones para el correcto funcionamiento del navBar | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | d93f4d2 | feat: Agregar imagenes | - | 26/04/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/LandingPage | main | ade9a21 | feat: Agregar una imagen | - | 26/04/2025 |
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
