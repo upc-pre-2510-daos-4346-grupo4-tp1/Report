@@ -57,7 +57,6 @@
 |TB1| 25/04/2025| - Diego Acuña|Realice el Empathy map para mostrar las diferentes etapas de nuestros usuarios|
 |TB1| 25/04/2025| - Cristian Iparraguirre|Desarrolle el Web Applications UX/UI Design en conjunto a mi compañero Diego acuña para demostrar las diferentes interfaces de nuestro sistema|
 
-
 # Project Report Collaboration Insights
 
 - **URL de la organización del proyecto:**  
