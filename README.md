@@ -563,8 +563,23 @@ Resumen:
 </p>
 
 ### 2.2.3. Análisis de entrevistas.
+Estudiantes
+De acuerdo a los testimonios brindados por parte de los estudiantes universitarios entrevistados coinciden en que los cursos online deben ser accesibles, flexibles y con contenido de calidad. Valoran especialmente la interacción con docentes, las clases en vivo para resolver dudas, y materiales descargables. La falta de oferta constante y la escasa personalización son problemas comunes. Prefieren plataformas visuales y herramientas conocidas, y se motivan más cuando hay certificación válida y promociones para estudiantes. Por ello, se evidencia la necesidad de una propuesta educativa online más dinámica, personalizada y alineada a sus intereses profesionales.
+
+Instructores
+Dados los testimonios brindados por los docentes y profesionales entrevistados, se ha podido deducir que uno de los principales problemas al crear y dictar cursos online universitarios radica en la falta de plataformas que integren de forma efectiva la personalización, seguimiento del progreso y herramientas interactivas. Asimismo, valoran altamente la organización modular, la entrega de certificados, el control sobre precios y estadísticas, y muestran preferencia por modelos de pago únicos o suscripciones simples. Las dificultades técnicas y la limitada interacción en algunos entornos digitales también fueron mencionadas como barreras importantes a superar para garantizar una educación virtual de calidad
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+
+<div align="center">
+  <img src="./assets/UserPersona1.png" alt="UserPersona1" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/UserPersona2.png" alt="UserPersona2" width="1000"/>
+</div>
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
