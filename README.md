@@ -1437,36 +1437,17 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 
 
 
-
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-En esta sección se encontrará el flujo de interacción que tiene la página, su cambio de pantalla y todo lo que el usuario pueda reaccionar.
+
 <div align="center">
-  <img src="./assets/relation1.png" alt="relation1" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/relation2.png" alt="relation2" width="1000"/>
+  <img src="./assets/WD1.jpg" alt="relation2" width="1000"/>
 </div>
 
-Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
+
 
 ### 4.4.2. Web Applications Mock-ups.
 
-Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, inclusión, arquitectura de información y el Design System. Las maquetas ilustran la implementación de estos conceptos en la interfaz de usuario y son cruciales para comunicar el diseño a desarrolladores y clientes.
-<div align="center">
-  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
-</div>
-
-Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
