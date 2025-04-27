@@ -1002,8 +1002,6 @@ Nuestro dominio se divide en 5 Bounded Contexts:
 
 ---
 
-<h3>Live Session Management</h3>
-
 **Class: LiveSession (Aggregate Root)**  
 | Name                | Attribute Type | Description                                      |
 |---------------------|-----------------|--------------------------------------------------|
@@ -1037,9 +1035,19 @@ Nuestro dominio se divide en 5 Bounded Contexts:
 | sendReminder()     | void              | Sends a reminder for the live session    |
 
 ## 4.8. Database Design.
-
+En esta sección se presenta el diseño de la base de datos. Se incluye un diagrama de la base de datos que ilustra la estructura y las relaciones entre las tablas principales del sistema.
+<p align="center">
+  <img src="./assets/DatabaseDesign.png" alt="Database Design"/>
+</p>
 
 ### 4.8.1. Database Diagram.
+El diagrama de la base de datos proporciona una representación visual de las tablas, sus atributos y las relaciones entre ellas, facilitando la comprensión de la organización y la integridad de los datos en el sistema.
+
+A continuación, presentaremos el diagrama de base de datos, una herramienta fundamental para el diseño y la comprensión de bases de datos relacionales. Este diagrama nos permitirá visualizar las entidades, atributos y relaciones que conforman nuestra base de datos.
+
+<p align="center">
+  <img src="./assets/DatabaseDiagram.png" alt="Database Diagram"/>
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
