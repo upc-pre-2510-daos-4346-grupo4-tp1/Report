@@ -206,6 +206,12 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
+Edunova ha sido diseñada con el propósito de facilitar el acceso a cursos universitarios especializados, permitiendo a estudiantes, docentes y profesionales ampliar sus conocimientos académicos de forma flexible, accesible y desde cualquier lugar. Nuestra propuesta busca ofrecer una experiencia atractiva, intuitiva y académicamente rigurosa, fomentando el aprendizaje continuo en la educación superior.
+
+Hemos identificado que muchos estudiantes universitarios enfrentan dificultades para encontrar cursos de calidad que se adapten a sus necesidades específicas, ya sea por la limitada oferta en ciertas disciplinas, altos costos de acceso o falta de interacción en los cursos tradicionales en línea. Además, la existencia de plataformas genéricas con contenidos poco estructurados o desconectados del ámbito académico formal suele generar desconfianza en quienes buscan mejorar su formación profesional.
+
+¿De qué manera podríamos innovar con Edunova para ofrecer una plataforma de cursos universitarios más accesible, personalizada y confiable, aumentando así la satisfacción, el compromiso y el éxito académico de nuestros usuarios?
+
 #### 1.2.2.2. Lean UX Assumptions.
 
 - Asumimos que existe una demanda significativa de estudiantes universitarios que buscan contenido académico especializado más allá de lo que ofrecen las plataformas masivas.
