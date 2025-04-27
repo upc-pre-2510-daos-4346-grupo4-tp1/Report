@@ -1382,10 +1382,61 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
-El wireframe de la landing page de Edunova es un esquema visual que organiza elementos clave como el encabezado, propuesta de valor, testimonios y llamadas a la acción. Su objetivo es crear una experiencia intuitiva para el usuario, optimizando la disposición de los componentes para atraer a los visitantes.
 <div align="center">
-  <img src="./assets/Figma.png" alt="Figma" width="1000"/>
+  <img src="./assets/WireframeWebApplicationActualizarContrasena.png" alt="Figma" width="1000"/>
 </div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationComunidad.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationCursosDetalles.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationCursosInscripcion.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationEnviarCorreoRecuperacion.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationLogin.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationPerfil.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationProgreso.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationRegister.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroActualizacion.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroAgregar.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroSeleccion.png" alt="Figma" width="1000"/>
+</div>
+
+
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
