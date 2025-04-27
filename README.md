@@ -240,7 +240,52 @@ Edunova surge como respuesta a esta necesidad, proponiendo una plataforma especi
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
 #### 1.2.2.2. Lean UX Assumptions.
+
+Asumimos que existe una demanda significativa de estudiantes universitarios que buscan contenido académico especializado más allá de lo que ofrecen las plataformas masivas.
+
+Creemos que los docentes y profesionales con experiencia académica están dispuestos a crear y vender cursos en una plataforma enfocada en el ámbito universitario.
+
+Asumimos que los estudiantes valoran la calidad pedagógica y la estructuración de los contenidos al estilo universitario.
+
+Suponemos que los usuarios (estudiantes) están dispuestos a pagar un precio premium por cursos que les ayuden a preparar exámenes y reforzar asignaturas específicas.
+
+Creemos que una interfaz intuitiva con filtros por asignatura, nivel y profesor reducirá drásticamente el tiempo de búsqueda de cursos.
+
+Asumimos que el principal freno para los docentes es la complejidad de las herramientas de creación; si las simplificamos, aumentará el número de cursos publicados.
+
+Creemos que ofrecer herramientas de comunicación directa (foros, chats, mentorías) incrementará la confianza y el engagement de los estudiantes.
+
+Suponemos que el mercado universitario de Latinoamérica es suficientemente grande como para validar el producto antes de expandirse a otras regiones.
+
+Suponemos que la falta de espacios especializados para formación universitaria es un problema más relevante que el de idiomas, programación o habilidades blandas.
+
+Creemos que el proceso de pago y venta debe ser ágil y transparente para no ahuyentar ni a estudiantes ni a docentes
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+Hypothesis Statement 1
+ Creemos que al implementar en nuestra plataforma la funcionalidad de filtros avanzados por asignatura, nivel y docente, ayudaremos a los estudiantes a localizar el curso que necesitan en menos de 2 minutos.
+ Sabremos que hemos tenido éxito.
+ Cuando el 80 % de los estudiantes encuentran un curso relevante en menos de 2 minutos.
+
+
+Hypothesis Statement 2
+ Creemos que si ofrecemos plantillas pedagógicas prediseñadas en el panel de creación, facilitaremos a los docentes estructurar y publicar sus cursos de forma ágil.
+ Sabremos que hemos tenido éxito.
+ Cuando el 70 % de los nuevos cursos se publique en menos de 1 día desde el inicio de la creación.
+
+
+Hypothesis Statement 3
+ Creemos que al habilitar un sistema de valoraciones y reseñas por parte de los estudiantes, incrementaremos la confianza y el engagement en los cursos ofertados.
+ Sabremos que hemos tenido éxito.
+ Cuando el 60 % de los cursos reciba al menos 10 reseñas con puntuación de más de 4 en el primer mes.
+
+
+Hypothesis Statement 4
+ Creemos que si implementamos sesiones de mentoría en vivo y foros de discusión, mejoraremos la satisfacción y retención de los estudiantes.
+ Sabremos que hemos tenido éxito.
+ Cuando la tasa de estudiantes activos sea mayor al 75 % tras 30 días de uso.
+
 #### 1.2.2.4. Lean UX Canvas.
 
 El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrado en el usuario y la metodología Lean. Su objetivo es ayudar a equipos multidisciplinarios a colaborar de forma más ágil y organizada durante el desarrollo de productos. Este lienzo proporciona una estructura clara para alinear ideas, hipótesis y objetivos, permitiendo tomar decisiones más rápidas y enfocadas en el usuario. A continuación, se muestra el Lean UX Canvas trabajado por el equipo a través de la plataforma Canva.
@@ -648,8 +693,23 @@ Resumen:
 </p>
 
 ### 2.2.3. Análisis de entrevistas.
+Estudiantes
+De acuerdo a los testimonios brindados por parte de los estudiantes universitarios entrevistados coinciden en que los cursos online deben ser accesibles, flexibles y con contenido de calidad. Valoran especialmente la interacción con docentes, las clases en vivo para resolver dudas, y materiales descargables. La falta de oferta constante y la escasa personalización son problemas comunes. Prefieren plataformas visuales y herramientas conocidas, y se motivan más cuando hay certificación válida y promociones para estudiantes. Por ello, se evidencia la necesidad de una propuesta educativa online más dinámica, personalizada y alineada a sus intereses profesionales.
+
+Instructores
+Dados los testimonios brindados por los docentes y profesionales entrevistados, se ha podido deducir que uno de los principales problemas al crear y dictar cursos online universitarios radica en la falta de plataformas que integren de forma efectiva la personalización, seguimiento del progreso y herramientas interactivas. Asimismo, valoran altamente la organización modular, la entrega de certificados, el control sobre precios y estadísticas, y muestran preferencia por modelos de pago únicos o suscripciones simples. Las dificultades técnicas y la limitada interacción en algunos entornos digitales también fueron mencionadas como barreras importantes a superar para garantizar una educación virtual de calidad
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+
+<div align="center">
+  <img src="./assets/UserPersona1.png" alt="UserPersona1" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/UserPersona2.png" alt="UserPersona2" width="1000"/>
+</div>
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
@@ -1047,9 +1107,55 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+
+El wireframe de la landing page de Edunova es un esquema visual que organiza elementos clave como el encabezado, propuesta de valor, testimonios y llamadas a la acción. Su objetivo es crear una experiencia intuitiva para el usuario, optimizando la disposición de los componentes para atraer a los visitantes.
+<div align="center">
+  <img src="./assets/Figma.png" alt="Figma" width="1000"/>
+</div>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+En esta sección se encontrará el flujo de interacción que tiene la página, su cambio de pantalla y todo lo que el usuario pueda reaccionar.
+<div align="center">
+  <img src="./assets/relation1.png" alt="relation1" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/relation2.png" alt="relation2" width="1000"/>
+</div>
+
 ### 4.4.2. Web Applications Mock-ups.
+
+Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, inclusión, arquitectura de información y el Design System. Las maquetas ilustran la implementación de estos conceptos en la interfaz de usuario y son cruciales para comunicar el diseño a desarrolladores y clientes.
+<div align="center">
+  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+</div>
+
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de principios de diseño, diseño inclusivo y arquitectura de información. Estas maquetas visuales son clave para comunicar el diseño de las aplicaciones web a desarrolladores y clientes, ilustrando su funcionalidad y apariencia.
+
+<div align="center">
+  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
+</div>
+<div align="center">
+  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+</div>
+
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
