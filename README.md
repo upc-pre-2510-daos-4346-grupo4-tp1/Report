@@ -1382,56 +1382,112 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
-El wireframe de la landing page de Edunova es un esquema visual que organiza elementos clave como el encabezado, propuesta de valor, testimonios y llamadas a la acción. Su objetivo es crear una experiencia intuitiva para el usuario, optimizando la disposición de los componentes para atraer a los visitantes.
 <div align="center">
-  <img src="./assets/Figma.png" alt="Figma" width="1000"/>
+  <img src="./assets/WireframeWebApplicationActualizarContrasena.png" alt="Figma" width="1000"/>
 </div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationComunidad.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationCursosDetalles.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationCursosInscripcion.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationEnviarCorreoRecuperacion.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationLogin.png" alt="Figma" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationPerfil.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationProgreso.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationRegister.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroActualizacion.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroAgregar.png" alt="Figma" width="1000"/>
+</div>
+
+
+<div align="center">
+  <img src="./assets/WireframeWebApplicationSimulacroSeleccion.png" alt="Figma" width="1000"/>
+</div>
+
+
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
-En esta sección se encontrará el flujo de interacción que tiene la página, su cambio de pantalla y todo lo que el usuario pueda reaccionar.
+
 <div align="center">
-  <img src="./assets/relation1.png" alt="relation1" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/relation2.png" alt="relation2" width="1000"/>
+  <img src="./assets/WD1.jpg" alt="relation2" width="1000"/>
 </div>
 
-Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
+
 
 ### 4.4.2. Web Applications Mock-ups.
 
-Se presentan los mock-ups de aplicaciones, evidenciando principios de diseño, inclusión, arquitectura de información y el Design System. Las maquetas ilustran la implementación de estos conceptos en la interfaz de usuario y son cruciales para comunicar el diseño a desarrolladores y clientes.
 <div align="center">
-  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+  <img src="./assets/Mockup1.png" alt="relation2" width="1000"/>
 </div>
 
-Extraido de [Figma](https://www.figma.com/design/8ARzEVhXGsjD30A5wk8voe/OPEN-SOURCE-2025-01?node-id=0-1&t=5gWQMawR2GHiHQ99-1)
+<div align="center">
+  <img src="./assets/Mockup2.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup3.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup4.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup5.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup6.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup7.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup8.png" alt="relation2" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Mockup9.png" alt="relation2" width="1000"/>
+</div>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
-Se presentan los mock-ups de las aplicaciones, mostrando la aplicación de principios de diseño, diseño inclusivo y arquitectura de información. Estas maquetas visuales son clave para comunicar el diseño de las aplicaciones web a desarrolladores y clientes, ilustrando su funcionalidad y apariencia.
-
 <div align="center">
-  <img src="./assets/landinghome.png" alt="LandingHome" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingabout.png" alt="LandingAbout" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingwhy.png" alt="LandingWhy" width="1000"/>
-</div>
-<div align="center">
-  <img src="./assets/landingcontact.png" alt="LandingContact" width="1000"/>
+  <img src="./assets/UFD.jpg" alt="relation2" width="1000"/>
 </div>
 
 ## 4.5. Web Applications Prototyping.
@@ -1486,6 +1542,14 @@ Los usuarios reciben notificaciones importantes sobre nuevos cursos, promociones
 
 **Obtener Certificados de Finalización:**  
 Al completar exitosamente los cursos, los estudiantes pueden descargar certificados digitales que acreditan su participación y logros, útiles para su portafolio académico o profesional.
+
+<p align="center">
+<img src="./assets/PrototipoWeb.png" alt="PrototipoWeb"/>
+</p>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/EZPGSnteMP1Jg-y2LMju5dYBN5JEsNQnkx43cHBEqKQG5Q?e=stK1n5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 
 ## 4.6. Domain-Driven Software Architecture.
 El Domain Driven Design (DDD) busca lograr una comprensión común del dominio que define el área del problema. Este enfoque promueve una mejor colaboración entre desarrolladores y expertos del dominio. DDD no se limita únicamente al uso de un lenguaje común, sino que también incluye un conjunto de patrones, prácticas y diagramas arquitectónicos del sistema, cuyo objetivo es alinear el software con el dominio y fortalecer la visión compartida que propone DDD.
