@@ -914,9 +914,283 @@ Gestión de clases en vivo (integración con videoconferencias).
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+Nuestro dominio se divide en 5 Bounded Contexts:
+<ol>
+  <li>
+    <b>User Management</b> se encarga de gestionar toda la información de los usuarios de Edunova, incluyendo estudiantes, instructores y administradores, así como su autenticación y perfil.
+    <p align="center">
+      <img src="./assets/CDUserManagement.png" alt="User Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Course Management</b> maneja todo lo relacionado con los cursos: creación, estructura modular (módulos y lecciones), materiales de aprendizaje (documentos, videos) y la gestión de su publicación.
+    <p align="center">
+      <img src="./assets/CDCourseManagement.png" alt="Course Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Enrollment & Purchase Management</b> gestiona la inscripción de estudiantes a los cursos (Enrollment) y el proceso de compra y validación de pagos (Purchase).
+    <p align="center">
+      <img src="./assets/CDEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Notification Management</b> gestiona el envío de notificaciones automáticas o manuales a los usuarios (estudiantes, instructores o administradores) a través de diferentes canales (email, SMS, etc.).
+    <p align="center">
+      <img src="./assets/CDNotificationManagement.png" alt="Notification Management"/>
+    </p>
+  </li>
+  <li>
+    <b>Live Session Management</b> gestiona la programación, actualización y recordatorio de sesiones en vivo de los cursos en Edunova, incluyendo la integración con plataformas externas de videoconferencia.
+    <p align="center">
+      <img src="./assets/CDLiveSessionManagement.png" alt="Live Session Management"/>
+    </p>
+  </li>
+</ol>
+
+---
+
+<b>Diagrama de clases completo</b>
+<p align="center">
+  <img src="./assets/CDCompleto.png" alt="Class diagram complete"/>
+</p>
+
 ### 4.7.2. Class Dictionary.
+<h3>User Management</h3>
+
+**Class: User (Aggregate Root)**
+| Name            | Attribute Type | Description                                      |
+|-----------------|-----------------|--------------------------------------------------|
+| id              | UUID             | Unique identifier for the user                  |
+| firstName       | string           | User's first name                               |
+| lastName        | string           | User's last name                                |
+| email           | string           | User's email address                            |
+| phoneNumber     | string           | User's contact number                           |
+| role            | UserRole         | Role of the user (Student, Instructor, Admin)    |
+| address         | Address          | Address associated with the user                |
+| credential      | Credential       | Authentication credentials of the user          |
+| register()      | void             | Registers a new user                            |
+| updateProfile() | void             | Updates user profile information                |
+| deactivate()    | void             | Deactivates the user account                    |
+
+**Class: StudentProfile (Entity)**
+| Name                   | Attribute Type | Description                                  |
+|-------------------------|----------------|----------------------------------------------|
+| id                      | UUID           | Unique identifier for the student profile   |
+| userId                  | UUID           | Associated user identifier                  |
+| university              | string         | Name of the university                      |
+| major                   | string         | Major field of study                        |
+| academicYear            | string         | Current academic year                       |
+| updateAcademicInfo()    | void           | Updates student's academic information      |
+
+**Class: InstructorProfile (Entity)**
+| Name                      | Attribute Type | Description                                |
+|----------------------------|----------------|--------------------------------------------|
+| id                         | UUID           | Unique identifier for the instructor profile |
+| userId                     | UUID           | Associated user identifier                |
+| biography                  | string         | Short biography of the instructor          |
+| expertiseAreas             | string         | Areas of expertise                         |
+| linkedInProfile            | string         | LinkedIn profile URL                       |
+| updateProfessionalInfo()   | void           | Updates instructor's professional info     |
+
+**Class: AdminProfile (Entity)**
+| Name                 | Attribute Type | Description                                  |
+|-----------------------|----------------|----------------------------------------------|
+| id                    | UUID           | Unique identifier for the admin profile     |
+| userId                | UUID           | Associated user identifier                  |
+| adminLevel            | string         | Access level of the administrator           |
+| updateAdminLevel()    | void           | Updates the admin's level of access          |
+
+**Class: Address (Value Object)**
+| Name           | Attribute Type | Description                |
+|----------------|----------------|----------------------------|
+| country        | string          | Country of residence       |
+| city           | string          | City of residence          |
+| postalCode     | string          | Postal code                |
+| streetAddress  | string          | Street address             |
+
+**Class: Credential (Value Object)**
+| Name              | Attribute Type | Description                        |
+|--------------------|----------------|------------------------------------|
+| email              | string         | Email used for authentication     |
+| passwordHash       | string         | Encrypted password                |
+| passwordSalt       | string         | Salt value used in password encryption |
+
+---
+
+<h3>Course Management</h3>
+
+**Class: Course (Aggregate Root)**  
+| Name            | Attribute Type | Description                                     |
+|-----------------|-----------------|-------------------------------------------------|
+| id              | UUID             | Unique identifier for the course               |
+| instructorId    | UUID             | Identifier of the instructor who created the course |
+| title           | string           | Title of the course                             |
+| description     | string           | Description of the course                      |
+| price           | decimal          | Price of the course                            |
+| status          | CourseStatus     | Status of the course (Draft, Published, Archived) |
+| metadata        | CourseMetadata   | Additional metadata about the course           |
+| create()        | void             | Creates a new course                           |
+| update()        | void             | Updates course details                         |
+| publish()       | void             | Publishes the course                           |
+| archive()       | void             | Archives the course                            |
+
+**Class: Module (Entity)**  
+| Name            | Attribute Type | Description                                  |
+|-----------------|-----------------|----------------------------------------------|
+| id              | UUID             | Unique identifier for the module            |
+| courseId        | UUID             | Identifier of the course this module belongs to |
+| title           | string           | Title of the module                         |
+| description     | string           | Description of the module                   |
+| order           | int              | Display order of the module                 |
+| addLesson()     | void             | Adds a lesson to the module                 |
+| updateModule()  | void             | Updates module information                 |
+
+**Class: Lesson (Entity)**  
+| Name            | Attribute Type | Description                                 |
+|-----------------|-----------------|---------------------------------------------|
+| id              | UUID             | Unique identifier for the lesson           |
+| moduleId        | UUID             | Identifier of the module this lesson belongs to |
+| title           | string           | Title of the lesson                        |
+| content         | string           | Lesson content                             |
+| order           | int              | Display order of the lesson                |
+| material        | Material         | Material associated with the lesson        |
+| updateLesson()  | void             | Updates lesson information                 |
+
+**Class: Material (Value Object)**  
+| Name           | Attribute Type | Description                              |
+|----------------|-----------------|------------------------------------------|
+| type           | MaterialType    | Type of material (Video, PDF, etc.)       |
+| url            | string          | URL where the material is hosted         |
+| fileName       | string          | Name of the material file                |
+
+**Class: CourseMetadata (Value Object)**  
+| Name                   | Attribute Type | Description                           |
+|-------------------------|----------------|---------------------------------------|
+| estimatedDurationHours  | int             | Estimated duration of the course in hours |
+| level                   | CourseLevel     | Difficulty level of the course        |
+| prerequisites           | string          | Required knowledge to take the course |
+
+---
+
+<h3>Enrollment & Purchase Management</h3>
+
+**Class: Enrollment (Aggregate Root)**  
+| Name                | Attribute Type  | Description                                       |
+|---------------------|------------------|---------------------------------------------------|
+| id                  | UUID              | Unique identifier for the enrollment             |
+| studentId           | UUID              | Identifier of the enrolled student               |
+| courseId            | UUID              | Identifier of the enrolled course                |
+| enrollmentDate      | datetime          | Date and time of enrollment                      |
+| progressPercentage  | float             | Student's progress in the course (0-100%)        |
+| status              | EnrollmentStatus  | Current status of the enrollment (Active, Completed, Cancelled) |
+| enrollStudent()     | void              | Enrolls a student into a course                  |
+| updateProgress()    | void              | Updates the student's progress in the course     |
+| completeEnrollment()| void              | Marks the enrollment as completed                |
+
+**Class: Purchase (Aggregate Root)**  
+| Name                | Attribute Type  | Description                                        |
+|---------------------|------------------|----------------------------------------------------|
+| id                  | UUID              | Unique identifier for the purchase                |
+| studentId           | UUID              | Identifier of the student who made the purchase   |
+| courseId            | UUID              | Identifier of the purchased course                |
+| purchaseDate        | datetime          | Date and time when the purchase was made          |
+| amountPaid          | decimal           | Amount paid for the course                        |
+| paymentDetail       | PaymentDetail     | Payment details associated with the purchase      |
+| status              | PurchaseStatus    | Status of the purchase (Completed, Failed)         |
+| completePurchase()  | void              | Marks the purchase as successful                  |
+| failPurchase()      | void              | Marks the purchase as failed                      |
+
+**Class: PaymentDetail (Value Object)**  
+| Name                  | Attribute Type  | Description                                |
+|------------------------|-----------------|--------------------------------------------|
+| paymentMethod          | PaymentMethod    | Method used for payment (Credit Card, PayPal, etc.) |
+| transactionId          | string           | Transaction identifier from the payment gateway |
+| paymentGateway         | string           | Name of the external payment gateway used  |
+| confirmationTimestamp  | datetime         | Time when the payment was confirmed        |
+
+---
+
+<h3>Notification Management</h3>
+
+**Class: Notification (Aggregate Root)**  
+| Name               | Attribute Type    | Description                                     |
+|--------------------|-------------------|-------------------------------------------------|
+| id                 | UUID               | Unique identifier for the notification         |
+| createdAt          | datetime           | Date and time when the notification was created |
+| scheduledAt        | datetime           | Date and time when the notification is scheduled to be sent |
+| sentAt             | datetime           | Date and time when the notification was sent   |
+| status             | NotificationStatus | Current status of the notification (Scheduled, Sent, Cancelled) |
+| content            | NotificationContent| Content of the notification                    |
+| recipients         | list<NotificationRecipient> | List of users who will receive the notification |
+| scheduleNotification() | void           | Schedules the notification for delivery       |
+| sendNotification()     | void           | Sends the notification                        |
+| cancelNotification()   | void           | Cancels a scheduled notification              |
+
+**Class: NotificationContent (Value Object)**  
+| Name         | Attribute Type  | Description                           |
+|--------------|------------------|---------------------------------------|
+| subject      | string            | Subject of the notification           |
+| message      | string            | Body message of the notification      |
+| channel      | NotificationChannel | Channel through which the notification is sent (Email, SMS, etc.) |
+
+**Class: NotificationRecipient (Entity)**  
+| Name               | Attribute Type  | Description                             |
+|--------------------|------------------|-----------------------------------------|
+| id                 | UUID              | Unique identifier for the recipient    |
+| userId             | UUID              | Identifier of the user who receives the notification |
+| deliveryStatus     | DeliveryStatus    | Status of delivery (Pending, Delivered, Failed) |
+| deliveryTimestamp  | datetime          | Time when the notification was delivered |
+| updateDeliveryStatus() | void          | Updates the delivery status of the notification |
+
+---
+
+**Class: LiveSession (Aggregate Root)**  
+| Name                | Attribute Type | Description                                      |
+|---------------------|-----------------|--------------------------------------------------|
+| id                  | UUID             | Unique identifier for the live session          |
+| courseId            | UUID             | Identifier of the associated course             |
+| instructorId        | UUID             | Identifier of the instructor conducting the session |
+| topic               | string           | Title or topic of the live session               |
+| scheduledAt         | datetime         | Scheduled date and time for the live session     |
+| durationMinutes     | int              | Duration of the live session in minutes         |
+| meetingLink         | MeetingLink      | Link details to access the live session         |
+| status              | LiveSessionStatus| Current status of the session (Scheduled, Completed, Cancelled) |
+| scheduleSession()   | void             | Schedules a new live session                    |
+| rescheduleSession() | void             | Reschedules an existing live session            |
+| cancelSession()     | void             | Cancels the scheduled live session              |
+
+**Class: MeetingLink (Value Object)**  
+| Name           | Attribute Type  | Description                                  |
+|----------------|------------------|----------------------------------------------|
+| platform       | VideoPlatform     | Platform used for the live session (Zoom, Google Meet, etc.) |
+| url            | string            | URL link to join the live session            |
+| meetingId      | string            | Meeting identifier provided by the platform  |
+| accessCode     | string            | Access code or password for the meeting      |
+
+**Class: Reminder (Entity)**  
+| Name               | Attribute Type  | Description                               |
+|--------------------|------------------|-------------------------------------------|
+| id                 | UUID              | Unique identifier for the reminder       |
+| liveSessionId      | UUID              | Identifier of the associated live session |
+| sentAt             | datetime          | Date and time when the reminder was sent  |
+| reminderType       | ReminderType      | Type of reminder (24h before, 1h before, etc.) |
+| sendReminder()     | void              | Sends a reminder for the live session    |
+
 ## 4.8. Database Design.
+En esta sección se presenta el diseño de la base de datos. Se incluye un diagrama de la base de datos que ilustra la estructura y las relaciones entre las tablas principales del sistema.
+<p align="center">
+  <img src="./assets/DatabaseDesign.png" alt="Database Design"/>
+</p>
+
 ### 4.8.1. Database Diagram.
+El diagrama de la base de datos proporciona una representación visual de las tablas, sus atributos y las relaciones entre ellas, facilitando la comprensión de la organización y la integridad de los datos en el sistema.
+
+A continuación, presentaremos el diagrama de base de datos, una herramienta fundamental para el diseño y la comprensión de bases de datos relacionales. Este diagrama nos permitirá visualizar las entidades, atributos y relaciones que conforman nuestra base de datos.
+
+<p align="center">
+  <img src="./assets/DatabaseDiagram.png" alt="Database Diagram"/>
+</p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
