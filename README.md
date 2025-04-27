@@ -751,15 +751,29 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 - Las tareas de publicar, actualizar cursos y gestionar estudiantes son exclusivas de Sofía como creadora de contenido.
 
 ### 2.3.3. User Journey Mapping.
+
+
+**Segmento Objetivo: Estudiantes universitarios que desean aprender**
+
+<div align="center">
+  <img src="./assets/UserJourney1.jpg" alt="UserJourney1" width="1000"/>
+</div>
+
+**Segmento Objetivo: Creadores de cursos**
+
+<div align="center">
+  <img src="./assets/UserJourney2.jpg" alt="UserJourney2" width="1000"/>
+</div>
+
 ### 2.3.4. Empathy Mapping.
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <p align="center">
-  <img src="./assets/UPSofia.png" alt="emp1"/>
+  <img src="./assets/UPSamuel.png" alt="emp1"/>
 
 **Segmento Objetivo: Creadores de cursos**
 <p align="center">
-  <img src="./assets/UPSamuel.png" alt="emp2"/>
+  <img src="./assets/UPSofia.png" alt="emp2"/>
 
 ### 2.3.5. As-is Scenario Mapping.
 
