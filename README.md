@@ -802,22 +802,22 @@ Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WK
 ### 4.3.2. Landing Page Mock-up.
 
 <div align="center">
-  <img src="./assets/FInal1.jpg" alt="final1" width="1000"/>
+  <img src="./assets/Final1.jpg" alt="final1" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/FInal1.jpg" alt="final2" width="1000"/>
+  <img src="./assets/Final1.jpg" alt="final2" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/FInal3.jpg" alt="final3" width="1000"/>
+  <img src="./assets/Final3.jpg" alt="final3" width="1000"/>
 </div>
 
 
 <div align="center">
-  <img src="./assets/FInal4.jpg" alt="final4" width="1000"/>
+  <img src="./assets/Final4.jpg" alt="final4" width="1000"/>
 </div>
 
 Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled?node-id=0-1&t=XRp6JykfbClFpZ4R-1)
