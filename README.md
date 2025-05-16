@@ -2626,6 +2626,91 @@ A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** d
 Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha servido para mantener la trazabilidad de responsabilidades, facilitando la integración entre aspectos técnicos del sistema y promoviendo una colaboración ágil y efectiva.
 
 #### 5.2.2.3.Sprint Backlog 2.
+En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
+
+![Trello](assets/Sprint2.png)
+
+<table style="width:100%; height:auto; border-collapse: collapse;">
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 2 </th>
+   </tr>
+   <tr>
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item / Task </th>
+   </tr>
+   <tr>
+     <th> Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th> Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th>
+     <th> Status (To-do / In-Process / To-Review / Done) </th>
+   </tr>
+   <tr>
+     <td> US12 </td>
+     <td colspan="3"> Acceder a mis cursos comprados </td>
+     <td> UT01 </td>
+     <td> Crear componente StudyingComponent </td>
+     <td> Generar la vista de cronograma en la que se listan los cursos comprados por el usuario. </td>
+     <td> 6 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US15 </td>
+     <td colspan="3"> Marcar progreso </td>
+     <td> UT02 </td>
+     <td> Implementar lógica para marcar temas completados </td>
+     <td> Guardar en el fake backend los temas completados por el usuario para el seguimiento de su progreso. </td>
+     <td> 4 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US10 </td>
+     <td colspan="3"> Ver descripción del curso </td>
+     <td> UT03 </td>
+     <td> Mostrar resumen del curso en cada tarjeta </td>
+     <td> Agregar en las tarjetas de cursos el nombre, instructor y una breve descripción accesible. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US31 </td>
+     <td colspan="3"> Usar buscador con sugerencias </td>
+     <td> UT04 </td>
+     <td> Preparar la infraestructura para futuras sugerencias en buscador </td>
+     <td> Dejar preparada la estructura para integrar funcionalidades futuras como el buscador predictivo. </td>
+     <td> 2 </td>
+     <td> Esteban Alvarez </td>
+     <td> To-Do </td>
+   </tr>
+   <tr>
+     <td> US23 </td>
+     <td colspan="3"> Recibir notificaciones importantes </td>
+     <td> UT05 </td>
+     <td> Configuración inicial de sistema de notificaciones </td>
+     <td> Planificación del modelo y mecanismo para envío de notificaciones en futuras vistas. </td>
+     <td> 3 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> In-Process </td>
+   </tr>
+   <tr>
+     <td> US21 </td>
+     <td colspan="3"> Editar perfil personal </td>
+     <td> UT06 </td>
+     <td> Vinculación de usuario con perfil visible </td>
+     <td> Ajustar datos de usuario autenticado para visibilizar perfil desde el frontend. </td>
+     <td> 4 </td>
+     <td> Tony Torres </td>
+     <td> In-Process </td>
+   </tr>
+</table>
+
 #### 5.2.2.4.Development Evidence for Sprint Review.
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
