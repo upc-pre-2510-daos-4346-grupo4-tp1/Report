@@ -2786,6 +2786,40 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+En la entrega correspondiente al segundo sprint, se realizaron despliegues individuales de las secciones de la aplicación web Frontend en Firebase, logrando que cada una sea completamente funcional e incluyendo algunas funcionalidades completas de usuario.
+
+<table>
+     <tr> 
+        <th>  URL  </th>
+        <th> BC </th>
+     </tr>
+     <tr>
+      <td>https://edunova-frontend.web.app/publishing/courses</td>
+      <td>publishing/courses</td>
+     </tr>     
+</table>
+
+<h4>Landing Page</h4>
+
+![Evidence](assets/sprint2L1.png)
+![Evidence](assets/sprint2L2.png)
+![Evidence](assets/sprint2L3.png)
+![Evidence](assets/sprint2L4.png)
+![Evidence](assets/sprint2L5.png)
+URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+
+<h4>Frontend</h4>
+
+Publicación de cursos para su venta
+![Evidence](assets/sprint2Course1.png)
+![Evidence](assets/sprint2course2.png)
+![Evidence](assets/sprint2Course4.png)
+![Evidence](assets/sprint2Course5.png)
+
+URL: https://edunova-frontend.web.app/publishing/courses
+
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 ## Conclusiones
