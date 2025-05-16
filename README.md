@@ -2787,6 +2787,12 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
+Durante el sprint 2, se alcanzó un progreso parcial en el desarrollo e implementación del front-end. Se construyeron varias secciones esenciales que permiten al usuario interactuar con las funciones principales del sistema. A continuación, se muestran algunas evidencias del trabajo realizado:
+
+![Evidence](assets/sprint2Course1.png)
+![Evidence](assets/sprint2course2.png)
+![Evidence](assets/sprint2Course4.png)
+![Evidence](assets/sprint2Course5.png)
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
