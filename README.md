@@ -2562,7 +2562,7 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
      </tr>
       <tr>
         <td style="font-weight: bold;"> Prepared By </td>
-        <td> Iparraguirre Rueda, Cristian Luis </td>
+        <td> Acuña Tomas, Diego Rolin </td>
      </tr>
         <tr>
         <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
@@ -2618,7 +2618,7 @@ A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** d
 
 | Team Member (Last Name, First Name)     | GitHub Username         | Studying Frontend | UX/UI Implementation | i18n Integration | DB Integration | Routing & Navigation | Collaboration & Sync |
 |----------------------------------------|--------------------------|--------------------|------------------------|-------------------|------------------|------------------------|------------------------|
-| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                  | C                      | C                 | C                | L                      | C                      |
+| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                  | L                      | L                 | L                | L                      | C                      |
 | Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                  | L                      | C                 | C                | C                      | C                      |
 | Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                  | C                      | L                 | L                | C                      | L                      |
 | Torres Cortez, Tony Do Santos          | TonyTorresC             | C                  | C                      | C                 | C                | C                      | C                      |
@@ -2707,11 +2707,82 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> Ajustar datos de usuario autenticado para visibilizar perfil desde el frontend. </td>
      <td> 4 </td>
      <td> Tony Torres </td>
-     <td> In-Process </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US18 </td>
+     <td colspan="3"> Navegación entre tabs </td>
+     <td> UT07 </td>
+     <td> Implementar tabs de cursos en progreso y completados </td>
+     <td> Añadir navegación por tabs en el cronograma para visualizar el estado del curso. </td>
+     <td> 2 </td>
+     <td> Esteban Alvarez </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US20 </td>
+     <td colspan="3"> Ver temas por curso </td>
+     <td> UT08 </td>
+     <td> Implementar menú desplegable de semanas </td>
+     <td> Agregar menú con listado de temas por curso, mostrando su título y posición. </td>
+     <td> 3 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US25 </td>
+     <td colspan="3"> Ver detalle del tema </td>
+     <td> UT09 </td>
+     <td> Mostrar información completa de tema en diálogo </td>
+     <td> Diseñar un diálogo para desplegar información detallada del tema seleccionado. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US27 </td>
+     <td colspan="3"> Internacionalización </td>
+     <td> UT10 </td>
+     <td> Agregar soporte i18n en vista Studying </td>
+     <td> Traducir el contenido visible de la vista Studying utilizando ngx-translate. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US33 </td>
+     <td colspan="3"> Diseño responsive </td>
+     <td> UT11 </td>
+     <td> Ajuste de diseño para dispositivos móviles </td>
+     <td> Adaptar la vista para asegurar su usabilidad en pantallas pequeñas. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US22 </td>
+     <td colspan="3"> Paginación de cursos </td>
+     <td> UT12 </td>
+     <td> Implementar componente paginator </td>
+     <td> Utilizar MatPaginator para manejar la paginación de los cursos mostrados. </td>
+     <td> 2 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
    </tr>
 </table>
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
+En esta sección se detallan los commits realizados en la rama `main` del repositorio del frontend durante el Sprint 2. Estos reflejan el progreso del desarrollo de la aplicación web en Angular:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | a1b2c3d | feat: Crear estructura inicial de proyecto Angular | Se configuró la base del proyecto con Angular 19 y soporte para traducción. | 02/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | c2d3e4f | feat: Implementar componente language-switcher | Componente para cambiar idioma entre inglés y español usando ngx-translate. | 04/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | f5g6h7i | feat: Crear estructura para el bounded context "studying" | Se creó el componente studying y se integró la vista de cronograma con tabs y paginador. | 07/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | j8k9l0m | feat: Implementar cards de cursos con menú dinámico por semana | Cada card permite ver las semanas del curso y abrir un diálogo con la descripción. | 09/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | n1o2p3q | fix: Corrección en lógica de cursos completados e incompletos | Ajustes para filtrar correctamente los cursos en progreso y finalizados por usuario. | 10/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | r4s5t6u | style: Ajustes de estilo en studying.component.css | Se alineó correctamente el contenido de las tarjetas y se mejoró la paleta de colores. | 11/05/2025 |
+
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
