@@ -181,6 +181,15 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Bibliografía](#bibliografía)
@@ -2171,10 +2180,7 @@ En la sección de **GitHub Pages**, seleccionamos la rama principal (`main`) en 
 En Scrum, un Sprint es un período breve y específico en el que el equipo se enfoca en realizar las tareas necesarias para cumplir con el objetivo del producto, también llamado "Product Goal" (Scrum Alliance, 2024).
 
 #### 5.2.1.1. Sprint Planning 1.
-
-
 Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #1, que comenzó el 14 de agosto de 2024, tiene como objetivo desarrollar una landing page atractiva para EcoMovil, pensada para captar la atención de los usuarios y resaltar las principales ventajas del producto.
-
 
 <table>
      <tr> 
@@ -2207,8 +2213,6 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
              Acuña Tomas, Diego Rolin
             <br>
              Alvarez Falen, Esteban Valentino
-            <br>
-            Guerrero Vasquez, Jhon Danny
             <br>
              Iparraguirre Rueda, Cristian Luis
             <br>
@@ -2254,8 +2258,6 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 | MTorres Cortez, Tony Do Santos | TonyTorresC | C | C | C | C | C | C | C | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1.
-
-
 En el primer sprint backlog, el equipo estableció como objetivo comenzar y finalizar el desarrollo de la landing page. Para organizar y gestionar al equipo, se utilizó Trello, una herramienta que permitió desglosar las user stories en tareas más pequeñas y asignarlas según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page en su totalidad, asegurando que fuera atractiva y funcional.
 
 ![Trello](assets/Sprint1.png)
@@ -2534,7 +2536,105 @@ Durante este sprint, las tareas de diseño, implementación y documentación de 
 
 ![image.png](./assets/CollaborationSprint1.png)
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #2, que comenzó el 6 de mayo de 2025, tiene como objetivo implementar la estructura funcional del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
 
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planning Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 06/05/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 18:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de Discord </td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Iparraguirre Rueda, Cristian Luis </td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+            <br>
+             Acuña Tomas, Diego Rolin
+            <br>
+             Alvarez Falen, Esteban Valentino
+            <br>
+             Iparraguirre Rueda, Cristian Luis
+            <br>
+             Torres Cortez, Tony Do Santos
+        </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> Se completó exitosamente la construcción de la landing page, incluyendo navegación, login simulado y secciones informativas. El equipo logró desplegar el primer entregable en GitHub con acceso público. </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td> Se identificaron oportunidades de mejora en la distribución de tareas y estimación de tiempos. Se decidió reforzar la comunicación interna y adoptar criterios de diseño unificados para mejorar la cohesión visual. </td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td> En este sprint, el objetivo es construir el frontend del módulo de estudio (bounded context Studying) con Angular 19.2.10, incluyendo componentes como tabs, paginator, dialog, cards dinámicas y menú contextual, además de integración de internacionalización y simulación de base de datos con `db.json`. </td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td> 40 </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 40 </td>
+      </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+
+#### 5.2.2.3.Sprint Backlog 2.
+Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo del **frontend funcional** de la aplicación web Edunova. Se priorizó el diseño accesible, la implementación de componentes interactivos con Angular (tabs, paginator, cards dinámicas, menús contextuales y diálogos) y la correcta integración con la base de datos simulada (`db.json`), respetando los lineamientos definidos en el diseño del sistema y la documentación previa (DDD, UX/UI y estructuras de navegación).
+
+Los principales aspectos considerados en este sprint fueron organizados por **bounded contexts**, siendo los siguientes:
+
+- **Studying Frontend**: Implementación de la interfaz para cursos en progreso y completados.
+- **UX/UI Implementation**: Aplicación de lineamientos visuales (paleta, layout responsivo, componentes Material).
+- **i18n Integration**: Configuración y uso del sistema de traducciones para múltiples idiomas.
+- **DB Integration**: Consumo e interpretación de `db.json` simulando una API REST.
+- **Routing & Navigation**: Agregado de rutas en Angular y adaptación del diseño existente.
+- **Collaboration & Sync**: Coordinación con compañeros que desarrollan otras funcionalidades relacionadas como login y perfil de usuario.
+
+A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** del Sprint:
+
+| Team Member (Last Name, First Name)     | GitHub Username         | Studying Frontend | UX/UI Implementation | i18n Integration | DB Integration | Routing & Navigation | Collaboration & Sync |
+|----------------------------------------|--------------------------|--------------------|------------------------|-------------------|------------------|------------------------|------------------------|
+| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                  | C                      | C                 | C                | L                      | C                      |
+| Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                  | L                      | C                 | C                | C                      | C                      |
+| Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                  | C                      | L                 | L                | C                      | L                      |
+| Torres Cortez, Tony Do Santos          | TonyTorresC             | C                  | C                      | C                 | C                | C                      | C                      |
+
+Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha servido para mantener la trazabilidad de responsabilidades, facilitando la integración entre aspectos técnicos del sistema y promoviendo una colaboración ágil y efectiva.
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 ## Conclusiones
 1. **Viabilidad del Proyecto**
