@@ -2603,9 +2603,6 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 </table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
-
-
-#### 5.2.2.3.Sprint Backlog 2.
 Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo del **frontend funcional** de la aplicación web Edunova. Se priorizó el diseño accesible, la implementación de componentes interactivos con Angular (tabs, paginator, cards dinámicas, menús contextuales y diálogos) y la correcta integración con la base de datos simulada (`db.json`), respetando los lineamientos definidos en el diseño del sistema y la documentación previa (DDD, UX/UI y estructuras de navegación).
 
 Los principales aspectos considerados en este sprint fueron organizados por **bounded contexts**, siendo los siguientes:
@@ -2628,9 +2625,8 @@ A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** d
 
 Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha servido para mantener la trazabilidad de responsabilidades, facilitando la integración entre aspectos técnicos del sistema y promoviendo una colaboración ágil y efectiva.
 
+#### 5.2.2.3.Sprint Backlog 2.
 #### 5.2.2.4.Development Evidence for Sprint Review.
-
-
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
