@@ -2632,7 +2632,7 @@ Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha 
 #### 5.2.2.3.Sprint Backlog 2.
 En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
 
-![Trello](assets/Sprint2.png)
+![Trello](assets/trelloSprint2.png)
 
 <table style="width:100%; height:auto; border-collapse: collapse;">
    <tr>
