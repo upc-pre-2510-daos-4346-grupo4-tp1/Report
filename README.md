@@ -2790,6 +2790,34 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+En el sprint 2 se planificó exclusivamente continuar con el desarrollo pendiente de la landing page y del front-end. Para evitar restricciones al momento de probar las funcionalidades, se decidió utilizar JSON Server. Al principio se empleó una versión local, pero luego de conocer My JSON Server, se optó por esta alternativa, ya que permite interactuar con la base de datos desde una aplicación web frontend ya desplegada. Enlace a My JSON Server:
+https://my-json-server.typicode.com/ComidaRapida007/db-server
+
+
+<table>
+     <tr> 
+        <th>  Endpoints  </th>
+        <th> Description </th>
+     </tr>
+     <tr>
+      <td>Courses</td>
+      <td>Representa los cursos disponibles en la plataforma. Cada curso contiene información básica como nombre, descripción, categoría, precio y el ID del creador (referencia a un usuario).</td>
+     </tr>     
+     <tr>
+      <td>Topics</td>
+      <td>Temas específicos que componen un curso. Un curso puede estar dividido en múltiples temas para estructurar mejor el aprendizaje.</td>
+     </tr>   
+     <tr>
+      <td>Objectives</td>
+      <td>Objetivos de aprendizaje asociados a cada tema. Indican lo que el estudiante aprenderá o logrará al finalizar el tema.</td>
+     </tr>   
+     <tr>
+      <td>Resources</td>
+      <td>Recursos complementarios (videos, artículos, guías) relacionados con un tema específico para profundizar o facilitar el aprendizaje.</td>
+     </tr>   
+</table>
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 En la entrega correspondiente al segundo sprint, se realizaron despliegues individuales de las secciones de la aplicación web Frontend en Firebase, logrando que cada una sea completamente funcional e incluyendo algunas funcionalidades completas de usuario.
