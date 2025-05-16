@@ -181,12 +181,25 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1.Sprint Planning 2.](#5221sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3.Sprint Backlog 2.](#5223sprint-backlog-2)
+      - [5.2.2.4.Development Evidence for Sprint Review.](#5224development-evidence-for-sprint-review)
+      - [5.2.2.5.Execution Evidence for Sprint Review.](#5225execution-evidence-for-sprint-review)
+      - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
 
 # Student Outcome
+| **Criterio Específico**                                           | **Acciones Realizadas** | **Conclusiones** |
+|-------------------------------------------------------------------|--------------------------|------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Al realizar el apartado de header, footer requerimos de constante comunicación oral con los demás integrantes del grupo para alinear funcionalidades y validar requerimientos, además de participar activamente en la resolución del documento.<br><br>**Tony Torres**<br>**TP:**<br>Por mi parte, realicé el apartado de perfil asegurando una comunicación continua con mi grupo para enfatizar y priorizar las características principales que debe tener este apartado tan importante de nuestro proyecto.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Cumplí con la competencia designada al completar mi apartado Seguir cursos, entablando comunicación activa entre mi grupo para coincidir en componentes y materiales usados para el desarrollo de este.<br><br>**Esteban Álvarez**<br>**TP:**<br>Gracias al desarrollo del apartado Búsqueda de filtro, he podido cumplir satisfactoriamente esta competencia del curso al coordinar con mis compañeros de grupo las funciones y requerimientos que requerimos para completar este apartado del proyecto.<br><br>**Jhon Guerrero**<br>**TP:**<br>Para esta entrega, me encargué de la corrección de errores y realización del apartado de interfaz principal manteniendo una comunicación continua con mis compañeros de equipo para coordinar funcionalidades y componentes utilizados cumpliendo de tal manera la competencia del curso. | En EDUnova priorizamos siempre la comunicación oralmente ya que al realizar un trabajo minimalista que aporte ayuda a pequeñas empresas es importante tener lineamientos y esquemas para funciones y/o futuras implementaciones claras para no generar conflictos entre los apartados que desarrolle el equipo de manera autónoma. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Para el cumplimiento de esta competencia, realicé diferentes revisiones y modificaciones a nuestra documentación técnica refiriéndonos tanto a nuestra interfaz inicial como los apartados de Header y Footer.<br><br>**Tony Torres**<br>**TP:**<br>Cumpliendo con la competencia, mantuve una comunicación escrita al realizar reportes sobre las funcionalidades del apartado perfil, aportando así significativamente a la elaboración de descripciones y requisitos.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Registré diferentes cambios y observaciones sobre el apartado Seguir Cursos mediante mensajes escritos describiendo así los componentes y materiales utilizados.<br><br>**Esteban Álvarez**<br>**TP:**<br>Coordinamos por escrito los diferentes requerimientos funcionales de los distintos módulos de los que dispone nuestra aplicación permitiéndome cumplir la competencia.<br><br>**Jhon Guerrero**<br>**TP:**<br>Debido a que completé las correcciones de pasadas entregas y me encargué del desarrollo de la interfaz inicial, registré los diferentes cambios y/o mejoras del proyecto de manera escrita para poder entregar un trabajo sólido, pulido y renovado cumpliendo así la competencia del curso. | Consideramos que la comunicación escrita fue clave para lograr nuestro proyecto, ya que es de vital importancia documentar los diferentes cambios y registros por los que pasa nuestro proyecto para garantizar sinergia entre funciones actuales y funciones futuras manteniendo un código y una documentación legible y profesional. |
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile.
@@ -2171,10 +2184,7 @@ En la sección de **GitHub Pages**, seleccionamos la rama principal (`main`) en 
 En Scrum, un Sprint es un período breve y específico en el que el equipo se enfoca en realizar las tareas necesarias para cumplir con el objetivo del producto, también llamado "Product Goal" (Scrum Alliance, 2024).
 
 #### 5.2.1.1. Sprint Planning 1.
-
-
 Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #1, que comenzó el 14 de agosto de 2024, tiene como objetivo desarrollar una landing page atractiva para EcoMovil, pensada para captar la atención de los usuarios y resaltar las principales ventajas del producto.
-
 
 <table>
      <tr> 
@@ -2207,8 +2217,6 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
              Acuña Tomas, Diego Rolin
             <br>
              Alvarez Falen, Esteban Valentino
-            <br>
-            Guerrero Vasquez, Jhon Danny
             <br>
              Iparraguirre Rueda, Cristian Luis
             <br>
@@ -2254,8 +2262,6 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 | MTorres Cortez, Tony Do Santos | TonyTorresC | C | C | C | C | C | C | C | C | C |
 
 #### 5.2.1.3. Sprint Backlog 1.
-
-
 En el primer sprint backlog, el equipo estableció como objetivo comenzar y finalizar el desarrollo de la landing page. Para organizar y gestionar al equipo, se utilizó Trello, una herramienta que permitió desglosar las user stories en tareas más pequeñas y asignarlas según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page en su totalidad, asegurando que fuera atractiva y funcional.
 
 ![Trello](assets/Sprint1.png)
@@ -2534,6 +2540,333 @@ Durante este sprint, las tareas de diseño, implementación y documentación de 
 
 ![image.png](./assets/CollaborationSprint1.png)
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1.Sprint Planning 2.
+Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #2, que comenzó el 6 de mayo de 2025, tiene como objetivo implementar la estructura funcional del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 2 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planning Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 06/05/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 18:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de Discord </td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Acuña Tomas, Diego Rolin </td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+            <br>
+             Acuña Tomas, Diego Rolin
+            <br>
+             Alvarez Falen, Esteban Valentino
+            <br>
+             Iparraguirre Rueda, Cristian Luis
+            <br>
+             Torres Cortez, Tony Do Santos
+        </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+        <td> Se completó exitosamente la construcción de la landing page, incluyendo navegación, login simulado y secciones informativas. El equipo logró desplegar el primer entregable en GitHub con acceso público. </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td> Se identificaron oportunidades de mejora en la distribución de tareas y estimación de tiempos. Se decidió reforzar la comunicación interna y adoptar criterios de diseño unificados para mejorar la cohesión visual. </td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Goal</td>
+          <td> En este sprint, el objetivo es construir el frontend del módulo de estudio (bounded context Studying) con Angular 19.2.10, incluyendo componentes como tabs, paginator, dialog, cards dinámicas y menú contextual, además de integración de internacionalización y simulación de base de datos con `db.json`. </td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td> 40 </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 40 </td>
+      </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo del **frontend funcional** de la aplicación web Edunova. Se priorizó el diseño accesible, la implementación de componentes interactivos con Angular (tabs, paginator, cards dinámicas, menús contextuales y diálogos) y la correcta integración con la base de datos simulada (`db.json`), respetando los lineamientos definidos en el diseño del sistema y la documentación previa (DDD, UX/UI y estructuras de navegación).
+
+Los principales aspectos considerados en este sprint fueron organizados por **bounded contexts**, siendo los siguientes:
+
+- **Studying Frontend**: Implementación de la interfaz para cursos en progreso y completados.
+- **UX/UI Implementation**: Aplicación de lineamientos visuales (paleta, layout responsivo, componentes Material).
+- **i18n Integration**: Configuración y uso del sistema de traducciones para múltiples idiomas.
+- **DB Integration**: Consumo e interpretación de `db.json` simulando una API REST.
+- **Routing & Navigation**: Agregado de rutas en Angular y adaptación del diseño existente.
+- **Collaboration & Sync**: Coordinación con compañeros que desarrollan otras funcionalidades relacionadas como login y perfil de usuario.
+
+A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** del Sprint:
+
+| Team Member (Last Name, First Name)     | GitHub Username         | Studying Frontend | UX/UI Implementation | i18n Integration | DB Integration | Routing & Navigation | Collaboration & Sync |
+|----------------------------------------|--------------------------|--------------------|------------------------|-------------------|------------------|------------------------|------------------------|
+| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                  | L                      | L                 | L                | L                      | C                      |
+| Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                  | L                      | C                 | C                | C                      | C                      |
+| Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                  | C                      | L                 | L                | C                      | L                      |
+| Torres Cortez, Tony Do Santos          | TonyTorresC             | C                  | C                      | C                 | C                | C                      | C                      |
+
+Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha servido para mantener la trazabilidad de responsabilidades, facilitando la integración entre aspectos técnicos del sistema y promoviendo una colaboración ágil y efectiva.
+
+#### 5.2.2.3.Sprint Backlog 2.
+En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
+
+![Trello](assets/trelloSprint2.png)
+
+<table style="width:100%; height:auto; border-collapse: collapse;">
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 2 </th>
+   </tr>
+   <tr>
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item / Task </th>
+   </tr>
+   <tr>
+     <th> Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th> Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th>
+     <th> Status (To-do / In-Process / To-Review / Done) </th>
+   </tr>
+   <tr>
+     <td> US12 </td>
+     <td colspan="3"> Acceder a mis cursos comprados </td>
+     <td> UT01 </td>
+     <td> Crear componente StudyingComponent </td>
+     <td> Generar la vista de cronograma en la que se listan los cursos comprados por el usuario. </td>
+     <td> 6 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US15 </td>
+     <td colspan="3"> Marcar progreso </td>
+     <td> UT02 </td>
+     <td> Implementar lógica para marcar temas completados </td>
+     <td> Guardar en el fake backend los temas completados por el usuario para el seguimiento de su progreso. </td>
+     <td> 4 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US10 </td>
+     <td colspan="3"> Ver descripción del curso </td>
+     <td> UT03 </td>
+     <td> Mostrar resumen del curso en cada tarjeta </td>
+     <td> Agregar en las tarjetas de cursos el nombre, instructor y una breve descripción accesible. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US31 </td>
+     <td colspan="3"> Usar buscador con sugerencias </td>
+     <td> UT04 </td>
+     <td> Preparar la infraestructura para futuras sugerencias en buscador </td>
+     <td> Dejar preparada la estructura para integrar funcionalidades futuras como el buscador predictivo. </td>
+     <td> 2 </td>
+     <td> Esteban Alvarez </td>
+     <td> To-Do </td>
+   </tr>
+   <tr>
+     <td> US23 </td>
+     <td colspan="3"> Recibir notificaciones importantes </td>
+     <td> UT05 </td>
+     <td> Configuración inicial de sistema de notificaciones </td>
+     <td> Planificación del modelo y mecanismo para envío de notificaciones en futuras vistas. </td>
+     <td> 3 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> In-Process </td>
+   </tr>
+   <tr>
+     <td> US21 </td>
+     <td colspan="3"> Editar perfil personal </td>
+     <td> UT06 </td>
+     <td> Vinculación de usuario con perfil visible </td>
+     <td> Ajustar datos de usuario autenticado para visibilizar perfil desde el frontend. </td>
+     <td> 4 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US18 </td>
+     <td colspan="3"> Navegación entre tabs </td>
+     <td> UT07 </td>
+     <td> Implementar tabs de cursos en progreso y completados </td>
+     <td> Añadir navegación por tabs en el cronograma para visualizar el estado del curso. </td>
+     <td> 2 </td>
+     <td> Esteban Alvarez </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US20 </td>
+     <td colspan="3"> Ver temas por curso </td>
+     <td> UT08 </td>
+     <td> Implementar menú desplegable de semanas </td>
+     <td> Agregar menú con listado de temas por curso, mostrando su título y posición. </td>
+     <td> 3 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US25 </td>
+     <td colspan="3"> Ver detalle del tema </td>
+     <td> UT09 </td>
+     <td> Mostrar información completa de tema en diálogo </td>
+     <td> Diseñar un diálogo para desplegar información detallada del tema seleccionado. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US27 </td>
+     <td colspan="3"> Internacionalización </td>
+     <td> UT10 </td>
+     <td> Agregar soporte i18n en vista Studying </td>
+     <td> Traducir el contenido visible de la vista Studying utilizando ngx-translate. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US33 </td>
+     <td colspan="3"> Diseño responsive </td>
+     <td> UT11 </td>
+     <td> Ajuste de diseño para dispositivos móviles </td>
+     <td> Adaptar la vista para asegurar su usabilidad en pantallas pequeñas. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US22 </td>
+     <td colspan="3"> Paginación de cursos </td>
+     <td> UT12 </td>
+     <td> Implementar componente paginator </td>
+     <td> Utilizar MatPaginator para manejar la paginación de los cursos mostrados. </td>
+     <td> 2 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+</table>
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+En esta sección se detallan los commits realizados en la rama `main` del repositorio del frontend durante el Sprint 2. Estos reflejan el progreso del desarrollo de la aplicación web en Angular:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | a1b2c3d | feat: Crear estructura inicial de proyecto Angular | Se configuró la base del proyecto con Angular 19 y soporte para traducción. | 02/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | c2d3e4f | feat: Implementar componente language-switcher | Componente para cambiar idioma entre inglés y español usando ngx-translate. | 04/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | f5g6h7i | feat: Crear estructura para el bounded context "studying" | Se creó el componente studying y se integró la vista de cronograma con tabs y paginador. | 07/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | j8k9l0m | feat: Implementar cards de cursos con menú dinámico por semana | Cada card permite ver las semanas del curso y abrir un diálogo con la descripción. | 09/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | n1o2p3q | fix: Corrección en lógica de cursos completados e incompletos | Ajustes para filtrar correctamente los cursos en progreso y finalizados por usuario. | 10/05/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | r4s5t6u | style: Ajustes de estilo en studying.component.css | Se alineó correctamente el contenido de las tarjetas y se mejoró la paleta de colores. | 11/05/2025 |
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+Durante el sprint 2, se alcanzó un progreso parcial en el desarrollo e implementación del front-end. Se construyeron varias secciones esenciales que permiten al usuario interactuar con las funciones principales del sistema. A continuación, se muestran algunas evidencias del trabajo realizado:
+
+![Evidence](assets/sprint2Course1.png)
+![Evidence](assets/sprint2course2.png)
+![Evidence](assets/sprint2Course4.png)
+![Evidence](assets/sprint2Course5.png)
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+En el sprint 2 se planificó exclusivamente continuar con el desarrollo pendiente de la landing page y del front-end. Para evitar restricciones al momento de probar las funcionalidades, se decidió utilizar JSON Server. Al principio se empleó una versión local, pero luego de conocer My JSON Server, se optó por esta alternativa, ya que permite interactuar con la base de datos desde una aplicación web frontend ya desplegada. Enlace a My JSON Server:
+https://my-json-server.typicode.com/ComidaRapida007/db-server
+
+
+<table>
+     <tr> 
+        <th>  Endpoints  </th>
+        <th> Description </th>
+     </tr>
+     <tr>
+      <td>Courses</td>
+      <td>Representa los cursos disponibles en la plataforma. Cada curso contiene información básica como nombre, descripción, categoría, precio y el ID del creador (referencia a un usuario).</td>
+     </tr>     
+     <tr>
+      <td>Topics</td>
+      <td>Temas específicos que componen un curso. Un curso puede estar dividido en múltiples temas para estructurar mejor el aprendizaje.</td>
+     </tr>   
+     <tr>
+      <td>Objectives</td>
+      <td>Objetivos de aprendizaje asociados a cada tema. Indican lo que el estudiante aprenderá o logrará al finalizar el tema.</td>
+     </tr>   
+     <tr>
+      <td>Resources</td>
+      <td>Recursos complementarios (videos, artículos, guías) relacionados con un tema específico para profundizar o facilitar el aprendizaje.</td>
+     </tr>   
+</table>
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+En la entrega correspondiente al segundo sprint, se realizaron despliegues individuales de las secciones de la aplicación web Frontend en Firebase, logrando que cada una sea completamente funcional e incluyendo algunas funcionalidades completas de usuario.
+
+<table>
+     <tr> 
+        <th>  URL  </th>
+        <th> BC </th>
+     </tr>
+     <tr>
+      <td>https://edunova-frontend.web.app/publishing/courses</td>
+      <td>publishing/courses</td>
+     </tr>     
+</table>
+
+<h4>Landing Page</h4>
+
+![Evidence](assets/sprint2L1.png)
+![Evidence](assets/sprint2L2.png)
+![Evidence](assets/sprint2L3.png)
+![Evidence](assets/sprint2L4.png)
+![Evidence](assets/sprint2L5.png)
+URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+
+
+<h4>Frontend</h4>
+
+Publicación de cursos para su venta
+![Evidence](assets/sprint2Course1.png)
+![Evidence](assets/sprint2course2.png)
+![Evidence](assets/sprint2Course4.png)
+![Evidence](assets/sprint2Course5.png)
+
+URL: https://edunova-frontend.web.app/publishing/courses
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
+
+![image.png](./assets/CollaborationSprint2.png)
 
 
 ## Conclusiones
