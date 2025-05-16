@@ -2772,6 +2772,11 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
 </table>
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
+
+
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
 En esta sección se detallan los commits realizados en la rama `main` del repositorio del frontend durante el Sprint 2. Estos reflejan el progreso del desarrollo de la aplicación web en Angular:
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
@@ -2783,7 +2788,6 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 | https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | n1o2p3q | fix: Corrección en lógica de cursos completados e incompletos | Ajustes para filtrar correctamente los cursos en progreso y finalizados por usuario. | 10/05/2025 |
 | https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | r4s5t6u | style: Ajustes de estilo en studying.component.css | Se alineó correctamente el contenido de las tarjetas y se mejoró la paleta de colores. | 11/05/2025 |
 
-#### 5.2.2.5.Execution Evidence for Sprint Review.
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
