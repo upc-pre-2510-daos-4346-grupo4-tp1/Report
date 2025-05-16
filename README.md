@@ -2864,6 +2864,10 @@ Publicación de cursos para su venta
 URL: https://edunova-frontend.web.app/publishing/courses
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
+Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
+
+![image.png](./assets/CollaborationSprint2.png)
+
 
 ## Conclusiones
 1. **Viabilidad del Proyecto**
